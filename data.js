@@ -1,6 +1,6 @@
 window.REVIEW = {
-"built": "2026-10-29T00:48",
-"notes": "Overnight build, 2026-10-29. Everything below is a draft awaiting your approval.\n\nSTART HERE: \"Scenes\" at the top shows the harbour corner in calm water and in a swell, animated. Then scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
+"built": "2026-10-29T12:41",
+"notes": "Overnight build, 2026-10-29. Everything below is a draft awaiting your approval.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles. Drag across the picture to compare the tile blockout with the painted version. The buttons switch the painted side between the full scene, the ground only, no moving sprites, and the cut-out pieces (houses, stage, trees and props the player can walk behind).\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE (original tile scenes): \"Scenes\" at the top shows the harbour corner in calm water and in a swell, animated. Then scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
 "ramp": "sea",
@@ -690,6 +690,362 @@ window.REVIEW = {
 ],
 "w": 480,
 "h": 288
+}
+],
+"maps": [
+{
+"title": "Harbour corner (painted) \u2014 sea state: calm",
+"w": 480,
+"h": 288,
+"views": {
+"all": [
+{
+"src": "img/map_harbour_calm_all_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_all_7.png",
+"ms": 200
+}
+],
+"ground": [
+{
+"src": "img/map_harbour_calm_ground_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_ground_7.png",
+"ms": 200
+}
+],
+"no sprites": [
+{
+"src": "img/map_harbour_calm_no_sprites_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_no_sprites_7.png",
+"ms": 200
+}
+],
+"pieces": [
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+}
+]
+},
+"before": [
+{
+"src": "img/map_harbour_calm_before_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_before_7.png",
+"ms": 200
+}
+]
+},
+{
+"title": "Harbour corner (painted) \u2014 sea state: swell",
+"w": 480,
+"h": 288,
+"views": {
+"all": [
+{
+"src": "img/map_harbour_swell_all_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_all_7.png",
+"ms": 200
+}
+],
+"ground": [
+{
+"src": "img/map_harbour_swell_ground_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_ground_7.png",
+"ms": 200
+}
+],
+"no sprites": [
+{
+"src": "img/map_harbour_swell_no_sprites_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_no_sprites_7.png",
+"ms": 200
+}
+],
+"pieces": [
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_calm_pieces_0.png",
+"ms": 200
+}
+]
+},
+"before": [
+{
+"src": "img/map_harbour_swell_before_0.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_1.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_2.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_3.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_4.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_5.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_6.png",
+"ms": 200
+},
+{
+"src": "img/map_harbour_swell_before_7.png",
+"ms": 200
+}
+]
 }
 ],
 "groups": [
@@ -2643,6 +2999,171 @@ window.REVIEW = {
 "name": "obj",
 "assets": [
 {
+"id": "obj.buoys",
+"kind": "object",
+"w": 10,
+"h": 10,
+"tags": [
+"prop",
+"harbour",
+"fishery"
+],
+"source": "art/objects/props/buoys.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.buoys.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"knit-red",
+"oilskin",
+"paint-white",
+"rope"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.clothesline",
+"kind": "object",
+"w": 56,
+"h": 30,
+"tags": [
+"prop",
+"house",
+"laundry"
+],
+"source": "art/objects/props/clothesline.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.clothesline.0.png",
+"ms": 700
+},
+{
+"src": "img/obj.clothesline.1.png",
+"ms": 260
+},
+{
+"src": "img/obj.clothesline.2.png",
+"ms": 420
+},
+{
+"src": "img/obj.clothesline.3.png",
+"ms": 260
+}
+]
+},
+"draft": [
+"cloth-navy",
+"denim",
+"knit-red",
+"paint-white",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.fence_longer_h",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"prop",
+"fence",
+"garden",
+"tiling"
+],
+"source": "art/objects/props/fence_longer_h.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.fence_longer_h.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"metal",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.fence_longer_v",
+"kind": "object",
+"w": 8,
+"h": 16,
+"tags": [
+"prop",
+"fence",
+"garden",
+"tiling"
+],
+"source": "art/objects/props/fence_longer_v.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.fence_longer_v.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"metal",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.fish_tub",
+"kind": "object",
+"w": 16,
+"h": 10,
+"tags": [
+"prop",
+"harbour",
+"fishery",
+"modern"
+],
+"source": "art/objects/props/fish_tub.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.fish_tub.0.png",
+"ms": 0
+}
+],
+"full": [
+{
+"src": "img/obj.fish_tub__full.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"paint-blue"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "obj.flake",
 "kind": "object",
 "w": 64,
@@ -2752,6 +3273,62 @@ window.REVIEW = {
 ]
 },
 {
+"id": "obj.lobster_pot",
+"kind": "object",
+"w": 14,
+"h": 10,
+"tags": [
+"prop",
+"harbour",
+"fishery"
+],
+"source": "art/objects/props/lobster_pot.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.lobster_pot.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"rope",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.lobster_pots_stack",
+"kind": "object",
+"w": 27,
+"h": 17,
+"tags": [
+"prop",
+"harbour",
+"fishery"
+],
+"source": "art/objects/props/lobster_pots_stack.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.lobster_pots_stack.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"rope",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "obj.punt",
 "kind": "object",
 "w": 64,
@@ -2846,6 +3423,87 @@ window.REVIEW = {
 "src": "history/obj.punt/v1.png"
 }
 ]
+},
+{
+"id": "obj.rocks_m",
+"kind": "object",
+"w": 12,
+"h": 7,
+"tags": [
+"prop",
+"rock",
+"coast"
+],
+"source": "art/objects/props/rocks_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.rocks_m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"granite"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.rocks_s",
+"kind": "object",
+"w": 7,
+"h": 4,
+"tags": [
+"prop",
+"rock",
+"coast"
+],
+"source": "art/objects/props/rocks_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.rocks_s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"granite"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.rope_coil",
+"kind": "object",
+"w": 10,
+"h": 6,
+"tags": [
+"prop",
+"harbour",
+"fishery"
+],
+"source": "art/objects/props/rope_coil.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.rope_coil.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"rope"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 },
 {
 "id": "obj.stage",
@@ -3037,6 +3695,33 @@ window.REVIEW = {
 "src": "history/obj.wharf_post/v1.png"
 }
 ]
+},
+{
+"id": "obj.woodpile",
+"kind": "object",
+"w": 24,
+"h": 15,
+"tags": [
+"prop",
+"house",
+"firewood"
+],
+"source": "art/objects/props/woodpile.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.woodpile.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 }
 ]
 },

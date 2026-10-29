@@ -28,6 +28,42 @@
     return h("div", { class: "stage" }, img);
   }
 
+  // painted map: before (blockout) / after (painted) slider, with layer views for the painted side
+  function mapStage(m) {
+    const z = Math.max(1, Math.min(4, Math.floor(1200 / m.w)));
+    const W = m.w * z, H = m.h * z;
+    const before = h("img", { src: m.before.length ? m.before[0].src : "", width: W, height: H, alt: "blockout" });
+    const views = Object.keys(m.views);
+    let view = "all";
+    const after = h("img", { src: m.views[view][0].src, width: W, height: H, alt: "painted", class: "after" });
+    const pb = { img: before, frames: m.before, i: 0, t: 0 };
+    const pa = { img: after, frames: m.views[view], i: 0, t: 0 };
+    players.push(pb, pa);
+    const lblL = h("div", { class: "lbl l" }, "blockout (tiles)");
+    const lblR = h("div", { class: "lbl r" }, "painted");
+    const handle = h("div", { class: "handle" });
+    const box = h("div", { class: "slider", style: `width:${W}px;height:${H}px` }, before, after, handle, lblL, lblR);
+    function setPos(f) {
+      f = Math.max(0, Math.min(1, f));
+      after.style.clipPath = `inset(0 0 0 ${f * 100}%)`;
+      handle.style.left = `${f * W}px`;
+    }
+    let drag = false;
+    const move = e => { const r = box.getBoundingClientRect(); setPos((e.clientX - r.left) / r.width); };
+    box.addEventListener("pointerdown", e => { drag = true; box.setPointerCapture(e.pointerId); move(e); });
+    box.addEventListener("pointermove", e => { if (drag) move(e); });
+    box.addEventListener("pointerup", () => { drag = false; });
+    setPos(m.before.length ? 0.5 : 0);
+    const bar = h("div", { class: "variants" }, h("span", { class: "sub" }, "painted side shows: "), views.map(v => {
+      const b = h("button", { class: v === view ? "on" : "", onclick: () => {
+        view = v; pa.frames = m.views[v]; pa.i = 0; pa.t = 0; after.src = pa.frames[0].src;
+        [...bar.querySelectorAll("button")].forEach(x => x.classList.toggle("on", x === b));
+      } }, v);
+      return b;
+    }));
+    return h("div", {}, bar, h("div", { class: "stage" }, box), h("div", { class: "sub" }, "Drag across the picture to compare."));
+  }
+
   function badge(text, cls) { return h("span", { class: "badge " + cls }, text); }
 
   function card(a) {
@@ -85,6 +121,8 @@
       h("div", { class: "ramp" }, h("div", { class: "name" }, r.ramp),
         r.colors.map((c, i) => h("div", { class: "swatch", style: `background:${c}`, title: `${r.names[i]} ${c}` })),
         badge(r.status, r.status === "approved" ? "b-ok" : "b-draft")))));
+    if (R.maps && R.maps.length) add("maps", "Painted maps", h("div", {}, R.maps.map(m =>
+      h("div", { class: "scene" }, h("div", { class: "cap" }, m.title), mapStage(m)))));
     if (R.scenes.length) add("scenes", "Scenes", h("div", {}, R.scenes.map(s =>
       h("div", { class: "scene" }, h("div", { class: "cap" }, s.title),
         sceneStage(s)))));

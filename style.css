@@ -40,3 +40,9 @@ section > h2 { font-size: 16px; border-bottom: 2px solid var(--ink); padding-bot
 .scene .cap { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
 .notes { background: #fff; border-left: 4px solid var(--accent); padding: 8px 12px; white-space: pre-wrap; }
 footer { position: fixed; bottom: 0; left: 0; right: 0; background: #fffdf8; border-top: 1px solid var(--line); padding: 6px 20px; color: var(--muted); font-size: 12px; }
+
+.slider { position: relative; overflow: hidden; cursor: ew-resize; touch-action: none; user-select: none; }
+.slider img { position: absolute; top: 0; left: 0; image-rendering: pixelated; image-rendering: crisp-edges; display: block; max-width: none; border: 0; }
+.slider .handle { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: #fff; box-shadow: 0 0 4px rgba(0,0,0,.6); pointer-events: none; }
+.slider .lbl { position: absolute; top: 6px; padding: 2px 6px; font-size: 11px; background: rgba(0,0,0,.55); color: #fff; border-radius: 3px; pointer-events: none; }
+.slider .lbl.l { left: 6px; } .slider .lbl.r { right: 6px; }
