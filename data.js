@@ -1,6 +1,6 @@
 window.REVIEW = {
-"built": "2026-10-29T15:19",
-"notes": "Approved 2026-10-29: the palette, proof assets, painted harbour, villagers and animals. Six new colour ramps were just added as drafts (hair-grey, brick, moss, flower-purple, spruce-dry, plastic-grey) and aren't used by any asset yet.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nNEW (moving sprites): the harbour now has life on a 38-second loop:\n- The fisherman walks to the wharf, the older woman tends her clothesline and goes home, and the youth stands on the lane looking at their phone.\n- Three sheep graze, three hens peck, and a collie trots the lane and sits.\n- Gulls perch on the stage and the flake, two more wheel over the water, and puffins stand on the granite point (one with a beak full of capelin) while another flies in and out.\n- Every animation has its own card further down, under chr.* and ani.*.\n\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
+"built": "2026-10-29T19:01",
+"notes": "Approved 2026-10-29: the palette, proof assets, painted harbour, villagers and animals. Six new colour ramps were just added as drafts (hair-grey, brick, moss, flower-purple, spruce-dry, plastic-grey) and aren't used by any asset yet.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nNEW (M1 art, for review):\n- The harbour is now the full M1 map, 960\u00d7544. It adds the family's blue house with its garden across the lane, a road south, the fish buyer's truck, two boarded-up houses (future restoration lots), a west headland, an east cove and a pond.\n- The family kitchen interior.\n- The playable siblings (a man and a woman, each with hair and skin options and seated boat poses) and Mom. Their cards are under chr.sibling_m, chr.sibling_f and chr.mom.\n\nNEW (moving sprites): the harbour now has life on a 38-second loop:\n- The fisherman walks to the wharf, the older woman tends her clothesline and goes home, and the youth stands on the lane looking at their phone.\n- Three sheep graze, three hens peck, and a collie trots the lane and sits.\n- Gulls perch on the stage and the flake, two more wheel over the water, and puffins stand on the granite point (one with a beak full of capelin) while another flies in and out.\n- Every animation has its own card further down, under chr.* and ani.*.\n\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
 "ramp": "sea",
@@ -711,20 +711,126 @@ window.REVIEW = {
 "plastic-grey-2",
 "plastic-grey-3"
 ]
+},
+{
+"ramp": "hair-red",
+"status": "draft",
+"colors": [
+"#2a120c",
+"#5a2414",
+"#8a3c1e",
+"#b45a2a",
+"#d6834a"
+],
+"names": [
+"hair-red-1",
+"hair-red-2",
+"hair-red-3",
+"hair-red-4",
+"hair-red-5"
+]
+},
+{
+"ramp": "skin-dark",
+"status": "draft",
+"colors": [
+"#170d0a",
+"#301c14",
+"#4c2e20",
+"#6b452f",
+"#8d6343"
+],
+"names": [
+"skin-dark-1",
+"skin-dark-2",
+"skin-dark-3",
+"skin-dark-4",
+"skin-dark-5"
+]
+},
+{
+"ramp": "wallpaper",
+"status": "draft",
+"colors": [
+"#3a2c16",
+"#6e5a30",
+"#a68c4e",
+"#cfb86e",
+"#e8d898"
+],
+"names": [
+"wallpaper-1",
+"wallpaper-2",
+"wallpaper-3",
+"wallpaper-4",
+"wallpaper-5"
+]
+},
+{
+"ramp": "wallpaper-blue",
+"status": "draft",
+"colors": [
+"#1f2734",
+"#3e4e64",
+"#687f98",
+"#97acc0",
+"#c4d3de"
+],
+"names": [
+"wallpaper-blue-1",
+"wallpaper-blue-2",
+"wallpaper-blue-3",
+"wallpaper-blue-4",
+"wallpaper-blue-5"
+]
+},
+{
+"ramp": "floor",
+"status": "draft",
+"colors": [
+"#2c1b0f",
+"#57371b",
+"#82592c",
+"#a77a3f",
+"#c89c5a",
+"#e0bd7c"
+],
+"names": [
+"floor-1",
+"floor-2",
+"floor-3",
+"floor-4",
+"floor-5",
+"floor-6"
+]
 }
 ],
-"palette_version": 9,
+"palette_version": 10,
 "scenes": [],
 "maps": [
 {
-"title": "Harbour corner (painted) \u2014 sea state: calm",
-"w": 480,
-"h": 288,
+"title": "Twinkle Cove harbour (painted, M1) \u2014 sea state: calm",
+"w": 960,
+"h": 544,
 "views": {
 "all": [
 {
 "src": "img/map_harbour_calm_all.webp",
 "ms": 120
+}
+]
+},
+"before": []
+},
+{
+"title": "Family kitchen (painted interior) \u2014 sea state: calm",
+"w": 320,
+"h": 208,
+"views": {
+"all": [
+{
+"src": "img/map_house_kitchen_calm_all_0.png",
+"ms": 200
 }
 ]
 },
@@ -2801,6 +2907,418 @@ window.REVIEW = {
 ]
 },
 {
+"id": "obj.kitchen.bed_1",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"kitchen",
+"bed"
+],
+"source": "art/objects/interior/kitchen_bed_1.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.bed_1.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.bed_2",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"kitchen",
+"bed"
+],
+"source": "art/objects/interior/kitchen_bed_2.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.bed_2.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.bed_3",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"kitchen",
+"bed"
+],
+"source": "art/objects/interior/kitchen_bed_3.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.bed_3.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.bed_4",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"kitchen",
+"bed"
+],
+"source": "art/objects/interior/kitchen_bed_4.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.bed_4.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.chair_e",
+"kind": "object",
+"w": 11,
+"h": 31,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_chair_e.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.chair_e.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.chair_n",
+"kind": "object",
+"w": 12,
+"h": 25,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_chair_n.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.chair_n.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.chair_s",
+"kind": "object",
+"w": 12,
+"h": 21,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_chair_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.chair_s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.chair_w",
+"kind": "object",
+"w": 11,
+"h": 31,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_chair_w.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.chair_w.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.chest",
+"kind": "object",
+"w": 20,
+"h": 16,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_chest.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.chest.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.coat_tree",
+"kind": "object",
+"w": 16,
+"h": 31,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_coat_tree.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.coat_tree.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.counter",
+"kind": "object",
+"w": 73,
+"h": 32,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_counter.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.counter.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.daybed",
+"kind": "object",
+"w": 21,
+"h": 67,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_daybed.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.daybed.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.fridge",
+"kind": "object",
+"w": 26,
+"h": 47,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_fridge.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.fridge.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.rocker",
+"kind": "object",
+"w": 16,
+"h": 25,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_rocker.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.rocker.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.table",
+"kind": "object",
+"w": 50,
+"h": 36,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_table.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.table.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.wood_stove",
+"kind": "object",
+"w": 32,
+"h": 42,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_wood_stove.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.wood_stove.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.kitchen.woodbox",
+"kind": "object",
+"w": 13,
+"h": 16,
+"tags": [
+"interior",
+"kitchen"
+],
+"source": "art/objects/interior/kitchen_woodbox.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.kitchen.woodbox.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "obj.lobster_pot",
 "kind": "object",
 "w": 14,
@@ -3051,6 +3569,38 @@ window.REVIEW = {
 "src": "history/obj.stage/v1.png"
 }
 ]
+},
+{
+"id": "obj.truck_buyer",
+"kind": "object",
+"w": 64,
+"h": 36,
+"tags": [
+"prop",
+"vehicle"
+],
+"source": "art/objects/vehicles/truck_buyer.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.truck_buyer.0.png",
+"ms": 0
+}
+],
+"empty": [
+{
+"src": "img/obj.truck_buyer__empty.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"plastic-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 },
 {
 "id": "obj.tuckamore_l",
@@ -3345,6 +3895,34 @@ window.REVIEW = {
 "src": "history/item.cod/v1.png"
 }
 ]
+},
+{
+"id": "item.handline_held",
+"kind": "item",
+"w": 3,
+"h": 14,
+"tags": [
+"held",
+"noexport"
+],
+"source": "art/items/held/handline_held.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.handline_held.0.png",
+"ms": 300
+},
+{
+"src": "img/item.handline_held.1.png",
+"ms": 300
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 },
 {
 "id": "item.jigger",
@@ -4757,6 +5335,835 @@ window.REVIEW = {
 ]
 },
 {
+"name": "chr.mom",
+"assets": [
+{
+"id": "chr.mom.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"idle"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.down.3.png",
+"ms": 600
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.idle.down__red_vest.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.down__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.down__red_vest.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.down__red_vest.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"idle"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.left.3.png",
+"ms": 600
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.idle.left__red_vest.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.left__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.left__red_vest.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.left__red_vest.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"idle"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.right.3.png",
+"ms": 600
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.idle.right__red_vest.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.right__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.right__red_vest.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.right__red_vest.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"idle"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.up.3.png",
+"ms": 600
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.idle.up__red_vest.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.mom.idle.up__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.idle.up__red_vest.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.mom.idle.up__red_vest.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.talk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"talk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.talk.down.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.down.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.down.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.down.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.down.7.png",
+"ms": 500
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.talk.down__red_vest.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.down__red_vest.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.talk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"talk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.talk.left.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.left.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.left.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.left.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.left.7.png",
+"ms": 500
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.talk.left__red_vest.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.left__red_vest.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.talk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"talk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.talk.right.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.right.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.right.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.right.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.right.7.png",
+"ms": 500
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.talk.right__red_vest.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.right__red_vest.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.talk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"talk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.talk.up.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.up.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.up.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.up.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.up.7.png",
+"ms": 500
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.talk.up__red_vest.0.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.1.png",
+"ms": 180
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.2.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.3.png",
+"ms": 360
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.4.png",
+"ms": 220
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.5.png",
+"ms": 700
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.6.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.talk.up__red_vest.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"walk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down.3.png",
+"ms": 140
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.walk.down__red_vest.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down__red_vest.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.down__red_vest.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"walk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left.3.png",
+"ms": 140
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.walk.left__red_vest.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left__red_vest.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.left__red_vest.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"walk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right.3.png",
+"ms": 140
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.walk.right__red_vest.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right__red_vest.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.right__red_vest.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.mom.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"mom",
+"walk"
+],
+"source": "art/characters/mom/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.mom.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up.3.png",
+"ms": 140
+}
+],
+"red_vest": [
+{
+"src": "img/chr.mom.walk.up__red_vest.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up__red_vest.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up__red_vest.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.mom.walk.up__red_vest.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"flower-purple",
+"hair-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+}
+]
+},
+{
 "name": "chr.player",
 "assets": [
 {
@@ -5665,6 +7072,4456 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
+"notes": ""
+}
+]
+},
+{
+"name": "chr.sibling_f",
+"assets": [
+{
+"id": "chr.sibling_f.boat_jig.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_jig"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_jig.down.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down.3.png",
+"ms": 240
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_dark.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.down__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_jig.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_jig"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_jig.left.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left.3.png",
+"ms": 240
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_dark.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.left__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_jig.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_jig"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_jig.right.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right.3.png",
+"ms": 240
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_dark.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.right__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_jig.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_jig"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_jig.up.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up.3.png",
+"ms": 240
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_dark.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_f.boat_jig.up__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_pull.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_pull"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_pull.down.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down.3.png",
+"ms": 170
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_dark.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.down__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_pull.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_pull"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_pull.left.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left.3.png",
+"ms": 170
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_dark.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.left__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_pull.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_pull"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_pull.right.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right.3.png",
+"ms": 170
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_dark.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.right__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_pull.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_pull"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_pull.up.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up.3.png",
+"ms": 170
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_dark.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_f.boat_pull.up__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_sit.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_sit"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_sit.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down.3.png",
+"ms": 700
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_dark.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.down__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_sit.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_sit"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_sit.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left.3.png",
+"ms": 700
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_dark.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.left__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_sit.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_sit"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_sit.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right.3.png",
+"ms": 700
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_dark.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.right__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.boat_sit.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"boat_sit"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.boat_sit.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up.3.png",
+"ms": 700
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_dark.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_f.boat_sit.up__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"idle"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.down.3.png",
+"ms": 600
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.idle.down__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_dark.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.idle.down__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.down__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.idle.down__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.idle.down__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.down__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"idle"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.left.3.png",
+"ms": 600
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.idle.left__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_dark.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.idle.left__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.left__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.idle.left__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.idle.left__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.left__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"idle"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.right.3.png",
+"ms": 600
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.idle.right__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_dark.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.idle.right__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.right__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.idle.right__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.idle.right__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.right__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"idle"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.up.3.png",
+"ms": 600
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.idle.up__hair_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_dark.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.idle.up__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.up__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.idle.up__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.idle.up__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_f.idle.up__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"walk"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down.3.png",
+"ms": 140
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.walk.down__hair_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_dark.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.walk.down__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.walk.down__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.walk.down__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.down__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"walk"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left.3.png",
+"ms": 140
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.walk.left__hair_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_dark.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.walk.left__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.walk.left__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.walk.left__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.left__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"walk"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right.3.png",
+"ms": 140
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.walk.right__hair_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_dark.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.walk.right__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.walk.right__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.walk.right__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.right__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_f.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_f",
+"walk"
+],
+"source": "art/characters/sibling_f/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_f.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up.3.png",
+"ms": 140
+}
+],
+"hair_dark": [
+{
+"src": "img/chr.sibling_f.walk.up__hair_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_dark.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_f.walk.up__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_f.walk.up__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_f.walk.up__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_f.walk.up__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+}
+]
+},
+{
+"name": "chr.sibling_m",
+"assets": [
+{
+"id": "chr.sibling_m.boat_jig.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_jig"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_jig.down.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down.3.png",
+"ms": 240
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_brown.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_brown.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_brown.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_brown.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.down__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_jig.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_jig"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_jig.left.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left.3.png",
+"ms": 240
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_brown.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_brown.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_brown.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_brown.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.left__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_jig.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_jig"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_jig.right.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right.3.png",
+"ms": 240
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_brown.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_brown.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_brown.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_brown.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.right__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_jig.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_jig"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_jig.up.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up.3.png",
+"ms": 240
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_brown.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_brown.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_brown.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_brown.3.png",
+"ms": 240
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_red.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_red.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_red.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__hair_red.3.png",
+"ms": 240
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_deep.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_deep.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_deep.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_deep.3.png",
+"ms": 240
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_dark.0.png",
+"ms": 300
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_dark.1.png",
+"ms": 120
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_dark.2.png",
+"ms": 320
+},
+{
+"src": "img/chr.sibling_m.boat_jig.up__skin_dark.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_pull.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_pull"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_pull.down.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down.3.png",
+"ms": 170
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_brown.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_brown.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_brown.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_brown.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.down__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_pull.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_pull"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_pull.left.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left.3.png",
+"ms": 170
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_brown.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_brown.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_brown.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_brown.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.left__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_pull.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_pull"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_pull.right.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right.3.png",
+"ms": 170
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_brown.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_brown.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_brown.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_brown.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.right__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_pull.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_pull"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_pull.up.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up.3.png",
+"ms": 170
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_brown.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_brown.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_brown.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_brown.3.png",
+"ms": 170
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_red.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_red.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_red.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__hair_red.3.png",
+"ms": 170
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_deep.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_deep.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_deep.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_deep.3.png",
+"ms": 170
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_dark.0.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_dark.1.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_dark.2.png",
+"ms": 170
+},
+{
+"src": "img/chr.sibling_m.boat_pull.up__skin_dark.3.png",
+"ms": 170
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_sit.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_sit"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_sit.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down.3.png",
+"ms": 700
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_brown.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_brown.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.down__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_sit.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_sit"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_sit.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left.3.png",
+"ms": 700
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_brown.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_brown.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.left__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_sit.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_sit"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_sit.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right.3.png",
+"ms": 700
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_brown.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_brown.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.right__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.boat_sit.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"boat_sit"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.boat_sit.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up.3.png",
+"ms": 700
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_brown.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_brown.3.png",
+"ms": 700
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_red.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__hair_red.3.png",
+"ms": 700
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_deep.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_deep.3.png",
+"ms": 700
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_dark.2.png",
+"ms": 1400
+},
+{
+"src": "img/chr.sibling_m.boat_sit.up__skin_dark.3.png",
+"ms": 700
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"idle"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.down.3.png",
+"ms": 600
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.idle.down__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_brown.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_brown.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.idle.down__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.down__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.idle.down__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.idle.down__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.down__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"idle"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.left.3.png",
+"ms": 600
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.idle.left__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_brown.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_brown.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.idle.left__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.left__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.idle.left__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.idle.left__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.left__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"idle"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.right.3.png",
+"ms": 600
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.idle.right__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_brown.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_brown.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.idle.right__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.right__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.idle.right__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.idle.right__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.right__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"idle"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.up.3.png",
+"ms": 600
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.idle.up__hair_brown.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_brown.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_brown.3.png",
+"ms": 600
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.idle.up__hair_red.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_red.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.up__hair_red.3.png",
+"ms": 600
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.idle.up__skin_deep.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_deep.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_deep.3.png",
+"ms": 600
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.idle.up__skin_dark.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_dark.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.sibling_m.idle.up__skin_dark.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"walk"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down.3.png",
+"ms": 140
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.walk.down__hair_brown.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_brown.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_brown.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.walk.down__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.walk.down__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.walk.down__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.down__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"walk"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left.3.png",
+"ms": 140
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.walk.left__hair_brown.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_brown.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_brown.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.walk.left__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.walk.left__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.walk.left__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.left__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"walk"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right.3.png",
+"ms": 140
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.walk.right__hair_brown.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_brown.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_brown.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.walk.right__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.walk.right__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.walk.right__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.right__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.sibling_m.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"sibling_m",
+"walk"
+],
+"source": "art/characters/sibling_m/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.sibling_m.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up.3.png",
+"ms": 140
+}
+],
+"hair_brown": [
+{
+"src": "img/chr.sibling_m.walk.up__hair_brown.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_brown.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_brown.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_brown.3.png",
+"ms": 140
+}
+],
+"hair_red": [
+{
+"src": "img/chr.sibling_m.walk.up__hair_red.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_red.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_red.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__hair_red.3.png",
+"ms": 140
+}
+],
+"skin_deep": [
+{
+"src": "img/chr.sibling_m.walk.up__skin_deep.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_deep.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_deep.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_deep.3.png",
+"ms": 140
+}
+],
+"skin_dark": [
+{
+"src": "img/chr.sibling_m.walk.up__skin_dark.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_dark.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_dark.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.sibling_m.walk.up__skin_dark.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"moss"
+],
+"lint": [],
+"status": "awaiting approval",
 "notes": ""
 }
 ]
