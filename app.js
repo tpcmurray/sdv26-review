@@ -89,7 +89,7 @@
     })) : null;
     const errs = a.lint.filter(l => l.sev === "error").length, warns = a.lint.filter(l => l.sev === "warn").length;
     const badges = h("div", {},
-      badge(a.status, "b-status"),
+      badge(a.status, a.status.startsWith("approved") ? "b-ok" : "b-status"),
       a.draft.length ? badge("draft palette: " + a.draft.join(", "), "b-draft") : null,
       errs ? badge(errs + " error", "b-err") : null,
       warns ? badge(warns + " warn", "b-warn") : null,

@@ -1,10 +1,10 @@
 window.REVIEW = {
-"built": "2026-10-29T13:35",
-"notes": "Overnight build, 2026-10-29. Everything below is a draft awaiting your approval.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
+"built": "2026-10-29T15:19",
+"notes": "Approved 2026-10-29: the palette, proof assets, painted harbour, villagers and animals. Six new colour ramps were just added as drafts (hair-grey, brick, moss, flower-purple, spruce-dry, plastic-grey) and aren't used by any asset yet.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nNEW (moving sprites): the harbour now has life on a 38-second loop:\n- The fisherman walks to the wharf, the older woman tends her clothesline and goes home, and the youth stands on the lane looking at their phone.\n- Three sheep graze, three hens peck, and a collie trots the lane and sits.\n- Gulls perch on the stage and the flake, two more wheel over the water, and puffins stand on the granite point (one with a beak full of capelin) while another flies in and out.\n- Every animation has its own card further down, under chr.* and ani.*.\n\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
 "ramp": "sea",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0d1b2a",
 "#16304a",
@@ -24,7 +24,7 @@ window.REVIEW = {
 },
 {
 "ramp": "foam",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#8fb4c0",
 "#c9e0e3",
@@ -38,7 +38,7 @@ window.REVIEW = {
 },
 {
 "ramp": "granite",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#1c1d24",
 "#363842",
@@ -58,7 +58,7 @@ window.REVIEW = {
 },
 {
 "ramp": "cobble",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2b2420",
 "#4f443b",
@@ -76,7 +76,7 @@ window.REVIEW = {
 },
 {
 "ramp": "kelp",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#1a170c",
 "#3a3216",
@@ -92,7 +92,7 @@ window.REVIEW = {
 },
 {
 "ramp": "grass",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#1a281b",
 "#2c4127",
@@ -112,7 +112,7 @@ window.REVIEW = {
 },
 {
 "ramp": "barrens",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2b1f1c",
 "#4d3329",
@@ -130,7 +130,7 @@ window.REVIEW = {
 },
 {
 "ramp": "dirt",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#291c15",
 "#493223",
@@ -148,25 +148,27 @@ window.REVIEW = {
 },
 {
 "ramp": "spruce",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0c1714",
 "#152b22",
 "#21402d",
 "#33573a",
-"#4b6f45"
+"#4b6f45",
+"#5f8a6a"
 ],
 "names": [
 "spruce-1",
 "spruce-2",
 "spruce-3",
 "spruce-4",
-"spruce-5"
+"spruce-5",
+"spruce-6"
 ]
 },
 {
 "ramp": "wood-grey",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#22201d",
 "#403c36",
@@ -186,7 +188,7 @@ window.REVIEW = {
 },
 {
 "ramp": "wood",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2b1d16",
 "#4a3426",
@@ -204,25 +206,27 @@ window.REVIEW = {
 },
 {
 "ramp": "roof",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#131316",
 "#25252a",
 "#38383d",
 "#504e52",
-"#6a6665"
+"#6a6665",
+"#85807c"
 ],
 "names": [
 "roof-1",
 "roof-2",
 "roof-3",
 "roof-4",
-"roof-5"
+"roof-5",
+"roof-6"
 ]
 },
 {
 "ramp": "glass",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0f151b",
 "#1e2d39",
@@ -240,7 +244,7 @@ window.REVIEW = {
 },
 {
 "ramp": "paint-red",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2d1012",
 "#581c1d",
@@ -258,7 +262,7 @@ window.REVIEW = {
 },
 {
 "ramp": "paint-ochre",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#38250f",
 "#694618",
@@ -276,7 +280,7 @@ window.REVIEW = {
 },
 {
 "ramp": "paint-white",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2e3135",
 "#6c7175",
@@ -294,7 +298,7 @@ window.REVIEW = {
 },
 {
 "ramp": "paint-blue",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#101a2c",
 "#1f3554",
@@ -312,7 +316,7 @@ window.REVIEW = {
 },
 {
 "ramp": "paint-green",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#102119",
 "#1e3a2a",
@@ -330,7 +334,7 @@ window.REVIEW = {
 },
 {
 "ramp": "skin",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#3a221b",
 "#6e3f2e",
@@ -348,7 +352,7 @@ window.REVIEW = {
 },
 {
 "ramp": "skin-deep",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#24150f",
 "#4a2a1d",
@@ -366,7 +370,7 @@ window.REVIEW = {
 },
 {
 "ramp": "hair-brown",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#1c1210",
 "#3a2419",
@@ -384,7 +388,7 @@ window.REVIEW = {
 },
 {
 "ramp": "hair-dark",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#100e12",
 "#232027",
@@ -400,7 +404,7 @@ window.REVIEW = {
 },
 {
 "ramp": "cloth-navy",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0f1420",
 "#1c2638",
@@ -418,7 +422,7 @@ window.REVIEW = {
 },
 {
 "ramp": "denim",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#131b29",
 "#23334b",
@@ -436,7 +440,7 @@ window.REVIEW = {
 },
 {
 "ramp": "rubber",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0d0e10",
 "#1e2023",
@@ -452,7 +456,7 @@ window.REVIEW = {
 },
 {
 "ramp": "oilskin",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#3a1c0a",
 "#783910",
@@ -470,7 +474,7 @@ window.REVIEW = {
 },
 {
 "ramp": "knit-red",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2a0d10",
 "#5c1a1f",
@@ -488,7 +492,7 @@ window.REVIEW = {
 },
 {
 "ramp": "cod",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#28231a",
 "#52482f",
@@ -506,7 +510,7 @@ window.REVIEW = {
 },
 {
 "ramp": "salt-fish",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#4a4232",
 "#8a7f62",
@@ -524,7 +528,7 @@ window.REVIEW = {
 },
 {
 "ramp": "potato",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#2d1e13",
 "#583c23",
@@ -542,7 +546,7 @@ window.REVIEW = {
 },
 {
 "ramp": "metal",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#191b1f",
 "#3a3f47",
@@ -560,7 +564,7 @@ window.REVIEW = {
 },
 {
 "ramp": "rope",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#382c1d",
 "#695838",
@@ -576,7 +580,7 @@ window.REVIEW = {
 },
 {
 "ramp": "ui-dark",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#0a0b0f",
 "#191b23",
@@ -594,7 +598,7 @@ window.REVIEW = {
 },
 {
 "ramp": "ui-screen",
-"status": "draft",
+"status": "approved",
 "colors": [
 "#14303b",
 "#235366",
@@ -609,9 +613,107 @@ window.REVIEW = {
 "ui-screen-4",
 "ui-screen-5"
 ]
+},
+{
+"ramp": "hair-grey",
+"status": "draft",
+"colors": [
+"#2a2a2e",
+"#55555b",
+"#8a8a8e",
+"#b9b8b5",
+"#e2e0da"
+],
+"names": [
+"hair-grey-1",
+"hair-grey-2",
+"hair-grey-3",
+"hair-grey-4",
+"hair-grey-5"
+]
+},
+{
+"ramp": "brick",
+"status": "draft",
+"colors": [
+"#2a1512",
+"#4f2620",
+"#7a3a2c",
+"#a1543c",
+"#c27a5a"
+],
+"names": [
+"brick-1",
+"brick-2",
+"brick-3",
+"brick-4",
+"brick-5"
+]
+},
+{
+"ramp": "moss",
+"status": "draft",
+"colors": [
+"#1e2410",
+"#3a4420",
+"#5c6a32",
+"#86924a"
+],
+"names": [
+"moss-1",
+"moss-2",
+"moss-3",
+"moss-4"
+]
+},
+{
+"ramp": "flower-purple",
+"status": "draft",
+"colors": [
+"#3a2a40",
+"#6a5078",
+"#9c84ae",
+"#cbb9d8"
+],
+"names": [
+"flower-purple-1",
+"flower-purple-2",
+"flower-purple-3",
+"flower-purple-4"
+]
+},
+{
+"ramp": "spruce-dry",
+"status": "draft",
+"colors": [
+"#2a1c12",
+"#4d3420",
+"#77532f",
+"#9c7744"
+],
+"names": [
+"spruce-dry-1",
+"spruce-dry-2",
+"spruce-dry-3",
+"spruce-dry-4"
+]
+},
+{
+"ramp": "plastic-grey",
+"status": "draft",
+"colors": [
+"#4a5058",
+"#7d848b",
+"#b4b9bc"
+],
+"names": [
+"plastic-grey-1",
+"plastic-grey-2",
+"plastic-grey-3"
+]
 }
 ],
-"palette_version": 1,
+"palette_version": 9,
 "scenes": [],
 "maps": [
 {
@@ -652,12 +754,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -679,12 +778,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -706,12 +802,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -741,12 +834,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -768,12 +858,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -800,11 +887,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -826,11 +911,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -852,11 +935,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -886,11 +967,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -912,11 +991,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -938,11 +1015,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -964,11 +1039,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -995,12 +1068,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1022,12 +1092,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1049,12 +1116,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -1084,12 +1148,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1111,12 +1172,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -1143,13 +1201,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1171,13 +1225,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1199,13 +1249,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -1235,13 +1281,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1263,13 +1305,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1291,13 +1329,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1319,13 +1353,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1347,13 +1377,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"grass",
-"knit-red"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -1509,11 +1535,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"sea"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -1606,13 +1630,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"foam",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1700,13 +1720,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"foam",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1794,12 +1810,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1887,13 +1900,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"foam",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -1981,13 +1990,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cobble",
-"foam",
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -2080,13 +2085,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam",
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2174,13 +2175,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam",
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2268,12 +2265,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2361,13 +2355,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam",
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2455,13 +2445,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam",
-"granite",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -2504,11 +2490,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -2558,12 +2542,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"foam",
-"sea"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -2599,14 +2580,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"oilskin",
-"paint-white",
-"rope"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2641,15 +2617,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"knit-red",
-"paint-white",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2673,12 +2643,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2702,12 +2669,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2737,11 +2701,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"paint-blue"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2769,14 +2731,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"salt-fish",
-"spruce",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -2830,19 +2787,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"glass",
-"granite",
-"grass",
-"paint-green",
-"paint-ochre",
-"paint-red",
-"paint-white",
-"roof",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -2873,12 +2820,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"rope",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2901,12 +2845,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"rope",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -2984,17 +2925,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-blue",
-"paint-red",
-"paint-white",
-"rubber",
-"wood",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3025,11 +2958,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3052,11 +2983,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3079,11 +3008,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"rope"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3112,17 +3039,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"glass",
-"grass",
-"kelp",
-"paint-white",
-"roof",
-"rope",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3153,12 +3072,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"spruce",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3189,12 +3105,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"spruce",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3225,12 +3138,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"spruce",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3260,13 +3170,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"kelp",
-"metal",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3297,11 +3203,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -3328,12 +3232,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3363,12 +3264,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt",
-"grass"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3398,14 +3296,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt",
-"grass",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3440,12 +3333,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cod",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3476,13 +3366,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"oilskin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3516,12 +3402,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"oilskin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3547,12 +3430,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"ui-dark",
-"ui-screen"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3575,12 +3455,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt",
-"potato"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3611,12 +3488,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"paint-white",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3651,17 +3525,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cod",
-"paint-blue",
-"paint-green",
-"paint-ochre",
-"paint-red",
-"paint-white",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3697,12 +3563,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"ui-dark",
-"ui-screen"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -3786,16 +3649,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3866,16 +3722,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -3946,16 +3795,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4026,15 +3868,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4105,16 +3941,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4185,16 +4014,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4265,16 +4087,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4345,15 +4160,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"paint-green",
-"paint-white",
-"skin",
-"wood"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -4429,17 +4238,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4510,17 +4311,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4591,17 +4384,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4672,16 +4457,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4752,17 +4530,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4833,17 +4603,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4914,17 +4676,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"hair-dark",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -4995,16 +4749,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"oilskin",
-"paint-white",
-"rubber",
-"skin",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -5080,18 +4827,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -5170,18 +4908,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5252,18 +4981,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5334,16 +5054,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"knit-red",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5414,20 +5127,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5498,20 +5200,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5582,20 +5273,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -5674,18 +5354,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"knit-red",
-"metal",
-"oilskin",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5756,18 +5427,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -5846,18 +5508,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -5928,18 +5581,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"hair-dark",
-"knit-red",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -6018,16 +5662,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"cloth-navy",
-"denim",
-"hair-brown",
-"knit-red",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -6103,15 +5740,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6182,15 +5813,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6261,15 +5886,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6340,15 +5959,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6467,17 +6080,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep",
-"ui-dark",
-"ui-screen"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6596,17 +6201,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep",
-"ui-dark",
-"ui-screen"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6725,17 +6322,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep",
-"ui-dark",
-"ui-screen"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6854,15 +6443,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -6933,15 +6516,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7012,15 +6589,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7091,15 +6662,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7170,15 +6735,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"granite",
-"hair-dark",
-"paint-ochre",
-"paint-white",
-"skin-deep"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
@@ -7206,11 +6765,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"dirt"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -7240,11 +6797,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -7275,13 +6830,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"kelp",
-"metal",
-"wood-grey"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": "",
 "history": [
 {
@@ -7346,13 +6897,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7405,13 +6952,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7463,13 +7006,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7521,12 +7060,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7594,13 +7130,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7669,13 +7201,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7743,13 +7271,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7817,12 +7341,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7874,13 +7395,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7933,13 +7450,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -7991,13 +7504,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8049,12 +7558,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8106,13 +7612,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8165,13 +7667,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8223,13 +7721,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8281,12 +7775,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8321,15 +7812,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8369,15 +7854,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8416,15 +7895,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8459,13 +7932,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8493,15 +7962,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8528,15 +7991,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8579,16 +8036,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8632,16 +8082,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8684,16 +8127,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8728,15 +8164,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8771,16 +8201,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8816,16 +8239,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8860,16 +8276,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8904,15 +8313,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8947,15 +8350,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -8991,16 +8388,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9035,16 +8425,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"knit-red",
-"metal",
-"paint-ochre",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9079,14 +8462,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"metal",
-"paint-white",
-"rubber",
-"skin"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9138,14 +8516,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9198,14 +8571,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9257,14 +8625,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9316,13 +8679,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9374,14 +8733,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9434,14 +8788,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9493,14 +8842,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9552,13 +8896,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9610,14 +8950,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9670,14 +9005,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9729,14 +9059,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"hair-dark",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9788,13 +9113,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"barrens",
-"knit-red",
-"paint-ochre"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9837,17 +9158,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-green",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9891,17 +9204,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-green",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9944,17 +9249,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"metal",
-"oilskin",
-"paint-green",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -9993,15 +9290,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"metal",
-"oilskin",
-"paint-green",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10037,15 +9328,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10080,15 +9365,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10135,15 +9414,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10191,15 +9464,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10246,15 +9513,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10297,13 +9558,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"oilskin",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10338,15 +9595,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10382,15 +9633,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10425,15 +9670,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"knit-red",
-"oilskin",
-"paint-ochre",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10468,13 +9707,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"oilskin",
-"paint-white"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10544,12 +9779,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10620,13 +9852,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10696,13 +9924,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10772,12 +9996,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10847,13 +10068,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -10924,13 +10141,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11000,13 +10213,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11076,12 +10285,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11151,13 +10357,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11228,13 +10430,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11304,13 +10502,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"paint-ochre",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 },
 {
@@ -11380,12 +10574,9 @@ window.REVIEW = {
 }
 ]
 },
-"draft": [
-"hair-dark",
-"salt-fish"
-],
+"draft": [],
 "lint": [],
-"status": "awaiting approval",
+"status": "approved 2026-10-29",
 "notes": ""
 }
 ]
