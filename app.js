@@ -30,6 +30,8 @@
 
   // painted map: before (blockout) / after (painted) slider, with layer views for the painted side
   function mapStage(m) {
+    if (!m.before.length && Object.keys(m.views).length === 1)
+      return sceneStage({ w: m.w, h: m.h, title: m.title, frames: m.views.all });
     const z = Math.max(1, Math.min(4, Math.floor(1200 / m.w)));
     const W = m.w * z, H = m.h * z;
     const before = h("img", { src: m.before.length ? m.before[0].src : "", width: W, height: H, alt: "blockout" });
