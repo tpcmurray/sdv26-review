@@ -1,5 +1,5 @@
 window.REVIEW = {
-"built": "2026-10-29T13:09",
+"built": "2026-10-29T13:35",
 "notes": "Overnight build, 2026-10-29. Everything below is a draft awaiting your approval.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
@@ -621,36 +621,8 @@ window.REVIEW = {
 "views": {
 "all": [
 {
-"src": "img/map_harbour_calm_all_0.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_1.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_2.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_3.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_4.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_5.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_6.png",
-"ms": 200
-},
-{
-"src": "img/map_harbour_calm_all_7.png",
-"ms": 200
+"src": "img/map_harbour_calm_all.webp",
+"ms": 120
 }
 ]
 },
@@ -3553,6 +3525,37 @@ window.REVIEW = {
 "notes": ""
 },
 {
+"id": "item.phone_held",
+"kind": "item",
+"w": 3,
+"h": 4,
+"tags": [
+"held",
+"noexport"
+],
+"source": "art/items/held/phone_held.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.phone_held.0.png",
+"ms": 900
+},
+{
+"src": "img/item.phone_held.1.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"ui-dark",
+"ui-screen"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "item.potato",
 "kind": "item",
 "w": 16,
@@ -3709,6 +3712,1300 @@ window.REVIEW = {
 "src": "history/ui.phone_frame/v1.png"
 }
 ]
+}
+]
+},
+{
+"name": "chr.elder_woman",
+"assets": [
+{
+"id": "chr.elder_woman.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"idle"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.down.3.png",
+"ms": 600
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.down__blue_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.down__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.down__blue_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.down__blue_cardigan.3.png",
+"ms": 600
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.down__red_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.down__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.down__red_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.down__red_cardigan.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"idle"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.left.3.png",
+"ms": 600
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.left__blue_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.left__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.left__blue_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.left__blue_cardigan.3.png",
+"ms": 600
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.left__red_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.left__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.left__red_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.left__red_cardigan.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"idle"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.right.3.png",
+"ms": 600
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.right__blue_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.right__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.right__blue_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.right__blue_cardigan.3.png",
+"ms": 600
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.right__red_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.right__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.right__red_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.right__red_cardigan.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"idle"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.up.3.png",
+"ms": 600
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.up__blue_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.up__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.up__blue_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.up__blue_cardigan.3.png",
+"ms": 600
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.idle.up__red_cardigan.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.elder_woman.idle.up__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.idle.up__red_cardigan.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.elder_woman.idle.up__red_cardigan.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"barrens",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"walk"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down.3.png",
+"ms": 140
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.down__blue_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__blue_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__blue_cardigan.3.png",
+"ms": 140
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.down__red_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__red_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.down__red_cardigan.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"walk"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left.3.png",
+"ms": 140
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.left__blue_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__blue_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__blue_cardigan.3.png",
+"ms": 140
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.left__red_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__red_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.left__red_cardigan.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"walk"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right.3.png",
+"ms": 140
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.right__blue_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__blue_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__blue_cardigan.3.png",
+"ms": 140
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.right__red_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__red_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.right__red_cardigan.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.elder_woman.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"elder_woman",
+"walk"
+],
+"source": "art/characters/elder_woman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.elder_woman.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up.3.png",
+"ms": 140
+}
+],
+"blue_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.up__blue_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__blue_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__blue_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__blue_cardigan.3.png",
+"ms": 140
+}
+],
+"red_cardigan": [
+{
+"src": "img/chr.elder_woman.walk.up__red_cardigan.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__red_cardigan.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__red_cardigan.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.elder_woman.walk.up__red_cardigan.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"barrens",
+"paint-green",
+"paint-white",
+"skin",
+"wood"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+}
+]
+},
+{
+"name": "chr.fisherman",
+"assets": [
+{
+"id": "chr.fisherman.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"idle"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.down.3.png",
+"ms": 600
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.idle.down__sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.down__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.down__sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.down__sweater.3.png",
+"ms": 600
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.idle.down__red_sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.down__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.down__red_sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.down__red_sweater.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"idle"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.left.3.png",
+"ms": 600
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.idle.left__sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.left__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.left__sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.left__sweater.3.png",
+"ms": 600
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.idle.left__red_sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.left__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.left__red_sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.left__red_sweater.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"idle"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.right.3.png",
+"ms": 600
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.idle.right__sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.right__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.right__sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.right__sweater.3.png",
+"ms": 600
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.idle.right__red_sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.right__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.right__red_sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.right__red_sweater.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"idle"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.up.3.png",
+"ms": 600
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.idle.up__sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.up__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.up__sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.up__sweater.3.png",
+"ms": 600
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.idle.up__red_sweater.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.fisherman.idle.up__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.idle.up__red_sweater.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.fisherman.idle.up__red_sweater.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"cloth-navy",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"walk"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down.3.png",
+"ms": 140
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.walk.down__sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__sweater.3.png",
+"ms": 140
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.walk.down__red_sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__red_sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.down__red_sweater.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"walk"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left.3.png",
+"ms": 140
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.walk.left__sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__sweater.3.png",
+"ms": 140
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.walk.left__red_sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__red_sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.left__red_sweater.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"walk"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right.3.png",
+"ms": 140
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.walk.right__sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__sweater.3.png",
+"ms": 140
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.walk.right__red_sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__red_sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.right__red_sweater.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"cloth-navy",
+"hair-dark",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.fisherman.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"fisherman",
+"walk"
+],
+"source": "art/characters/fisherman/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.fisherman.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up.3.png",
+"ms": 140
+}
+],
+"sweater": [
+{
+"src": "img/chr.fisherman.walk.up__sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__sweater.3.png",
+"ms": 140
+}
+],
+"red_sweater": [
+{
+"src": "img/chr.fisherman.walk.up__red_sweater.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__red_sweater.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__red_sweater.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.fisherman.walk.up__red_sweater.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"cloth-navy",
+"oilskin",
+"paint-white",
+"rubber",
+"skin",
+"wood-grey"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 }
 ]
 },
@@ -4736,6 +6033,1157 @@ window.REVIEW = {
 ]
 },
 {
+"name": "chr.youth",
+"assets": [
+{
+"id": "chr.youth.idle.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"idle"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.idle.down.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.down.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.down.3.png",
+"ms": 600
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.idle.down__red_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.down__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.down__red_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.down__red_hoodie.3.png",
+"ms": 600
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.idle.down__green_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.down__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.down__green_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.down__green_hoodie.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.idle.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"idle"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.idle.left.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.left.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.left.3.png",
+"ms": 600
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.idle.left__red_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.left__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.left__red_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.left__red_hoodie.3.png",
+"ms": 600
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.idle.left__green_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.left__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.left__green_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.left__green_hoodie.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.idle.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"idle"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.idle.right.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.right.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.right.3.png",
+"ms": 600
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.idle.right__red_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.right__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.right__red_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.right__red_hoodie.3.png",
+"ms": 600
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.idle.right__green_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.right__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.right__green_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.right__green_hoodie.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.idle.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"idle"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.idle.up.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.up.3.png",
+"ms": 600
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.idle.up__red_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.up__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.up__red_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.up__red_hoodie.3.png",
+"ms": 600
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.idle.up__green_hoodie.0.png",
+"ms": 2400
+},
+{
+"src": "img/chr.youth.idle.up__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.idle.up__green_hoodie.2.png",
+"ms": 1200
+},
+{
+"src": "img/chr.youth.idle.up__green_hoodie.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.phone.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"phone"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.phone.down.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.down.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.down.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.down.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.down.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.down.7.png",
+"ms": 500
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.phone.down__red_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.down__red_hoodie.7.png",
+"ms": 500
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.phone.down__green_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.down__green_hoodie.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep",
+"ui-dark",
+"ui-screen"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.phone.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"phone"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.phone.left.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.left.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.left.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.left.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.left.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.left.7.png",
+"ms": 500
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.phone.left__red_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.left__red_hoodie.7.png",
+"ms": 500
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.phone.left__green_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.left__green_hoodie.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep",
+"ui-dark",
+"ui-screen"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.phone.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"phone"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.phone.right.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.right.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.right.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.right.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.right.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.right.7.png",
+"ms": 500
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.phone.right__red_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.right__red_hoodie.7.png",
+"ms": 500
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.phone.right__green_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.right__green_hoodie.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep",
+"ui-dark",
+"ui-screen"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.phone.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"phone"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.phone.up.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.up.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.up.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.up.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.up.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.up.7.png",
+"ms": 500
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.phone.up__red_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.up__red_hoodie.7.png",
+"ms": 500
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.phone.up__green_hoodie.0.png",
+"ms": 900
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.1.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.2.png",
+"ms": 260
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.3.png",
+"ms": 110
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.4.png",
+"ms": 1400
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.5.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.6.png",
+"ms": 700
+},
+{
+"src": "img/chr.youth.phone.up__green_hoodie.7.png",
+"ms": 500
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.walk.down",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"walk"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down.3.png",
+"ms": 140
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.walk.down__red_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__red_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__red_hoodie.3.png",
+"ms": 140
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.walk.down__green_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__green_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.down__green_hoodie.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.walk.left",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"walk"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left.3.png",
+"ms": 140
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.walk.left__red_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__red_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__red_hoodie.3.png",
+"ms": 140
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.walk.left__green_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__green_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.left__green_hoodie.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.walk.right",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"walk"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right.3.png",
+"ms": 140
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.walk.right__red_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__red_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__red_hoodie.3.png",
+"ms": 140
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.walk.right__green_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__green_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.right__green_hoodie.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "chr.youth.walk.up",
+"kind": "character",
+"w": 16,
+"h": 32,
+"tags": [
+"character",
+"youth",
+"walk"
+],
+"source": "art/characters/youth/character.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/chr.youth.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up.3.png",
+"ms": 140
+}
+],
+"red_hoodie": [
+{
+"src": "img/chr.youth.walk.up__red_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__red_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__red_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__red_hoodie.3.png",
+"ms": 140
+}
+],
+"green_hoodie": [
+{
+"src": "img/chr.youth.walk.up__green_hoodie.0.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__green_hoodie.1.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__green_hoodie.2.png",
+"ms": 140
+},
+{
+"src": "img/chr.youth.walk.up__green_hoodie.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"granite",
+"hair-dark",
+"paint-ochre",
+"paint-white",
+"skin-deep"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+}
+]
+},
+{
 "name": "tile",
 "assets": [
 {
@@ -4843,6 +7291,4102 @@ window.REVIEW = {
 "src": "history/tile.wharf_deck_edge_s/v1.png"
 }
 ]
+}
+]
+},
+{
+"name": "ani",
+"assets": [
+{
+"id": "ani.dog.idle.down",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.idle.down.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.down.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.down.3.png",
+"ms": 240
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.idle.down__brown.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.down__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.down__brown.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.down__brown.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.idle.left",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog",
+"mirrored"
+],
+"source": "art/animals/dog/idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.idle.left.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.left.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.left.3.png",
+"ms": 240
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.idle.left__brown.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.left__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.left__brown.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.left__brown.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.idle.right",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.idle.right.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.right.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.right.3.png",
+"ms": 240
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.idle.right__brown.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.right__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.dog.idle.right__brown.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.right__brown.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.idle.up",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.idle.up.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.up.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.idle.up.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.up.3.png",
+"ms": 240
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.idle.up__brown.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.dog.idle.up__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.idle.up__brown.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.dog.idle.up__brown.3.png",
+"ms": 240
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit.down",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit.down.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.down.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.down.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down.5.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit.down__brown.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.down__brown.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.down__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down__brown.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down__brown.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.down__brown.5.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit.left",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog",
+"mirrored"
+],
+"source": "art/animals/dog/sit_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit.left.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.left.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.left.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left.5.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit.left__brown.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.left__brown.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.left__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left__brown.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left__brown.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.left__brown.5.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit.right",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit.right.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.right.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.right.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right.5.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit.right__brown.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.right__brown.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.right__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right__brown.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right__brown.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.right__brown.5.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit.up",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit.up.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.up.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.up.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up.5.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit.up__brown.0.png",
+"ms": 160
+},
+{
+"src": "img/ani.dog.sit.up__brown.1.png",
+"ms": 260
+},
+{
+"src": "img/ani.dog.sit.up__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up__brown.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up__brown.4.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit.up__brown.5.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit_idle.down",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit_idle.down.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down.3.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit_idle.down__brown.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down__brown.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.down__brown.3.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit_idle.left",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog",
+"mirrored"
+],
+"source": "art/animals/dog/sit_idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit_idle.left.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left.3.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit_idle.left__brown.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left__brown.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.left__brown.3.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit_idle.right",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit_idle.right.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right.3.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit_idle.right__brown.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right__brown.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.right__brown.3.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.sit_idle.up",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/sit_idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.sit_idle.up.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up.3.png",
+"ms": 150
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.sit_idle.up__brown.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up__brown.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up__brown.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.dog.sit_idle.up__brown.3.png",
+"ms": 150
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.walk.down",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/walk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.walk.down.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down.3.png",
+"ms": 130
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.walk.down__brown.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down__brown.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down__brown.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.down__brown.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.walk.left",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog",
+"mirrored"
+],
+"source": "art/animals/dog/walk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.walk.left.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left.3.png",
+"ms": 130
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.walk.left__brown.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left__brown.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left__brown.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.left__brown.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.walk.right",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/walk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.walk.right.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right.3.png",
+"ms": 130
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.walk.right__brown.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right__brown.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right__brown.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.right__brown.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.dog.walk.up",
+"kind": "object",
+"w": 23,
+"h": 18,
+"tags": [
+"animal",
+"dog"
+],
+"source": "art/animals/dog/walk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.dog.walk.up.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up.3.png",
+"ms": 130
+}
+],
+"brown": [
+{
+"src": "img/ani.dog.walk.up__brown.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up__brown.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up__brown.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.dog.walk.up__brown.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.fly.down",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/fly_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.fly.down.0.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.fly.down.1.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.down.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.fly.down.3.png",
+"ms": 90
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.fly.left",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull",
+"mirrored"
+],
+"source": "art/animals/gull/fly_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.fly.left.0.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.fly.left.1.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.left.2.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.left.3.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.fly.left.4.png",
+"ms": 90
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.fly.right",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/fly_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.fly.right.0.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.fly.right.1.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.right.2.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.right.3.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.fly.right.4.png",
+"ms": 90
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.fly.up",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/fly_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.fly.up.0.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.fly.up.1.png",
+"ms": 80
+},
+{
+"src": "img/ani.gull.fly.up.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.fly.up.3.png",
+"ms": 90
+}
+]
+},
+"draft": [
+"metal",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.glide.left",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull",
+"mirrored"
+],
+"source": "art/animals/gull/glide_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.glide.left.0.png",
+"ms": 650
+},
+{
+"src": "img/ani.gull.glide.left.1.png",
+"ms": 650
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.glide.right",
+"kind": "object",
+"w": 20,
+"h": 26,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/glide_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.glide.right.0.png",
+"ms": 650
+},
+{
+"src": "img/ani.gull.glide.right.1.png",
+"ms": 650
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.idle.down",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.idle.down.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.gull.idle.down.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.idle.down.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.gull.idle.down.3.png",
+"ms": 1100
+},
+{
+"src": "img/ani.gull.idle.down.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.gull.idle.down.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.idle.left",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull",
+"mirrored"
+],
+"source": "art/animals/gull/idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.idle.left.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.gull.idle.left.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.idle.left.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.gull.idle.left.3.png",
+"ms": 1100
+},
+{
+"src": "img/ani.gull.idle.left.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.gull.idle.left.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.idle.right",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.idle.right.0.png",
+"ms": 1600
+},
+{
+"src": "img/ani.gull.idle.right.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.gull.idle.right.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.gull.idle.right.3.png",
+"ms": 1100
+},
+{
+"src": "img/ani.gull.idle.right.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.gull.idle.right.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.idle.up",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.idle.up.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.gull.idle.up.1.png",
+"ms": 1000
+},
+{
+"src": "img/ani.gull.idle.up.2.png",
+"ms": 1200
+},
+{
+"src": "img/ani.gull.idle.up.3.png",
+"ms": 600
+}
+]
+},
+"draft": [
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.squawk.down",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/squawk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.squawk.down.0.png",
+"ms": 240
+},
+{
+"src": "img/ani.gull.squawk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.gull.squawk.down.2.png",
+"ms": 620
+},
+{
+"src": "img/ani.gull.squawk.down.3.png",
+"ms": 180
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.squawk.left",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull",
+"mirrored"
+],
+"source": "art/animals/gull/squawk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.squawk.left.0.png",
+"ms": 240
+},
+{
+"src": "img/ani.gull.squawk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.gull.squawk.left.2.png",
+"ms": 620
+},
+{
+"src": "img/ani.gull.squawk.left.3.png",
+"ms": 180
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.squawk.right",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/squawk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.squawk.right.0.png",
+"ms": 240
+},
+{
+"src": "img/ani.gull.squawk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.gull.squawk.right.2.png",
+"ms": 620
+},
+{
+"src": "img/ani.gull.squawk.right.3.png",
+"ms": 180
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.squawk.up",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/squawk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.squawk.up.0.png",
+"ms": 240
+},
+{
+"src": "img/ani.gull.squawk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.gull.squawk.up.2.png",
+"ms": 620
+},
+{
+"src": "img/ani.gull.squawk.up.3.png",
+"ms": 180
+}
+]
+},
+"draft": [
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.walk.down",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/walk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.walk.down.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.down.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.walk.down.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.down.3.png",
+"ms": 120
+}
+]
+},
+"draft": [
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.walk.left",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull",
+"mirrored"
+],
+"source": "art/animals/gull/walk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.walk.left.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.left.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.gull.walk.left.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.left.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.walk.right",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/walk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.walk.right.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.right.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.gull.walk.right.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.right.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"knit-red",
+"metal",
+"paint-ochre",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.gull.walk.up",
+"kind": "object",
+"w": 16,
+"h": 16,
+"tags": [
+"animal",
+"bird",
+"gull"
+],
+"source": "art/animals/gull/walk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.gull.walk.up.0.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.up.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.gull.walk.up.2.png",
+"ms": 150
+},
+{
+"src": "img/ani.gull.walk.up.3.png",
+"ms": 120
+}
+]
+},
+"draft": [
+"metal",
+"paint-white",
+"rubber",
+"skin"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.idle.down",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.idle.down.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.down.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.down.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.down.3.png",
+"ms": 280
+}
+],
+"white": [
+{
+"src": "img/ani.hen.idle.down__white.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.down__white.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.down__white.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.down__white.3.png",
+"ms": 280
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.idle.left",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen",
+"mirrored"
+],
+"source": "art/animals/hen/idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.idle.left.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.left.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.left.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.left.3.png",
+"ms": 280
+}
+],
+"white": [
+{
+"src": "img/ani.hen.idle.left__white.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.left__white.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.left__white.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.left__white.3.png",
+"ms": 280
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.idle.right",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.idle.right.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.right.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.right.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.right.3.png",
+"ms": 280
+}
+],
+"white": [
+{
+"src": "img/ani.hen.idle.right__white.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.right__white.1.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.idle.right__white.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.right__white.3.png",
+"ms": 280
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.idle.up",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.idle.up.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.up.1.png",
+"ms": 280
+},
+{
+"src": "img/ani.hen.idle.up.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.up.3.png",
+"ms": 220
+}
+],
+"white": [
+{
+"src": "img/ani.hen.idle.up__white.0.png",
+"ms": 1500
+},
+{
+"src": "img/ani.hen.idle.up__white.1.png",
+"ms": 280
+},
+{
+"src": "img/ani.hen.idle.up__white.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.hen.idle.up__white.3.png",
+"ms": 220
+}
+]
+},
+"draft": [
+"barrens",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.peck.down",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/peck_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.peck.down.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.down.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.down.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.down.3.png",
+"ms": 70
+}
+],
+"white": [
+{
+"src": "img/ani.hen.peck.down__white.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.down__white.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.down__white.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.down__white.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.peck.left",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen",
+"mirrored"
+],
+"source": "art/animals/hen/peck_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.peck.left.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.left.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.left.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.left.3.png",
+"ms": 70
+}
+],
+"white": [
+{
+"src": "img/ani.hen.peck.left__white.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.left__white.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.left__white.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.left__white.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.peck.right",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/peck_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.peck.right.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.right.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.right.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.right.3.png",
+"ms": 70
+}
+],
+"white": [
+{
+"src": "img/ani.hen.peck.right__white.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.right__white.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.right__white.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.right__white.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.peck.up",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/peck_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.peck.up.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.up.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.up.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.up.3.png",
+"ms": 70
+}
+],
+"white": [
+{
+"src": "img/ani.hen.peck.up__white.0.png",
+"ms": 260
+},
+{
+"src": "img/ani.hen.peck.up__white.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.hen.peck.up__white.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.hen.peck.up__white.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"barrens",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.walk.down",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/walk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.walk.down.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down.3.png",
+"ms": 130
+}
+],
+"white": [
+{
+"src": "img/ani.hen.walk.down__white.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down__white.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down__white.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.down__white.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.walk.left",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen",
+"mirrored"
+],
+"source": "art/animals/hen/walk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.walk.left.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left.3.png",
+"ms": 130
+}
+],
+"white": [
+{
+"src": "img/ani.hen.walk.left__white.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left__white.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left__white.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.left__white.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.walk.right",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/walk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.walk.right.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right.3.png",
+"ms": 130
+}
+],
+"white": [
+{
+"src": "img/ani.hen.walk.right__white.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right__white.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right__white.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.right__white.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"barrens",
+"hair-dark",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.hen.walk.up",
+"kind": "object",
+"w": 15,
+"h": 14,
+"tags": [
+"animal",
+"hen"
+],
+"source": "art/animals/hen/walk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.hen.walk.up.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up.3.png",
+"ms": 130
+}
+],
+"white": [
+{
+"src": "img/ani.hen.walk.up__white.0.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up__white.1.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up__white.2.png",
+"ms": 130
+},
+{
+"src": "img/ani.hen.walk.up__white.3.png",
+"ms": 130
+}
+]
+},
+"draft": [
+"barrens",
+"knit-red",
+"paint-ochre"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fish.down",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/fish_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fish.down.0.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.fish.down.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.down.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.fish.down.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.down.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.puffin.fish.down.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"metal",
+"oilskin",
+"paint-green",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fish.left",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin",
+"mirrored"
+],
+"source": "art/animals/puffin/fish_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fish.left.0.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.fish.left.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.left.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.fish.left.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.left.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.puffin.fish.left.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"metal",
+"oilskin",
+"paint-green",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fish.right",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/fish_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fish.right.0.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.fish.right.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.right.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.fish.right.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.right.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.puffin.fish.right.5.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"metal",
+"oilskin",
+"paint-green",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fish.up",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/fish_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fish.up.0.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.fish.up.1.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.up.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.fish.up.3.png",
+"ms": 150
+},
+{
+"src": "img/ani.puffin.fish.up.4.png",
+"ms": 800
+}
+]
+},
+"draft": [
+"hair-dark",
+"metal",
+"oilskin",
+"paint-green",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fly.left",
+"kind": "object",
+"w": 16,
+"h": 22,
+"tags": [
+"animal",
+"bird",
+"puffin",
+"mirrored"
+],
+"source": "art/animals/puffin/fly_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fly.left.0.png",
+"ms": 75
+},
+{
+"src": "img/ani.puffin.fly.left.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.puffin.fly.left.2.png",
+"ms": 80
+},
+{
+"src": "img/ani.puffin.fly.left.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.fly.right",
+"kind": "object",
+"w": 16,
+"h": 22,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/fly_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.fly.right.0.png",
+"ms": 75
+},
+{
+"src": "img/ani.puffin.fly.right.1.png",
+"ms": 70
+},
+{
+"src": "img/ani.puffin.fly.right.2.png",
+"ms": 80
+},
+{
+"src": "img/ani.puffin.fly.right.3.png",
+"ms": 70
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.idle.down",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.idle.down.0.png",
+"ms": 1400
+},
+{
+"src": "img/ani.puffin.idle.down.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.idle.down.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.idle.down.3.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.down.4.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.idle.down.5.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.down.6.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.idle.left",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin",
+"mirrored"
+],
+"source": "art/animals/puffin/idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.idle.left.0.png",
+"ms": 1400
+},
+{
+"src": "img/ani.puffin.idle.left.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.idle.left.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.idle.left.3.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.left.4.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.idle.left.5.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.left.6.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.idle.right",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.idle.right.0.png",
+"ms": 1400
+},
+{
+"src": "img/ani.puffin.idle.right.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.idle.right.2.png",
+"ms": 500
+},
+{
+"src": "img/ani.puffin.idle.right.3.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.right.4.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.idle.right.5.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.right.6.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.idle.up",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.idle.up.0.png",
+"ms": 1400
+},
+{
+"src": "img/ani.puffin.idle.up.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.puffin.idle.up.2.png",
+"ms": 900
+},
+{
+"src": "img/ani.puffin.idle.up.3.png",
+"ms": 400
+},
+{
+"src": "img/ani.puffin.idle.up.4.png",
+"ms": 700
+},
+{
+"src": "img/ani.puffin.idle.up.5.png",
+"ms": 160
+}
+]
+},
+"draft": [
+"hair-dark",
+"oilskin",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.walk.down",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/walk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.walk.down.0.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.down.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.walk.down.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.down.3.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.walk.left",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin",
+"mirrored"
+],
+"source": "art/animals/puffin/walk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.walk.left.0.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.left.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.walk.left.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.left.3.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.walk.right",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/walk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.walk.right.0.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.right.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.walk.right.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.right.3.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"knit-red",
+"oilskin",
+"paint-ochre",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.puffin.walk.up",
+"kind": "object",
+"w": 14,
+"h": 14,
+"tags": [
+"animal",
+"bird",
+"puffin"
+],
+"source": "art/animals/puffin/walk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.puffin.walk.up.0.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.up.1.png",
+"ms": 110
+},
+{
+"src": "img/ani.puffin.walk.up.2.png",
+"ms": 120
+},
+{
+"src": "img/ani.puffin.walk.up.3.png",
+"ms": 110
+}
+]
+},
+"draft": [
+"hair-dark",
+"oilskin",
+"paint-white"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.graze.down",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/graze_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.graze.down.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.down.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.down.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.down.3.png",
+"ms": 160
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.graze.down__dark.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.down__dark.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.down__dark.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.down__dark.3.png",
+"ms": 160
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.graze.down__brown.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.down__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.down__brown.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.down__brown.3.png",
+"ms": 160
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.graze.left",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep",
+"mirrored"
+],
+"source": "art/animals/sheep/graze_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.graze.left.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.left.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.left.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.left.3.png",
+"ms": 160
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.graze.left__dark.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.left__dark.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.left__dark.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.left__dark.3.png",
+"ms": 160
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.graze.left__brown.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.left__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.left__brown.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.left__brown.3.png",
+"ms": 160
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.graze.right",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/graze_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.graze.right.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.right.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.right.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.right.3.png",
+"ms": 160
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.graze.right__dark.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.right__dark.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.right__dark.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.right__dark.3.png",
+"ms": 160
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.graze.right__brown.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.right__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.right__brown.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.right__brown.3.png",
+"ms": 160
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.graze.up",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/graze_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.graze.up.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.up.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.up.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.up.3.png",
+"ms": 160
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.graze.up__dark.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.up__dark.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.up__dark.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.up__dark.3.png",
+"ms": 160
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.graze.up__brown.0.png",
+"ms": 420
+},
+{
+"src": "img/ani.sheep.graze.up__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.graze.up__brown.2.png",
+"ms": 180
+},
+{
+"src": "img/ani.sheep.graze.up__brown.3.png",
+"ms": 160
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.idle.down",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/idle_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.idle.down.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.down.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.down.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.down.3.png",
+"ms": 220
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.idle.down__dark.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.down__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.down__dark.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.down__dark.3.png",
+"ms": 220
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.idle.down__brown.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.down__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.down__brown.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.down__brown.3.png",
+"ms": 220
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.idle.left",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep",
+"mirrored"
+],
+"source": "art/animals/sheep/idle_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.idle.left.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.left.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.left.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.left.3.png",
+"ms": 220
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.idle.left__dark.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.left__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.left__dark.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.left__dark.3.png",
+"ms": 220
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.idle.left__brown.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.left__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.left__brown.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.left__brown.3.png",
+"ms": 220
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.idle.right",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/idle_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.idle.right.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.right.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.right.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.right.3.png",
+"ms": 220
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.idle.right__dark.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.right__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.right__dark.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.right__dark.3.png",
+"ms": 220
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.idle.right__brown.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.right__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.idle.right__brown.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.right__brown.3.png",
+"ms": 220
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.idle.up",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/idle_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.idle.up.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.up.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.idle.up.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.up.3.png",
+"ms": 220
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.idle.up__dark.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.up__dark.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.idle.up__dark.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.up__dark.3.png",
+"ms": 220
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.idle.up__brown.0.png",
+"ms": 1800
+},
+{
+"src": "img/ani.sheep.idle.up__brown.1.png",
+"ms": 160
+},
+{
+"src": "img/ani.sheep.idle.up__brown.2.png",
+"ms": 1100
+},
+{
+"src": "img/ani.sheep.idle.up__brown.3.png",
+"ms": 220
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.walk.down",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/walk_down.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.walk.down.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down.3.png",
+"ms": 140
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.walk.down__dark.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__dark.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__dark.3.png",
+"ms": 140
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.walk.down__brown.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__brown.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.down__brown.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.walk.left",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep",
+"mirrored"
+],
+"source": "art/animals/sheep/walk_left.yaml",
+"generator": "mirror",
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.walk.left.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left.3.png",
+"ms": 140
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.walk.left__dark.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__dark.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__dark.3.png",
+"ms": 140
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.walk.left__brown.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__brown.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.left__brown.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.walk.right",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/walk_right.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.walk.right.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right.3.png",
+"ms": 140
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.walk.right__dark.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__dark.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__dark.3.png",
+"ms": 140
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.walk.right__brown.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__brown.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.right__brown.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"hair-dark",
+"paint-ochre",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ani.sheep.walk.up",
+"kind": "object",
+"w": 25,
+"h": 20,
+"tags": [
+"animal",
+"sheep"
+],
+"source": "art/animals/sheep/walk_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ani.sheep.walk.up.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up.3.png",
+"ms": 140
+}
+],
+"dark": [
+{
+"src": "img/ani.sheep.walk.up__dark.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__dark.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__dark.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__dark.3.png",
+"ms": 140
+}
+],
+"brown": [
+{
+"src": "img/ani.sheep.walk.up__brown.0.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__brown.1.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__brown.2.png",
+"ms": 140
+},
+{
+"src": "img/ani.sheep.walk.up__brown.3.png",
+"ms": 140
+}
+]
+},
+"draft": [
+"hair-dark",
+"salt-fish"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 }
 ]
 }
