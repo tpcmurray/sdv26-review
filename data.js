@@ -1,5 +1,5 @@
 window.REVIEW = {
-"built": "2026-10-29T19:01",
+"built": "2026-10-29T21:01",
 "notes": "Approved 2026-10-29: the palette, proof assets, painted harbour, villagers and animals. Six new colour ramps were just added as drafts (hair-grey, brick, moss, flower-purple, spruce-dry, plastic-grey) and aren't used by any asset yet.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nNEW (M1 art, for review):\n- The harbour is now the full M1 map, 960\u00d7544. It adds the family's blue house with its garden across the lane, a road south, the fish buyer's truck, two boarded-up houses (future restoration lots), a west headland, an east cove and a pond.\n- The family kitchen interior.\n- The playable siblings (a man and a woman, each with hair and skin options and seated boat poses) and Mom. Their cards are under chr.sibling_m, chr.sibling_f and chr.mom.\n\nNEW (moving sprites): the harbour now has life on a 38-second loop:\n- The fisherman walks to the wharf, the older woman tends her clothesline and goes home, and the youth stands on the lane looking at their phone.\n- Three sheep graze, three hens peck, and a collie trots the lane and sits.\n- Gulls perch on the stage and the flake, two more wheel over the water, and puffins stand on the granite point (one with a beak full of capelin) while another flies in and out.\n- Every animation has its own card further down, under chr.* and ani.*.\n\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
@@ -803,11 +803,147 @@ window.REVIEW = {
 "floor-5",
 "floor-6"
 ]
+},
+{
+"ramp": "mackerel",
+"status": "draft",
+"colors": [
+"#0c1a22",
+"#173847",
+"#22586a",
+"#2f7b88",
+"#4fa0a6"
+],
+"names": [
+"mackerel-1",
+"mackerel-2",
+"mackerel-3",
+"mackerel-4",
+"mackerel-5"
+]
+},
+{
+"ramp": "pollock",
+"status": "draft",
+"colors": [
+"#151b16",
+"#2a362b",
+"#435441",
+"#62755c",
+"#8a9b80"
+],
+"names": [
+"pollock-1",
+"pollock-2",
+"pollock-3",
+"pollock-4",
+"pollock-5"
+]
+},
+{
+"ramp": "shoal",
+"status": "draft",
+"colors": [
+"#1f4d5e",
+"#2d6676",
+"#3b7b84",
+"#5d9a9a"
+],
+"names": [
+"shoal-1",
+"shoal-2",
+"shoal-3",
+"shoal-4"
+]
 }
 ],
-"palette_version": 10,
+"palette_version": 12,
 "scenes": [],
 "maps": [
+{
+"title": "The bay north of Twinkle Cove (painted, M1) \u2014 sea state: calm",
+"w": 1280,
+"h": 720,
+"views": {
+"all": [
+{
+"src": "img/map_bay_north_calm_all_0.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_1.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_2.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_3.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_4.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_5.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_6.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_calm_all_7.png",
+"ms": 200
+}
+]
+},
+"before": []
+},
+{
+"title": "The bay north of Twinkle Cove (painted, M1) \u2014 sea state: swell",
+"w": 1280,
+"h": 720,
+"views": {
+"all": [
+{
+"src": "img/map_bay_north_swell_all_0.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_1.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_2.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_3.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_4.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_5.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_6.png",
+"ms": 200
+},
+{
+"src": "img/map_bay_north_swell_all_7.png",
+"ms": 200
+}
+]
+},
+"before": []
+},
 {
 "title": "Twinkle Cove harbour (painted, M1) \u2014 sea state: calm",
 "w": 960,
@@ -823,13 +959,27 @@ window.REVIEW = {
 "before": []
 },
 {
-"title": "Family kitchen (painted interior) \u2014 sea state: calm",
-"w": 320,
-"h": 208,
+"title": "Family house, main floor (painted interior) \u2014 sea state: calm",
+"w": 480,
+"h": 288,
 "views": {
 "all": [
 {
-"src": "img/map_house_kitchen_calm_all_0.png",
+"src": "img/map_house_main_calm_all_0.png",
+"ms": 200
+}
+]
+},
+"before": []
+},
+{
+"title": "Family house, upstairs (painted interior) \u2014 sea state: calm",
+"w": 480,
+"h": 288,
+"views": {
+"all": [
+{
+"src": "img/map_house_upstairs_calm_all_0.png",
 "ms": 200
 }
 ]
@@ -2562,6 +2712,421 @@ window.REVIEW = {
 "name": "fx",
 "assets": [
 {
+"id": "fx.handline.pull",
+"kind": "fx",
+"w": 11,
+"h": 14,
+"tags": [
+"fx",
+"fishing",
+"handline",
+"water"
+],
+"source": "art/fx/handline/pull.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.handline.pull.0.png",
+"ms": 150
+},
+{
+"src": "img/fx.handline.pull.1.png",
+"ms": 150
+},
+{
+"src": "img/fx.handline.pull.2.png",
+"ms": 150
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.handline.slack",
+"kind": "fx",
+"w": 11,
+"h": 14,
+"tags": [
+"fx",
+"fishing",
+"handline",
+"water"
+],
+"source": "art/fx/handline/slack.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.handline.slack.0.png",
+"ms": 450
+},
+{
+"src": "img/fx.handline.slack.1.png",
+"ms": 450
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.handline.taut",
+"kind": "fx",
+"w": 11,
+"h": 14,
+"tags": [
+"fx",
+"fishing",
+"handline",
+"water"
+],
+"source": "art/fx/handline/taut.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.handline.taut.0.png",
+"ms": 300
+},
+{
+"src": "img/fx.handline.taut.1.png",
+"ms": 300
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.handline.twitch",
+"kind": "fx",
+"w": 11,
+"h": 14,
+"tags": [
+"fx",
+"fishing",
+"handline",
+"water"
+],
+"source": "art/fx/handline/twitch.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.handline.twitch.0.png",
+"ms": 90
+},
+{
+"src": "img/fx.handline.twitch.1.png",
+"ms": 70
+},
+{
+"src": "img/fx.handline.twitch.2.png",
+"ms": 140
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.sign.capelin",
+"kind": "fx",
+"w": 26,
+"h": 12,
+"tags": [
+"water",
+"fx",
+"sign"
+],
+"source": "art/fx/signs/capelin.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.sign.capelin.0.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.1.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.2.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.3.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.4.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.5.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.6.png",
+"ms": 120
+},
+{
+"src": "img/fx.sign.capelin.7.png",
+"ms": 120
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.sign.gulls_diving",
+"kind": "fx",
+"w": 48,
+"h": 40,
+"tags": [
+"water",
+"fx",
+"sign",
+"gull"
+],
+"source": "art/fx/signs/gulls_diving.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.sign.gulls_diving.0.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.1.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.2.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.3.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.4.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.5.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.6.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.7.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.8.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.9.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.10.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.11.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.12.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.13.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.14.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.15.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.16.png",
+"ms": 100
+},
+{
+"src": "img/fx.sign.gulls_diving.17.png",
+"ms": 100
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.sign.gulls_rafting",
+"kind": "fx",
+"w": 40,
+"h": 16,
+"tags": [
+"water",
+"fx",
+"sign",
+"gull"
+],
+"source": "art/fx/signs/gulls_rafting.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.sign.gulls_rafting.0.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.1.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.2.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.3.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.4.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.5.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.6.png",
+"ms": 260
+},
+{
+"src": "img/fx.sign.gulls_rafting.7.png",
+"ms": 260
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fx.sign.whale_blow",
+"kind": "fx",
+"w": 84,
+"h": 36,
+"tags": [
+"water",
+"fx",
+"sign",
+"whale"
+],
+"source": "art/fx/signs/whale_blow.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fx.sign.whale_blow.0.png",
+"ms": 4200
+},
+{
+"src": "img/fx.sign.whale_blow.1.png",
+"ms": 160
+},
+{
+"src": "img/fx.sign.whale_blow.2.png",
+"ms": 110
+},
+{
+"src": "img/fx.sign.whale_blow.3.png",
+"ms": 110
+},
+{
+"src": "img/fx.sign.whale_blow.4.png",
+"ms": 140
+},
+{
+"src": "img/fx.sign.whale_blow.5.png",
+"ms": 200
+},
+{
+"src": "img/fx.sign.whale_blow.6.png",
+"ms": 220
+},
+{
+"src": "img/fx.sign.whale_blow.7.png",
+"ms": 220
+},
+{
+"src": "img/fx.sign.whale_blow.8.png",
+"ms": 220
+},
+{
+"src": "img/fx.sign.whale_blow.9.png",
+"ms": 200
+},
+{
+"src": "img/fx.sign.whale_blow.10.png",
+"ms": 200
+},
+{
+"src": "img/fx.sign.whale_blow.11.png",
+"ms": 380
+},
+{
+"src": "img/fx.sign.whale_blow.12.png",
+"ms": 240
+},
+{
+"src": "img/fx.sign.whale_blow.13.png",
+"ms": 450
+},
+{
+"src": "img/fx.sign.whale_blow.14.png",
+"ms": 500
+},
+{
+"src": "img/fx.sign.whale_blow.15.png",
+"ms": 400
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "fx.spray",
 "kind": "fx",
 "w": 8,
@@ -2851,6 +3416,1074 @@ window.REVIEW = {
 ]
 },
 {
+"id": "obj.house.armchair",
+"kind": "object",
+"w": 17,
+"h": 21,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/armchair.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.armchair.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.basin",
+"kind": "object",
+"w": 14,
+"h": 17,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/basin.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.basin.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bed_1",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/bed_1.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bed_1.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bed_2",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/bed_2.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bed_2.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bed_3",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/bed_3.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bed_3.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bed_4",
+"kind": "object",
+"w": 20,
+"h": 59,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/bed_4.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bed_4.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bench",
+"kind": "object",
+"w": 13,
+"h": 42,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/bench.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bench.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.bookcase",
+"kind": "object",
+"w": 32,
+"h": 45,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/bookcase.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.bookcase.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chair_e",
+"kind": "object",
+"w": 11,
+"h": 31,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chair_e.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chair_e.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chair_n",
+"kind": "object",
+"w": 12,
+"h": 25,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chair_n.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chair_n.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chair_s",
+"kind": "object",
+"w": 12,
+"h": 21,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chair_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chair_s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chair_w",
+"kind": "object",
+"w": 11,
+"h": 31,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chair_w.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chair_w.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chest",
+"kind": "object",
+"w": 20,
+"h": 16,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chest.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chest.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chest_mom",
+"kind": "object",
+"w": 20,
+"h": 16,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chest_mom.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chest_mom.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chest_up",
+"kind": "object",
+"w": 20,
+"h": 16,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chest_up.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chest_up.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.chesterfield",
+"kind": "object",
+"w": 62,
+"h": 29,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/chesterfield.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.chesterfield.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.coat_tree",
+"kind": "object",
+"w": 16,
+"h": 31,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/coat_tree.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.coat_tree.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.counter",
+"kind": "object",
+"w": 73,
+"h": 32,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/counter.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.counter.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.daybed",
+"kind": "object",
+"w": 21,
+"h": 67,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/daybed.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.daybed.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.desk",
+"kind": "object",
+"w": 36,
+"h": 27,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/desk.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.desk.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.dresser",
+"kind": "object",
+"w": 34,
+"h": 29,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/dresser.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.dresser.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.dresser_mom",
+"kind": "object",
+"w": 34,
+"h": 30,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/dresser_mom.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.dresser_mom.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.freezer",
+"kind": "object",
+"w": 44,
+"h": 30,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/freezer.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.freezer.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.fridge",
+"kind": "object",
+"w": 26,
+"h": 47,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/fridge.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.fridge.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.hutch",
+"kind": "object",
+"w": 34,
+"h": 45,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/hutch.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.hutch.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.mom_bed",
+"kind": "object",
+"w": 32,
+"h": 59,
+"tags": [
+"interior",
+"house",
+"bed"
+],
+"source": "art/objects/interior/house/mom_bed.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.mom_bed.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.nightstand_1",
+"kind": "object",
+"w": 12,
+"h": 26,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/nightstand_1.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.nightstand_1.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.nightstand_2",
+"kind": "object",
+"w": 12,
+"h": 26,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/nightstand_2.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.nightstand_2.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.nightstand_mom",
+"kind": "object",
+"w": 12,
+"h": 26,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/nightstand_mom.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.nightstand_mom.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.plant",
+"kind": "object",
+"w": 12,
+"h": 26,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/plant.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.plant.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"brick"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.radio_table",
+"kind": "object",
+"w": 14,
+"h": 33,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/radio_table.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.radio_table.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.rocker",
+"kind": "object",
+"w": 16,
+"h": 25,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/rocker.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.rocker.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.stair_rail",
+"kind": "object",
+"w": 41,
+"h": 113,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/stair_rail.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.stair_rail.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.stairs",
+"kind": "object",
+"w": 41,
+"h": 150,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/stairs.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.stairs.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.table",
+"kind": "object",
+"w": 50,
+"h": 36,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/table.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.table.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.toilet",
+"kind": "object",
+"w": 14,
+"h": 21,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/toilet.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.toilet.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.tub",
+"kind": "object",
+"w": 48,
+"h": 33,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/tub.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.tub.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.tv_stand",
+"kind": "object",
+"w": 40,
+"h": 33,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/tv_stand.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.tv_stand.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.wall_bath",
+"kind": "object",
+"w": 176,
+"h": 28,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/wall_bath.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.wall_bath.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.wall_halfbath",
+"kind": "object",
+"w": 80,
+"h": 28,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/wall_halfbath.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.wall_halfbath.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"wallpaper-blue"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.wall_siblings",
+"kind": "object",
+"w": 192,
+"h": 28,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/wall_siblings.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.wall_siblings.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"wallpaper"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.washer",
+"kind": "object",
+"w": 20,
+"h": 30,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/washer.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.washer.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.wood_stove",
+"kind": "object",
+"w": 32,
+"h": 42,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/wood_stove.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.wood_stove.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.house.woodbox",
+"kind": "object",
+"w": 13,
+"h": 16,
+"tags": [
+"interior",
+"house"
+],
+"source": "art/objects/interior/house/woodbox.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.house.woodbox.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "obj.house_saltbox",
 "kind": "object",
 "w": 80,
@@ -2905,418 +4538,6 @@ window.REVIEW = {
 "src": "history/obj.house_saltbox/v1.png"
 }
 ]
-},
-{
-"id": "obj.kitchen.bed_1",
-"kind": "object",
-"w": 20,
-"h": 59,
-"tags": [
-"interior",
-"kitchen",
-"bed"
-],
-"source": "art/objects/interior/kitchen_bed_1.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.bed_1.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.bed_2",
-"kind": "object",
-"w": 20,
-"h": 59,
-"tags": [
-"interior",
-"kitchen",
-"bed"
-],
-"source": "art/objects/interior/kitchen_bed_2.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.bed_2.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.bed_3",
-"kind": "object",
-"w": 20,
-"h": 59,
-"tags": [
-"interior",
-"kitchen",
-"bed"
-],
-"source": "art/objects/interior/kitchen_bed_3.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.bed_3.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.bed_4",
-"kind": "object",
-"w": 20,
-"h": 59,
-"tags": [
-"interior",
-"kitchen",
-"bed"
-],
-"source": "art/objects/interior/kitchen_bed_4.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.bed_4.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.chair_e",
-"kind": "object",
-"w": 11,
-"h": 31,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_chair_e.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.chair_e.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.chair_n",
-"kind": "object",
-"w": 12,
-"h": 25,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_chair_n.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.chair_n.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.chair_s",
-"kind": "object",
-"w": 12,
-"h": 21,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_chair_s.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.chair_s.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.chair_w",
-"kind": "object",
-"w": 11,
-"h": 31,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_chair_w.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.chair_w.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.chest",
-"kind": "object",
-"w": 20,
-"h": 16,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_chest.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.chest.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.coat_tree",
-"kind": "object",
-"w": 16,
-"h": 31,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_coat_tree.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.coat_tree.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.counter",
-"kind": "object",
-"w": 73,
-"h": 32,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_counter.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.counter.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.daybed",
-"kind": "object",
-"w": 21,
-"h": 67,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_daybed.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.daybed.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.fridge",
-"kind": "object",
-"w": 26,
-"h": 47,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_fridge.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.fridge.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.rocker",
-"kind": "object",
-"w": 16,
-"h": 25,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_rocker.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.rocker.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.table",
-"kind": "object",
-"w": 50,
-"h": 36,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_table.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.table.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.wood_stove",
-"kind": "object",
-"w": 32,
-"h": 42,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_wood_stove.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.wood_stove.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
-},
-{
-"id": "obj.kitchen.woodbox",
-"kind": "object",
-"w": 13,
-"h": 16,
-"tags": [
-"interior",
-"kitchen"
-],
-"source": "art/objects/interior/kitchen_woodbox.yaml",
-"generator": null,
-"variants": {
-"(base)": [
-{
-"src": "img/obj.kitchen.woodbox.0.png",
-"ms": 0
-}
-]
-},
-"draft": [],
-"lint": [],
-"status": "awaiting approval",
-"notes": ""
 },
 {
 "id": "obj.lobster_pot",
@@ -3455,6 +4676,146 @@ window.REVIEW = {
 "src": "history/obj.punt/v1.png"
 }
 ]
+},
+{
+"id": "obj.punt_sea_back",
+"kind": "object",
+"w": 64,
+"h": 28,
+"tags": [
+"boat",
+"sea"
+],
+"source": "art/objects/sea/punt_sea_back.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.punt_sea_back.0.png",
+"ms": 900
+},
+{
+"src": "img/obj.punt_sea_back.1.png",
+"ms": 900
+}
+],
+"calm": [
+{
+"src": "img/obj.punt_sea_back__calm.0.png",
+"ms": 900
+},
+{
+"src": "img/obj.punt_sea_back__calm.1.png",
+"ms": 900
+}
+],
+"breeze": [
+{
+"src": "img/obj.punt_sea_back__breeze.0.png",
+"ms": 450
+},
+{
+"src": "img/obj.punt_sea_back__breeze.1.png",
+"ms": 450
+},
+{
+"src": "img/obj.punt_sea_back__breeze.2.png",
+"ms": 450
+}
+],
+"swell": [
+{
+"src": "img/obj.punt_sea_back__swell.0.png",
+"ms": 300
+},
+{
+"src": "img/obj.punt_sea_back__swell.1.png",
+"ms": 180
+},
+{
+"src": "img/obj.punt_sea_back__swell.2.png",
+"ms": 300
+},
+{
+"src": "img/obj.punt_sea_back__swell.3.png",
+"ms": 180
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "obj.punt_sea_front",
+"kind": "object",
+"w": 64,
+"h": 28,
+"tags": [
+"boat",
+"sea"
+],
+"source": "art/objects/sea/punt_sea_front.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/obj.punt_sea_front.0.png",
+"ms": 900
+},
+{
+"src": "img/obj.punt_sea_front.1.png",
+"ms": 900
+}
+],
+"calm": [
+{
+"src": "img/obj.punt_sea_front__calm.0.png",
+"ms": 900
+},
+{
+"src": "img/obj.punt_sea_front__calm.1.png",
+"ms": 900
+}
+],
+"breeze": [
+{
+"src": "img/obj.punt_sea_front__breeze.0.png",
+"ms": 450
+},
+{
+"src": "img/obj.punt_sea_front__breeze.1.png",
+"ms": 450
+},
+{
+"src": "img/obj.punt_sea_front__breeze.2.png",
+"ms": 450
+}
+],
+"swell": [
+{
+"src": "img/obj.punt_sea_front__swell.0.png",
+"ms": 300
+},
+{
+"src": "img/obj.punt_sea_front__swell.1.png",
+"ms": 180
+},
+{
+"src": "img/obj.punt_sea_front__swell.2.png",
+"ms": 300
+},
+{
+"src": "img/obj.punt_sea_front__swell.3.png",
+"ms": 180
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 },
 {
 "id": "obj.rocks_m",
@@ -3897,6 +5258,160 @@ window.REVIEW = {
 ]
 },
 {
+"id": "item.fish.cod",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"cod"
+],
+"source": "art/items/fish_cod.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.cod.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "item.fish.flounder",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"flounder"
+],
+"source": "art/items/fish_flounder.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.flounder.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "item.fish.halibut",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"halibut"
+],
+"source": "art/items/fish_halibut.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.halibut.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "item.fish.mackerel",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"mackerel"
+],
+"source": "art/items/fish_mackerel.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.mackerel.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"mackerel"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "item.fish.pollock",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"pollock"
+],
+"source": "art/items/fish_pollock.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.pollock.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"pollock"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "item.fish.sculpin",
+"kind": "item",
+"w": 16,
+"h": 16,
+"tags": [
+"icon",
+"fish",
+"sculpin"
+],
+"source": "art/items/fish_sculpin.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/item.fish.sculpin.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "item.handline_held",
 "kind": "item",
 "w": 3,
@@ -4085,6 +5600,452 @@ window.REVIEW = {
 "name": "ui",
 "assets": [
 {
+"id": "ui.button",
+"kind": "ui",
+"w": 24,
+"h": 16,
+"tags": [
+"ui",
+"kit",
+"nine_slice"
+],
+"source": "art/ui/button.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.button.0.png",
+"ms": 0
+}
+],
+"hover": [
+{
+"src": "img/ui.button__hover.0.png",
+"ms": 0
+}
+],
+"pressed": [
+{
+"src": "img/ui.button__pressed.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.catch_card",
+"kind": "ui",
+"w": 224,
+"h": 112,
+"tags": [
+"catch",
+"card",
+"fishing"
+],
+"source": "art/ui/catch_card.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.catch_card.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.catch_card_pb",
+"kind": "ui",
+"w": 17,
+"h": 24,
+"tags": [
+"catch",
+"card",
+"fishing"
+],
+"source": "art/ui/catch_card_pb.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.catch_card_pb.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.font",
+"kind": "ui",
+"w": 128,
+"h": 77,
+"tags": [
+"ui",
+"font",
+"noexport"
+],
+"source": "art/ui/font/font.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.font.0.png",
+"ms": 0
+}
+],
+"plain": [
+{
+"src": "img/ui.font__plain.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.list_row",
+"kind": "ui",
+"w": 32,
+"h": 14,
+"tags": [
+"ui",
+"kit",
+"nine_slice"
+],
+"source": "art/ui/list_row.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.list_row.0.png",
+"ms": 0
+}
+],
+"selected": [
+{
+"src": "img/ui.list_row__selected.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.coast_dot",
+"kind": "ui",
+"w": 2,
+"h": 2,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/coast_dot.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.coast_dot.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.gps",
+"kind": "ui",
+"w": 9,
+"h": 9,
+"tags": [
+"phone",
+"map",
+"icon"
+],
+"source": "art/ui/map/gps.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.gps.0.png",
+"ms": 0
+}
+],
+"searching": [
+{
+"src": "img/ui.map.gps__searching.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.label",
+"kind": "ui",
+"w": 14,
+"h": 11,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/label.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.label.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.land",
+"kind": "ui",
+"w": 16,
+"h": 16,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/land.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.land.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.marker_p1",
+"kind": "ui",
+"w": 9,
+"h": 9,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/marker_p1.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.marker_p1.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.marker_p2",
+"kind": "ui",
+"w": 9,
+"h": 9,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/marker_p2.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.marker_p2.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.marker_p3",
+"kind": "ui",
+"w": 9,
+"h": 9,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/marker_p3.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.marker_p3.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.marker_p4",
+"kind": "ui",
+"w": 9,
+"h": 9,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/marker_p4.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.marker_p4.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.signal",
+"kind": "ui",
+"w": 11,
+"h": 5,
+"tags": [
+"phone",
+"map",
+"icon"
+],
+"source": "art/ui/map/signal.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.signal.0.png",
+"ms": 0
+}
+],
+"n0": [
+{
+"src": "img/ui.map.signal__n0.0.png",
+"ms": 0
+}
+],
+"n1": [
+{
+"src": "img/ui.map.signal__n1.0.png",
+"ms": 0
+}
+],
+"n2": [
+{
+"src": "img/ui.map.signal__n2.0.png",
+"ms": 0
+}
+],
+"n3": [
+{
+"src": "img/ui.map.signal__n3.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.map.water",
+"kind": "ui",
+"w": 16,
+"h": 16,
+"tags": [
+"phone",
+"map"
+],
+"source": "art/ui/map/water.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.map.water.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "ui.panel",
+"kind": "ui",
+"w": 24,
+"h": 24,
+"tags": [
+"ui",
+"kit",
+"nine_slice"
+],
+"source": "art/ui/panel.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.panel.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
 "id": "ui.phone_app_icons",
 "kind": "ui",
 "w": 64,
@@ -4153,6 +6114,31 @@ window.REVIEW = {
 "src": "history/ui.phone_frame/v1.png"
 }
 ]
+},
+{
+"id": "ui.phone_map",
+"kind": "ui",
+"w": 120,
+"h": 200,
+"tags": [
+"phone",
+"map",
+"menu"
+],
+"source": "art/ui/phone_map.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/ui.phone_map.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 }
 ]
 },
@@ -16434,6 +18420,473 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
+"notes": ""
+}
+]
+},
+{
+"name": "fish",
+"assets": [
+{
+"id": "fish.cod.l",
+"kind": "object",
+"w": 112,
+"h": 36,
+"tags": [
+"fish",
+"cod",
+"catch"
+],
+"source": "art/fish/cod_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.cod.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.cod.m",
+"kind": "object",
+"w": 84,
+"h": 28,
+"tags": [
+"fish",
+"cod",
+"catch"
+],
+"source": "art/fish/cod_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.cod.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.cod.s",
+"kind": "object",
+"w": 60,
+"h": 22,
+"tags": [
+"fish",
+"cod",
+"catch"
+],
+"source": "art/fish/cod_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.cod.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.flounder.l",
+"kind": "object",
+"w": 72,
+"h": 39,
+"tags": [
+"fish",
+"flounder",
+"catch"
+],
+"source": "art/fish/flounder_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.flounder.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.flounder.m",
+"kind": "object",
+"w": 56,
+"h": 31,
+"tags": [
+"fish",
+"flounder",
+"catch"
+],
+"source": "art/fish/flounder_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.flounder.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.flounder.s",
+"kind": "object",
+"w": 40,
+"h": 23,
+"tags": [
+"fish",
+"flounder",
+"catch"
+],
+"source": "art/fish/flounder_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.flounder.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.halibut.l",
+"kind": "object",
+"w": 144,
+"h": 66,
+"tags": [
+"fish",
+"halibut",
+"catch"
+],
+"source": "art/fish/halibut_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.halibut.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.halibut.m",
+"kind": "object",
+"w": 120,
+"h": 54,
+"tags": [
+"fish",
+"halibut",
+"catch"
+],
+"source": "art/fish/halibut_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.halibut.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.halibut.s",
+"kind": "object",
+"w": 96,
+"h": 44,
+"tags": [
+"fish",
+"halibut",
+"catch"
+],
+"source": "art/fish/halibut_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.halibut.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.mackerel.l",
+"kind": "object",
+"w": 70,
+"h": 18,
+"tags": [
+"fish",
+"mackerel",
+"catch"
+],
+"source": "art/fish/mackerel_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.mackerel.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"mackerel"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.mackerel.m",
+"kind": "object",
+"w": 58,
+"h": 15,
+"tags": [
+"fish",
+"mackerel",
+"catch"
+],
+"source": "art/fish/mackerel_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.mackerel.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"mackerel"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.mackerel.s",
+"kind": "object",
+"w": 46,
+"h": 13,
+"tags": [
+"fish",
+"mackerel",
+"catch"
+],
+"source": "art/fish/mackerel_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.mackerel.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"mackerel"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.pollock.l",
+"kind": "object",
+"w": 104,
+"h": 30,
+"tags": [
+"fish",
+"pollock",
+"catch"
+],
+"source": "art/fish/pollock_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.pollock.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"pollock"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.pollock.m",
+"kind": "object",
+"w": 80,
+"h": 25,
+"tags": [
+"fish",
+"pollock",
+"catch"
+],
+"source": "art/fish/pollock_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.pollock.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"pollock"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.pollock.s",
+"kind": "object",
+"w": 56,
+"h": 18,
+"tags": [
+"fish",
+"pollock",
+"catch"
+],
+"source": "art/fish/pollock_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.pollock.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [
+"pollock"
+],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.sculpin.l",
+"kind": "object",
+"w": 64,
+"h": 31,
+"tags": [
+"fish",
+"sculpin",
+"catch"
+],
+"source": "art/fish/sculpin_l.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.sculpin.l.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.sculpin.m",
+"kind": "object",
+"w": 48,
+"h": 24,
+"tags": [
+"fish",
+"sculpin",
+"catch"
+],
+"source": "art/fish/sculpin_m.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.sculpin.m.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "fish.sculpin.s",
+"kind": "object",
+"w": 36,
+"h": 20,
+"tags": [
+"fish",
+"sculpin",
+"catch"
+],
+"source": "art/fish/sculpin_s.yaml",
+"generator": null,
+"variants": {
+"(base)": [
+{
+"src": "img/fish.sculpin.s.0.png",
+"ms": 0
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
 "notes": ""
 }
 ]
