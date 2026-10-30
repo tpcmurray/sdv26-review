@@ -49,3 +49,11 @@ footer { position: fixed; bottom: 0; left: 0; right: 0; background: #fffdf8; bor
 
 .pic { image-rendering: pixelated; image-rendering: crisp-edges; background-repeat: no-repeat; display: block; }
 .frames .pic { display: inline-block; }
+
+.tabs { margin-top: 10px; gap: 2px; font-size: 14px; border-bottom: 2px solid var(--ink); }
+.tabs a { border: 1px solid var(--line); border-bottom: none; border-radius: 6px 6px 0 0; padding: 5px 12px; background: #efece4; }
+.tabs a.on { background: var(--ink); color: #fffdf8; border-color: var(--ink); }
+.tabs a .n { color: var(--muted); font-size: 12px; }
+.tabs a.on .n { color: #c9ced6; }
+#toc:empty { display: none; }
+.card, section { scroll-margin-top: 130px; }

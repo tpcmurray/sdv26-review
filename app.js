@@ -113,29 +113,84 @@
     return c;
   }
 
+  // tabs: the asset groups gathered by kind, so the page shows one part at a time
+  const TABS = [
+    { id: "overview", title: "Palette" },
+    { id: "maps", title: "Maps & scenes" },
+    { id: "chars", title: "Characters", heads: ["chr"] },
+    { id: "objects", title: "Objects", heads: ["obj"] },
+    { id: "terrain", title: "Terrain & sea", heads: ["terrain", "water", "edge", "tile"] },
+    { id: "items", title: "Fish & items", heads: ["fish", "item", "crop"] },
+    { id: "ui", title: "UI", heads: ["ui"] },
+    { id: "fx", title: "Effects & animation", heads: ["fx", "ani"] },
+    { id: "other", title: "Other" },
+  ];
+  const head = g => g.name.split(".")[0];
+  function tabOfGroup(g) {
+    const t = TABS.find(t => t.heads && t.heads.includes(head(g)));
+    return t ? t.id : "other";
+  }
+  function tabOfAsset(id) {
+    const g = R.groups.find(g => g.assets.some(a => a.id === id));
+    return g ? tabOfGroup(g) : null;
+  }
+  function hasContent(t) {
+    if (t.id === "overview") return true;
+    if (t.id === "maps") return (R.maps && R.maps.length) || R.scenes.length;
+    return R.groups.some(g => tabOfGroup(g) === t.id);
+  }
+  let tab = "overview";
+  function readHash() {
+    const m = location.hash.match(/^#tab=([\w-]+)/);
+    if (m && TABS.some(t => t.id === m[1])) return { tab: m[1] };
+    const a = location.hash.match(/^#a-(.+)$/);
+    if (a) { const t = tabOfAsset(decodeURIComponent(a[1])); if (t) return { tab: t, asset: "a-" + decodeURIComponent(a[1]) }; }
+    return null;
+  }
+
   function render() {
     players.length = 0;
     const main = $("#main");
     main.innerHTML = "";
+    const tabs = $("#tabs");
+    tabs.innerHTML = "";
+    for (const t of TABS) if (hasContent(t)) {
+      const n = t.id === "overview" || t.id === "maps" ? null
+        : R.groups.filter(g => tabOfGroup(g) === t.id).reduce((k, g) => k + g.assets.length, 0);
+      tabs.append(h("a", { href: "#tab=" + t.id, class: t.id === tab ? "on" : "" }, t.title, n ? h("span", { class: "n" }, " " + n) : null));
+    }
     const toc = $("#toc");
     toc.innerHTML = "";
+    const sections = [];
     const add = (id, title, el) => {
       main.append(h("section", { id }, h("h2", {}, title), el));
-      toc.append(h("a", { href: "#" + id }, title));
+      sections.push([id, title]);
     };
-    if (R.notes) add("notes", "Notes", h("div", { class: "notes" }, R.notes));
-    add("palette", `Palette v${R.palette_version}`, h("div", {}, R.palette.map(r =>
+    if (tab === "overview") add("palette", `Palette v${R.palette_version}`, h("div", {}, R.palette.map(r =>
       h("div", { class: "ramp" }, h("div", { class: "name" }, r.ramp),
         r.colors.map((c, i) => h("div", { class: "swatch", style: `background:${c}`, title: `${r.names[i]} ${c}` })),
         badge(r.status, r.status === "approved" ? "b-ok" : "b-draft")))));
-    if (R.maps && R.maps.length) add("maps", "Painted maps", h("div", {}, R.maps.map(m =>
-      h("div", { class: "scene" }, h("div", { class: "cap" }, m.title), mapStage(m)))));
-    if (R.scenes.length) add("scenes", "Scenes", h("div", {}, R.scenes.map(s =>
-      h("div", { class: "scene" }, h("div", { class: "cap" }, s.title),
-        sceneStage(s)))));
-    for (const g of R.groups) add("g-" + g.name, g.name, h("div", { class: "grid" }, g.assets.map(card)));
-    for (const s of R.scenes) if (s.frames) { /* scenes animate at fixed 3x */ }
+    if (tab === "maps") {
+      if (R.maps && R.maps.length) add("maps", "Painted maps", h("div", {}, R.maps.map(m =>
+        h("div", { class: "scene" }, h("div", { class: "cap" }, m.title), mapStage(m)))));
+      if (R.scenes.length) add("scenes", "Scenes", h("div", {}, R.scenes.map(s =>
+        h("div", { class: "scene" }, h("div", { class: "cap" }, s.title), sceneStage(s)))));
+    }
+    for (const g of R.groups) if (tabOfGroup(g) === tab)
+      add("g-" + g.name, g.name, h("div", { class: "grid" }, g.assets.map(card)));
+    // jump links within the tab, when it has more than one section
+    if (sections.length > 1) for (const [id, title] of sections)
+      toc.append(h("a", { href: "#", onclick: e => { e.preventDefault(); document.getElementById(id).scrollIntoView(); } }, title));
   }
+
+  function go() {
+    const r = readHash();
+    if (r) tab = r.tab;
+    render();
+    if (r && r.asset) { const el = document.getElementById(r.asset); if (el) el.scrollIntoView(); }
+    else window.scrollTo(0, 0);
+  }
+  window.addEventListener("hashchange", go);
 
   let last = performance.now();
   function tick(now) {
@@ -153,6 +208,6 @@
   $("#zoom").addEventListener("change", e => { zoom = +e.target.value; render(); });
   $("#bg").addEventListener("change", e => { bg = e.target.value; render(); });
   $("#play").addEventListener("change", e => { playing = e.target.checked; });
-  render();
+  go();
   requestAnimationFrame(tick);
 })();
