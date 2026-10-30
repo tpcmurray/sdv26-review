@@ -2,11 +2,11 @@ window.REVIEW = {
 "sheets": [
 {
 "src": "img/sheet_0.png",
-"w": 2047,
-"h": 743
+"w": 2048,
+"h": 764
 }
 ],
-"built": "2026-10-30T00:17",
+"built": "2026-10-30T00:54",
 "notes": "Approved 2026-10-29: the palette, proof assets, painted harbour, villagers and animals. Six new colour ramps were just added as drafts (hair-grey, brick, moss, flower-purple, spruce-dry, plastic-grey) and aren't used by any asset yet.\n\nNEW (paint-over experiment): \"Painted maps\" at the top shows the harbour as one bespoke painting instead of tiles, in calm water.\nNEW (M1 art, for review):\n- The harbour is now the full M1 map, 960\u00d7544. It adds the family's blue house with its garden across the lane, a road south, the fish buyer's truck, two boarded-up houses (future restoration lots), a west headland, an east cove and a pond.\n- The family kitchen interior.\n- The playable siblings (a man and a woman, each with hair and skin options and seated boat poses) and Mom. Their cards are under chr.sibling_m, chr.sibling_f and chr.mom.\n\nNEW (moving sprites): the harbour now has life on a 38-second loop:\n- The fisherman walks to the wharf, the older woman tends her clothesline and goes home, and the youth stands on the lane looking at their phone.\n- Three sheep graze, three hens peck, and a collie trots the lane and sits.\n- Gulls perch on the stage and the flake, two more wheel over the water, and puffins stand on the granite point (one with a beak full of capelin) while another flies in and out.\n- Every animation has its own card further down, under chr.* and ani.*.\n\nWhat the paint pass does:\n- Shores, paths and rock come from organic shapes instead of tile edges.\n- Cobble is drawn stone by stone, and granite is drawn as lit rock masses with south-facing cliff faces.\n- The grass has soft tonal zones and heath patches with partridgeberries.\n- Shadows are painted on: contact and cast shadows to the bottom-right.\n- Grass grows up around building bases and the turf creeps over the potato beds.\n- There are worn footpaths to the doors, stones heaped where the pier meets the beach, and animated foam along the painted shoreline for each sea state.\n- New props: lobster pots, a rope coil, a woodpile, a clothesline and more.\n\nSTART HERE: scroll through the groups. Use the variant buttons on each card (weathered/restored, sea states, recolours). Give feedback in chat by asset id.\n\nWhat to approve or redirect:\n1. Palette (top section). All ramps are draft. It's muted North Atlantic with warm accents: red ochre, oilskin orange, knit red.\n2. Player (chr.player): idle with a blink, walk in 4 directions, jigging. Red toque, navy hoodie, jeans, rubber boots. Variants: oilskins, green_toque.\n3. Buildings: saltbox house (weathered + restored red/white/ochre/blue), fishing stage (weathered + restored), wharf post and deck tiles.\n4. Shore and land: cobble beach and granite ledges (rocky, per your note), barrens grass with partridgeberries, dirt paths, foam per sea state, tuckamore clumps.\n5. Water: calm / breeze / swell, plus whitecap and spray effects.\n6. Work and items: punt (bobs per sea state; weathered variant), fish flake with salt cod, lazy-bed potatoes in 3 stages, icons (cod, jigger, potato, salt bucket), phone frame (one bar of signal) and app icons.\n\nOpen questions for you:\n- Scale: buildings were scaled to the 16\u00d732 player (doors about 24\u201326px). Does the house size feel right in the scene?\n- Weathered house: the peeling-paint patches may read as blobs; smaller, raggeder patches are an option.\n- The flake's cod are small (7\u00d77); bigger fish would read better but crowd the mat.\n- Palette additions the artists asked for: a brick/chimney ramp, a roof moss shade and a lighter roof highlight, pale purple (potato flowers), dried-spruce brown (flake boughs), a lighter blue-green spruce top, and a soft grey for outlining white plastic. Say which to add.\n\nNot done yet: portraits, interiors, more villagers, choppy/storm sea states, and checking the MCP tools from inside a fresh Claude Code session (they're tested by script).\n",
 "palette": [
 {
@@ -960,15 +960,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1836,
-"y": 695
+"x": 544,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "terrain.cobble.m17",
@@ -988,8 +994,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1853,
-"y": 695
+"x": 561,
+"y": 724
 }
 ]
 },
@@ -1016,8 +1022,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ]
 },
@@ -1033,8 +1039,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ]
 },
@@ -1056,8 +1062,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1870,
-"y": 695
+"x": 578,
+"y": 724
 }
 ]
 },
@@ -1084,8 +1090,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1887,
-"y": 695
+"x": 595,
+"y": 724
 }
 ]
 },
@@ -1117,15 +1123,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1904,
-"y": 695
+"x": 612,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "terrain.dirt.m17",
@@ -1145,8 +1157,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1921,
-"y": 695
+"x": 629,
+"y": 724
 }
 ]
 },
@@ -1173,8 +1185,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1938,
-"y": 695
+"x": 646,
+"y": 724
 }
 ]
 },
@@ -1190,8 +1202,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1938,
-"y": 695
+"x": 646,
+"y": 724
 }
 ]
 },
@@ -1213,8 +1225,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1955,
-"y": 695
+"x": 663,
+"y": 724
 }
 ]
 },
@@ -1241,8 +1253,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1972,
-"y": 695
+"x": 680,
+"y": 724
 }
 ]
 },
@@ -1269,8 +1281,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1989,
-"y": 695
+"x": 697,
+"y": 724
 }
 ]
 },
@@ -1297,8 +1309,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2006,
-"y": 695
+"x": 714,
+"y": 724
 }
 ]
 },
@@ -1330,15 +1342,37 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2023,
-"y": 695
+"x": 731,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:43:41",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 748,
+"y": 724
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"granite.yaml has no fill_variants and _granite_tex places its dark granite-5 flecks on a near-regular diagonal, so every interior cell is the same stamp. Across the harbour scene's large ledges this shows as a 16 px wallpaper lattice: it reads as patterned paving, not bedrock"
+],
+"before_version": 1
+}
 },
 {
 "id": "terrain.granite.m17",
@@ -1358,8 +1392,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 0,
-"y": 712
+"x": 765,
+"y": 724
 }
 ]
 },
@@ -1386,8 +1420,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 }
 ]
 },
@@ -1403,10 +1437,94 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 782,
+"y": 724
 }
 ]
+},
+{
+"id": "terrain.granite.m255.v1",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/granite.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 0,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 799,
+"y": 724
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "terrain.granite.m255.v2",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/granite.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 0,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 816,
+"y": 724
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "terrain.granite.m255.v3",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/granite.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 0,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 833,
+"y": 724
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
 },
 {
 "id": "terrain.granite.m68",
@@ -1426,8 +1544,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 17,
-"y": 712
+"x": 850,
+"y": 724
 }
 ]
 },
@@ -1454,8 +1572,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 34,
-"y": 712
+"x": 867,
+"y": 724
 }
 ]
 },
@@ -1487,15 +1605,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 51,
-"y": 712
+"x": 884,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "terrain.grass.m17",
@@ -1515,8 +1639,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 68,
-"y": 712
+"x": 901,
+"y": 724
 }
 ]
 },
@@ -1543,8 +1667,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 85,
-"y": 712
+"x": 918,
+"y": 724
 }
 ]
 },
@@ -1560,8 +1684,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 85,
-"y": 712
+"x": 918,
+"y": 724
 }
 ]
 },
@@ -1583,8 +1707,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 102,
-"y": 712
+"x": 935,
+"y": 724
 }
 ]
 },
@@ -1611,8 +1735,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 119,
-"y": 712
+"x": 952,
+"y": 724
 }
 ]
 },
@@ -1639,8 +1763,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 136,
-"y": 712
+"x": 969,
+"y": 724
 }
 ]
 },
@@ -1667,8 +1791,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 153,
-"y": 712
+"x": 986,
+"y": 724
 }
 ]
 },
@@ -1695,8 +1819,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 170,
-"y": 712
+"x": 1003,
+"y": 724
 }
 ]
 },
@@ -1727,64 +1851,64 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 272,
-"y": 712
+"x": 1105,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 289,
-"y": 712
+"x": 1122,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 306,
-"y": 712
+"x": 1139,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 323,
-"y": 712
+"x": 1156,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 340,
-"y": 712
+"x": 1173,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 357,
-"y": 712
+"x": 1190,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 374,
-"y": 712
+"x": 1207,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 712
+"x": 1224,
+"y": 724
 }
 ],
 "calm": [
@@ -1793,64 +1917,64 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 272,
-"y": 712
+"x": 1105,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 289,
-"y": 712
+"x": 1122,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 306,
-"y": 712
+"x": 1139,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 323,
-"y": 712
+"x": 1156,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 340,
-"y": 712
+"x": 1173,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 357,
-"y": 712
+"x": 1190,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 374,
-"y": 712
+"x": 1207,
+"y": 724
 },
 {
 "ms": 300,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 712
+"x": 1224,
+"y": 724
 }
 ],
 "breeze": [
@@ -1859,64 +1983,64 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 408,
-"y": 712
+"x": 1241,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 425,
-"y": 712
+"x": 1258,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 442,
-"y": 712
+"x": 1275,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 459,
-"y": 712
+"x": 1292,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 476,
-"y": 712
+"x": 1309,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 493,
-"y": 712
+"x": 1326,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 510,
-"y": 712
+"x": 1343,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 527,
-"y": 712
+"x": 1360,
+"y": 724
 }
 ],
 "swell": [
@@ -1925,71 +2049,77 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 544,
-"y": 712
+"x": 1377,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 561,
-"y": 712
+"x": 1394,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 578,
-"y": 712
+"x": 1411,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 595,
-"y": 712
+"x": 1428,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 612,
-"y": 712
+"x": 1445,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 629,
-"y": 712
+"x": 1462,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 646,
-"y": 712
+"x": 1479,
+"y": 724
 },
 {
 "ms": 200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 663,
-"y": 712
+"x": 1496,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -2014,32 +2144,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2031,
-"y": 676
+"x": 646,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 0,
-"y": 695
+"x": 663,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 17,
-"y": 695
+"x": 680,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 34,
-"y": 695
+"x": 697,
+"y": 707
 }
 ],
 "calm": [
@@ -2048,32 +2178,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2031,
-"y": 676
+"x": 646,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 0,
-"y": 695
+"x": 663,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 17,
-"y": 695
+"x": 680,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 34,
-"y": 695
+"x": 697,
+"y": 707
 }
 ],
 "breeze": [
@@ -2082,32 +2212,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 51,
-"y": 695
+"x": 714,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 68,
-"y": 695
+"x": 731,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 85,
-"y": 695
+"x": 748,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 102,
-"y": 695
+"x": 765,
+"y": 707
 }
 ],
 "swell": [
@@ -2116,39 +2246,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 119,
-"y": 695
+"x": 782,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 136,
-"y": 695
+"x": 799,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 153,
-"y": 695
+"x": 816,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 170,
-"y": 695
+"x": 833,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "edge.cobble_water.m17",
@@ -2168,32 +2304,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 187,
-"y": 695
+"x": 850,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 204,
-"y": 695
+"x": 867,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 221,
-"y": 695
+"x": 884,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 238,
-"y": 695
+"x": 901,
+"y": 707
 }
 ],
 "calm": [
@@ -2202,32 +2338,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 187,
-"y": 695
+"x": 850,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 204,
-"y": 695
+"x": 867,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 221,
-"y": 695
+"x": 884,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 238,
-"y": 695
+"x": 901,
+"y": 707
 }
 ],
 "breeze": [
@@ -2236,32 +2372,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 255,
-"y": 695
+"x": 918,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 272,
-"y": 695
+"x": 935,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 289,
-"y": 695
+"x": 952,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 306,
-"y": 695
+"x": 969,
+"y": 707
 }
 ],
 "swell": [
@@ -2270,32 +2406,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 323,
-"y": 695
+"x": 986,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 340,
-"y": 695
+"x": 1003,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 357,
-"y": 695
+"x": 1020,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 374,
-"y": 695
+"x": 1037,
+"y": 707
 }
 ]
 },
@@ -2322,32 +2458,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ],
 "calm": [
@@ -2356,32 +2492,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ],
 "breeze": [
@@ -2390,32 +2526,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ],
 "swell": [
@@ -2424,32 +2560,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 391,
-"y": 695
+"x": 1054,
+"y": 707
 }
 ]
 },
@@ -2476,32 +2612,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 408,
-"y": 695
+"x": 1071,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 425,
-"y": 695
+"x": 1088,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 442,
-"y": 695
+"x": 1105,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 459,
-"y": 695
+"x": 1122,
+"y": 707
 }
 ],
 "calm": [
@@ -2510,32 +2646,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 408,
-"y": 695
+"x": 1071,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 425,
-"y": 695
+"x": 1088,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 442,
-"y": 695
+"x": 1105,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 459,
-"y": 695
+"x": 1122,
+"y": 707
 }
 ],
 "breeze": [
@@ -2544,32 +2680,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 476,
-"y": 695
+"x": 1139,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 493,
-"y": 695
+"x": 1156,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 510,
-"y": 695
+"x": 1173,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 527,
-"y": 695
+"x": 1190,
+"y": 707
 }
 ],
 "swell": [
@@ -2578,32 +2714,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 544,
-"y": 695
+"x": 1207,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 561,
-"y": 695
+"x": 1224,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 578,
-"y": 695
+"x": 1241,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 595,
-"y": 695
+"x": 1258,
+"y": 707
 }
 ]
 },
@@ -2630,32 +2766,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 612,
-"y": 695
+"x": 1275,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 629,
-"y": 695
+"x": 1292,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 646,
-"y": 695
+"x": 1309,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 663,
-"y": 695
+"x": 1326,
+"y": 707
 }
 ],
 "calm": [
@@ -2664,32 +2800,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 612,
-"y": 695
+"x": 1275,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 629,
-"y": 695
+"x": 1292,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 646,
-"y": 695
+"x": 1309,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 663,
-"y": 695
+"x": 1326,
+"y": 707
 }
 ],
 "breeze": [
@@ -2698,32 +2834,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 680,
-"y": 695
+"x": 1343,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 697,
-"y": 695
+"x": 1360,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 714,
-"y": 695
+"x": 1377,
+"y": 707
 },
 {
 "ms": 240,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 731,
-"y": 695
+"x": 1394,
+"y": 707
 }
 ],
 "swell": [
@@ -2732,32 +2868,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 748,
-"y": 695
+"x": 1411,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 765,
-"y": 695
+"x": 1428,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 782,
-"y": 695
+"x": 1445,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 799,
-"y": 695
+"x": 1462,
+"y": 707
 }
 ]
 },
@@ -2789,32 +2925,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 816,
-"y": 695
+"x": 1479,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 833,
-"y": 695
+"x": 1496,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 850,
-"y": 695
+"x": 1513,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 867,
-"y": 695
+"x": 1530,
+"y": 707
 }
 ],
 "calm": [
@@ -2823,32 +2959,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 816,
-"y": 695
+"x": 1479,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 833,
-"y": 695
+"x": 1496,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 850,
-"y": 695
+"x": 1513,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 867,
-"y": 695
+"x": 1530,
+"y": 707
 }
 ],
 "breeze": [
@@ -2857,32 +2993,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 884,
-"y": 695
+"x": 1547,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 901,
-"y": 695
+"x": 1564,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 918,
-"y": 695
+"x": 1581,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 935,
-"y": 695
+"x": 1598,
+"y": 707
 }
 ],
 "swell": [
@@ -2891,39 +3027,61 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 952,
-"y": 695
+"x": 1615,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 969,
-"y": 695
+"x": 1632,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 986,
-"y": 695
+"x": 1649,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 935,
-"y": 695
+"x": 1598,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:43:42",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1666,
+"y": 707
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"same root cause as terrain.granite: ledge.yaml uses _granite_tex with no fill_variants, so every interior cell is the identical 16x16 stamp and the ledges in the harbour scene show a regular diagonal lattice of dark flecks (wallpaper, not bedrock)"
+],
+"before_version": 1
+}
 },
 {
 "id": "edge.granite_water.m17",
@@ -2943,32 +3101,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1003,
-"y": 695
+"x": 1683,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1020,
-"y": 695
+"x": 1700,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1037,
-"y": 695
+"x": 1717,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1054,
-"y": 695
+"x": 1734,
+"y": 707
 }
 ],
 "calm": [
@@ -2977,32 +3135,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1003,
-"y": 695
+"x": 1683,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1020,
-"y": 695
+"x": 1700,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1037,
-"y": 695
+"x": 1717,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1054,
-"y": 695
+"x": 1734,
+"y": 707
 }
 ],
 "breeze": [
@@ -3011,32 +3169,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1071,
-"y": 695
+"x": 1751,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1088,
-"y": 695
+"x": 1768,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1105,
-"y": 695
+"x": 1785,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1122,
-"y": 695
+"x": 1802,
+"y": 707
 }
 ],
 "swell": [
@@ -3045,32 +3203,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1139,
-"y": 695
+"x": 1819,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1156,
-"y": 695
+"x": 1836,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1173,
-"y": 695
+"x": 1853,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1190,
-"y": 695
+"x": 1870,
+"y": 707
 }
 ]
 },
@@ -3097,32 +3255,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 }
 ],
 "calm": [
@@ -3131,32 +3289,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 }
 ],
 "breeze": [
@@ -3165,32 +3323,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 }
 ],
 "swell": [
@@ -3199,38 +3357,500 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1207,
-"y": 695
+"x": 1887,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
+"notes": ""
+},
+{
+"id": "edge.granite_water.m255.v1",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/ledge.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+}
+],
+"calm": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+}
+],
+"breeze": [
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+}
+],
+"swell": [
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1904,
+"y": 707
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "edge.granite_water.m255.v2",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/ledge.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+}
+],
+"calm": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+}
+],
+"breeze": [
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+}
+],
+"swell": [
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1921,
+"y": 707
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
+"notes": ""
+},
+{
+"id": "edge.granite_water.m255.v3",
+"kind": "tile",
+"w": 16,
+"h": 16,
+"tags": [
+"autotile",
+"granite"
+],
+"source": "art/terrain/ledge.yaml",
+"generator": "autotile47",
+"variants": {
+"(base)": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+}
+],
+"calm": [
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+}
+],
+"breeze": [
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 220,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+}
+],
+"swell": [
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+},
+{
+"ms": 170,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1938,
+"y": 707
+}
+]
+},
+"draft": [],
+"lint": [],
+"status": "awaiting approval",
 "notes": ""
 },
 {
@@ -3251,32 +3871,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1224,
-"y": 695
+"x": 1955,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1241,
-"y": 695
+"x": 1972,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1258,
-"y": 695
+"x": 1989,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1275,
-"y": 695
+"x": 2006,
+"y": 707
 }
 ],
 "calm": [
@@ -3285,32 +3905,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1224,
-"y": 695
+"x": 1955,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1241,
-"y": 695
+"x": 1972,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1258,
-"y": 695
+"x": 1989,
+"y": 707
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1275,
-"y": 695
+"x": 2006,
+"y": 707
 }
 ],
 "breeze": [
@@ -3319,32 +3939,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1292,
-"y": 695
+"x": 2023,
+"y": 707
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1309,
-"y": 695
+"x": 0,
+"y": 724
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1326,
-"y": 695
+"x": 17,
+"y": 724
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1343,
-"y": 695
+"x": 34,
+"y": 724
 }
 ],
 "swell": [
@@ -3353,32 +3973,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1360,
-"y": 695
+"x": 51,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1377,
-"y": 695
+"x": 68,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1394,
-"y": 695
+"x": 85,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1411,
-"y": 695
+"x": 102,
+"y": 724
 }
 ]
 },
@@ -3405,32 +4025,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1428,
-"y": 695
+"x": 119,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1445,
-"y": 695
+"x": 136,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1462,
-"y": 695
+"x": 153,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1479,
-"y": 695
+"x": 170,
+"y": 724
 }
 ],
 "calm": [
@@ -3439,32 +4059,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1428,
-"y": 695
+"x": 119,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1445,
-"y": 695
+"x": 136,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1462,
-"y": 695
+"x": 153,
+"y": 724
 },
 {
 "ms": 320,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1479,
-"y": 695
+"x": 170,
+"y": 724
 }
 ],
 "breeze": [
@@ -3473,32 +4093,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1496,
-"y": 695
+"x": 187,
+"y": 724
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1513,
-"y": 695
+"x": 204,
+"y": 724
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1530,
-"y": 695
+"x": 221,
+"y": 724
 },
 {
 "ms": 220,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1547,
-"y": 695
+"x": 238,
+"y": 724
 }
 ],
 "swell": [
@@ -3507,32 +4127,32 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1564,
-"y": 695
+"x": 255,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1581,
-"y": 695
+"x": 272,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1598,
-"y": 695
+"x": 289,
+"y": 724
 },
 {
 "ms": 170,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1615,
-"y": 695
+"x": 306,
+"y": 724
 }
 ]
 },
@@ -3566,31 +4186,37 @@ window.REVIEW = {
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 375,
-"y": 729
+"x": 1261,
+"y": 741
 },
 {
 "ms": 150,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 387,
-"y": 729
+"x": 1273,
+"y": 741
 },
 {
 "ms": 150,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 399,
-"y": 729
+"x": 1285,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.handline.slack",
@@ -3612,23 +4238,29 @@ window.REVIEW = {
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 411,
-"y": 729
+"x": 1297,
+"y": 741
 },
 {
 "ms": 450,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 423,
-"y": 729
+"x": 1309,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.handline.taut",
@@ -3650,23 +4282,29 @@ window.REVIEW = {
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 435,
-"y": 729
+"x": 1321,
+"y": 741
 },
 {
 "ms": 300,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 447,
-"y": 729
+"x": 1333,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.handline.twitch",
@@ -3688,31 +4326,37 @@ window.REVIEW = {
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 459,
-"y": 729
+"x": 1345,
+"y": 741
 },
 {
 "ms": 70,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 471,
-"y": 729
+"x": 1357,
+"y": 741
 },
 {
 "ms": 140,
 "w": 11,
 "h": 14,
 "sheet": 0,
-"x": 483,
-"y": 729
+"x": 1369,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.sign.capelin",
@@ -3733,71 +4377,94 @@ window.REVIEW = {
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 679,
-"y": 729
+"x": 1612,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 706,
-"y": 729
+"x": 1639,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 733,
-"y": 729
+"x": 1666,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 760,
-"y": 729
+"x": 1693,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 787,
-"y": 729
+"x": 1720,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 814,
-"y": 729
+"x": 1747,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 841,
-"y": 729
+"x": 1774,
+"y": 741
 },
 {
 "ms": 120,
 "w": 26,
 "h": 12,
 "sheet": 0,
-"x": 868,
-"y": 729
+"x": 1801,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:39:23",
+"note": "before critic",
+"w": 26,
+"h": 12,
+"sheet": 0,
+"x": 1828,
+"y": 741
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"Not readable at 1x on bay_north's open water. The flecks are 1-2 px of foam-1/foam-3 and the rings are sea-5, which is close to the water's own sea-5/6 marks. On swell (9 marks per tile, plus 0.2 whitecaps) the patch disappears into the water texture, and on breeze it's marginal. Only calm reads, and even there it's faint.",
+"Frame 3 has only 6 opaque px (others have 17-35), so the sign blinks almost out mid-loop and the patch pops."
+],
+"before_version": 1
+}
 },
 {
 "id": "fx.sign.gulls_diving",
@@ -3819,7 +4486,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 713,
+"x": 1030,
 "y": 201
 },
 {
@@ -3827,7 +4494,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 762,
+"x": 1079,
 "y": 201
 },
 {
@@ -3835,7 +4502,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 811,
+"x": 1128,
 "y": 201
 },
 {
@@ -3843,7 +4510,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 860,
+"x": 1177,
 "y": 201
 },
 {
@@ -3851,7 +4518,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 909,
+"x": 1226,
 "y": 201
 },
 {
@@ -3859,7 +4526,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 958,
+"x": 1275,
 "y": 201
 },
 {
@@ -3867,7 +4534,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1007,
+"x": 1324,
 "y": 201
 },
 {
@@ -3875,7 +4542,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1056,
+"x": 1373,
 "y": 201
 },
 {
@@ -3883,7 +4550,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1105,
+"x": 1422,
 "y": 201
 },
 {
@@ -3891,7 +4558,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1154,
+"x": 1471,
 "y": 201
 },
 {
@@ -3899,7 +4566,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1203,
+"x": 1520,
 "y": 201
 },
 {
@@ -3907,7 +4574,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1252,
+"x": 1569,
 "y": 201
 },
 {
@@ -3915,7 +4582,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1301,
+"x": 1618,
 "y": 201
 },
 {
@@ -3923,7 +4590,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1350,
+"x": 1667,
 "y": 201
 },
 {
@@ -3931,7 +4598,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1399,
+"x": 1716,
 "y": 201
 },
 {
@@ -3939,7 +4606,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1448,
+"x": 1765,
 "y": 201
 },
 {
@@ -3947,7 +4614,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1497,
+"x": 1814,
 "y": 201
 },
 {
@@ -3955,7 +4622,7 @@ window.REVIEW = {
 "w": 48,
 "h": 40,
 "sheet": 0,
-"x": 1546,
+"x": 1863,
 "y": 201
 }
 ]
@@ -3963,7 +4630,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.sign.gulls_rafting",
@@ -3985,71 +4658,77 @@ window.REVIEW = {
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 867,
-"y": 676
+"x": 1467,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 908,
-"y": 676
+"x": 1508,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 949,
-"y": 676
+"x": 1549,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 990,
-"y": 676
+"x": 1590,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 1031,
-"y": 676
+"x": 1631,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 1072,
-"y": 676
+"x": 1672,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 1113,
-"y": 676
+"x": 1713,
+"y": 688
 },
 {
 "ms": 260,
 "w": 40,
 "h": 16,
 "sheet": 0,
-"x": 1154,
-"y": 676
+"x": 1754,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.sign.whale_blow",
@@ -4071,135 +4750,141 @@ window.REVIEW = {
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 1804,
-"y": 201
+"x": 113,
+"y": 279
 },
 {
 "ms": 160,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 1889,
-"y": 201
+"x": 198,
+"y": 279
 },
 {
 "ms": 110,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 0,
-"y": 270
+"x": 283,
+"y": 279
 },
 {
 "ms": 110,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 85,
-"y": 270
+"x": 368,
+"y": 279
 },
 {
 "ms": 140,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 170,
-"y": 270
+"x": 453,
+"y": 279
 },
 {
 "ms": 200,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 255,
-"y": 270
+"x": 538,
+"y": 279
 },
 {
 "ms": 220,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 340,
-"y": 270
+"x": 623,
+"y": 279
 },
 {
 "ms": 220,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 425,
-"y": 270
+"x": 708,
+"y": 279
 },
 {
 "ms": 220,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 510,
-"y": 270
+"x": 793,
+"y": 279
 },
 {
 "ms": 200,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 595,
-"y": 270
+"x": 878,
+"y": 279
 },
 {
 "ms": 200,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 680,
-"y": 270
+"x": 963,
+"y": 279
 },
 {
 "ms": 380,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 765,
-"y": 270
+"x": 1048,
+"y": 279
 },
 {
 "ms": 240,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 850,
-"y": 270
+"x": 1133,
+"y": 279
 },
 {
 "ms": 450,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 935,
-"y": 270
+"x": 1218,
+"y": 279
 },
 {
 "ms": 500,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 1020,
-"y": 270
+"x": 1303,
+"y": 279
 },
 {
 "ms": 400,
 "w": 84,
 "h": 36,
 "sheet": 0,
-"x": 1105,
-"y": 270
+"x": 1388,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.spray",
@@ -4219,40 +4904,40 @@ window.REVIEW = {
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1066,
-"y": 729
+"x": 2026,
+"y": 741
 },
 {
 "ms": 90,
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1075,
-"y": 729
+"x": 2035,
+"y": 741
 },
 {
 "ms": 110,
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1084,
-"y": 729
+"x": 0,
+"y": 756
 },
 {
 "ms": 140,
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1093,
-"y": 729
+"x": 9,
+"y": 756
 },
 {
 "ms": 1400,
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1102,
-"y": 729
+"x": 18,
+"y": 756
 }
 ]
 },
@@ -4268,10 +4953,16 @@ window.REVIEW = {
 "w": 8,
 "h": 8,
 "sheet": 0,
-"x": 1066,
-"y": 729
+"x": 2026,
+"y": 741
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.wake.down",
@@ -4292,39 +4983,45 @@ window.REVIEW = {
 "w": 27,
 "h": 22,
 "sheet": 0,
-"x": 1692,
-"y": 603
+"x": 143,
+"y": 643
 },
 {
 "ms": 120,
 "w": 27,
 "h": 22,
 "sheet": 0,
-"x": 1720,
-"y": 603
+"x": 171,
+"y": 643
 },
 {
 "ms": 120,
 "w": 27,
 "h": 22,
 "sheet": 0,
-"x": 1748,
-"y": 603
+"x": 199,
+"y": 643
 },
 {
 "ms": 120,
 "w": 27,
 "h": 22,
 "sheet": 0,
-"x": 1776,
-"y": 603
+"x": 227,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.wake.right",
@@ -4345,39 +5042,45 @@ window.REVIEW = {
 "w": 22,
 "h": 13,
 "sheet": 0,
-"x": 572,
-"y": 729
+"x": 1505,
+"y": 741
 },
 {
 "ms": 120,
 "w": 22,
 "h": 13,
 "sheet": 0,
-"x": 595,
-"y": 729
+"x": 1528,
+"y": 741
 },
 {
 "ms": 120,
 "w": 22,
 "h": 13,
 "sheet": 0,
-"x": 618,
-"y": 729
+"x": 1551,
+"y": 741
 },
 {
 "ms": 120,
 "w": 22,
 "h": 13,
 "sheet": 0,
-"x": 641,
-"y": 729
+"x": 1574,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.wake.up",
@@ -4398,39 +5101,45 @@ window.REVIEW = {
 "w": 17,
 "h": 22,
 "sheet": 0,
-"x": 1804,
-"y": 603
+"x": 255,
+"y": 643
 },
 {
 "ms": 120,
 "w": 17,
 "h": 22,
 "sheet": 0,
-"x": 1822,
-"y": 603
+"x": 273,
+"y": 643
 },
 {
 "ms": 120,
 "w": 17,
 "h": 22,
 "sheet": 0,
-"x": 1840,
-"y": 603
+"x": 291,
+"y": 643
 },
 {
 "ms": 120,
 "w": 17,
 "h": 22,
 "sheet": 0,
-"x": 1858,
-"y": 603
+"x": 309,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fx.whitecap",
@@ -4450,48 +5159,48 @@ window.REVIEW = {
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1210,
-"y": 729
+"x": 126,
+"y": 756
 },
 {
 "ms": 140,
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1218,
-"y": 729
+"x": 134,
+"y": 756
 },
 {
 "ms": 220,
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1226,
-"y": 729
+"x": 142,
+"y": 756
 },
 {
 "ms": 200,
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1234,
-"y": 729
+"x": 150,
+"y": 756
 },
 {
 "ms": 260,
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1242,
-"y": 729
+"x": 158,
+"y": 756
 },
 {
 "ms": 900,
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1250,
-"y": 729
+"x": 166,
+"y": 756
 }
 ]
 },
@@ -4507,10 +5216,16 @@ window.REVIEW = {
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1210,
-"y": 729
+"x": 126,
+"y": 756
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -4536,15 +5251,24 @@ window.REVIEW = {
 "w": 10,
 "h": 10,
 "sheet": 0,
-"x": 995,
-"y": 729
+"x": 1955,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT006: the rim that is close to grass-3 is the 1 px rope arc, a deliberate light edge (outline_colors: rope-2/3); the orange, red and white floats with their dark outlines stand clear of the grass at 1x"
+]
+}
 },
 {
 "id": "obj.clothesline",
@@ -4565,39 +5289,45 @@ window.REVIEW = {
 "w": 56,
 "h": 30,
 "sheet": 0,
-"x": 203,
-"y": 571
+"x": 591,
+"y": 580
 },
 {
 "ms": 260,
 "w": 56,
 "h": 30,
 "sheet": 0,
-"x": 260,
-"y": 571
+"x": 648,
+"y": 580
 },
 {
 "ms": 420,
 "w": 56,
 "h": 30,
 "sheet": 0,
-"x": 317,
-"y": 571
+"x": 705,
+"y": 580
 },
 {
 "ms": 260,
 "w": 56,
 "h": 30,
 "sheet": 0,
-"x": 260,
-"y": 571
+"x": 648,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.fence_longer_h",
@@ -4619,15 +5349,24 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1802,
-"y": 695
+"x": 510,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: both pixels are metal-2 nail heads in the longers: deliberate 1 px details"
+]
+}
 },
 {
 "id": "obj.fence_longer_v",
@@ -4649,15 +5388,21 @@ window.REVIEW = {
 "w": 8,
 "h": 16,
 "sheet": 0,
-"x": 707,
-"y": 712
+"x": 1540,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.fish_tub",
@@ -4679,8 +5424,8 @@ window.REVIEW = {
 "w": 16,
 "h": 10,
 "sheet": 0,
-"x": 933,
-"y": 729
+"x": 1893,
+"y": 741
 }
 ],
 "full": [
@@ -4689,15 +5434,21 @@ window.REVIEW = {
 "w": 16,
 "h": 10,
 "sheet": 0,
-"x": 950,
-"y": 729
+"x": 1910,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.flake",
@@ -4717,8 +5468,8 @@ window.REVIEW = {
 "w": 64,
 "h": 25,
 "sheet": 0,
-"x": 1338,
-"y": 603
+"x": 1781,
+"y": 613
 }
 ],
 "empty": [
@@ -4727,8 +5478,8 @@ window.REVIEW = {
 "w": 64,
 "h": 25,
 "sheet": 0,
-"x": 1403,
-"y": 603
+"x": 1846,
+"y": 613
 }
 ]
 },
@@ -4744,10 +5495,21 @@ window.REVIEW = {
 "w": 64,
 "h": 25,
 "sheet": 0,
-"x": 1338,
-"y": 603
+"x": 1781,
+"y": 613
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: flecks of spruce-green needles and brown twigs in the bough mat: deliberate texture",
+"CRT004: the front edge of the platform: lit plank edge, fascia, then outline. It's a deliberate edge, not banding",
+"CRT006: the mid-grey back/side edge is deliberate (meta outline_colors) so the sunlit mat isn't framed; in context on the beach dirt the flake reads clearly at 1x and the fish make it pop"
 ]
+}
 },
 {
 "id": "obj.house.armchair",
@@ -4767,15 +5529,34 @@ window.REVIEW = {
 "w": 17,
 "h": 21,
 "sheet": 0,
-"x": 1991,
-"y": 603
+"x": 442,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:16",
+"note": "before critic",
+"w": 17,
+"h": 21,
+"sheet": 0,
+"x": 460,
+"y": 643
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1
+}
 },
 {
 "id": "obj.house.basin",
@@ -4795,8 +5576,8 @@ window.REVIEW = {
 "w": 14,
 "h": 17,
 "sheet": 0,
-"x": 772,
-"y": 676
+"x": 1372,
+"y": 688
 }
 ]
 },
@@ -4812,8 +5593,8 @@ window.REVIEW = {
 "w": 14,
 "h": 17,
 "sheet": 0,
-"x": 787,
-"y": 676
+"x": 1387,
+"y": 688
 }
 ],
 "critic": {
@@ -4825,7 +5606,8 @@ window.REVIEW = {
 "fixed": [
 "tap, drain, pedestal and foot centred on the 14 px bowl (even widths)",
 "top-left light instead of pillow shading; the pedestal reads as a column"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -4847,7 +5629,7 @@ window.REVIEW = {
 "w": 20,
 "h": 59,
 "sheet": 0,
-"x": 269,
+"x": 467,
 "y": 201
 }
 ]
@@ -4855,7 +5637,33 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:06",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 488,
+"y": 201
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"before_version": 1,
+"overruled": [
+"CRT001: the quilt's 3-px check pattern, whose phase can't mirror over 16-18 px; outline, frame shapes and colour families match left to right (both quilt edges now colour-1, x1 and x18, rows 26-41)"
+]
+}
 },
 {
 "id": "obj.house.bed_2",
@@ -4876,7 +5684,7 @@ window.REVIEW = {
 "w": 20,
 "h": 59,
 "sheet": 0,
-"x": 290,
+"x": 509,
 "y": 201
 }
 ]
@@ -4884,7 +5692,33 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:08",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 530,
+"y": 201
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"before_version": 1,
+"overruled": [
+"CRT001: the quilt's 3-px check pattern, whose phase can't mirror over 16-18 px; outline, frame shapes and colour families match left to right (both quilt edges now colour-1, x1 and x18, rows 26-41)"
+]
+}
 },
 {
 "id": "obj.house.bed_3",
@@ -4905,7 +5739,7 @@ window.REVIEW = {
 "w": 20,
 "h": 59,
 "sheet": 0,
-"x": 311,
+"x": 551,
 "y": 201
 }
 ]
@@ -4913,7 +5747,33 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:09",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 572,
+"y": 201
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"before_version": 1,
+"overruled": [
+"CRT001: the quilt's 3-px check pattern, whose phase can't mirror over 16-18 px; outline, frame shapes and colour families match left to right (both quilt edges now colour-1, x1 and x18, rows 26-41)"
+]
+}
 },
 {
 "id": "obj.house.bed_4",
@@ -4934,7 +5794,7 @@ window.REVIEW = {
 "w": 20,
 "h": 59,
 "sheet": 0,
-"x": 332,
+"x": 593,
 "y": 201
 }
 ]
@@ -4942,7 +5802,33 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:10",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 614,
+"y": 201
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"before_version": 1,
+"overruled": [
+"CRT001: the quilt's 3-px check pattern, whose phase can't mirror over 16-18 px; outline, frame shapes and colour families match left to right (both quilt edges now colour-1, x1 and x18, rows 26-41)"
+]
+}
 },
 {
 "id": "obj.house.bench",
@@ -4962,7 +5848,7 @@ window.REVIEW = {
 "w": 13,
 "h": 42,
 "sheet": 0,
-"x": 699,
+"x": 1016,
 "y": 201
 }
 ]
@@ -4970,7 +5856,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.bookcase",
@@ -4990,7 +5882,7 @@ window.REVIEW = {
 "w": 32,
 "h": 45,
 "sheet": 0,
-"x": 536,
+"x": 853,
 "y": 201
 }
 ]
@@ -4998,7 +5890,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT006: in context it stands against the pale blue wall with a wood-1 outline and reads instantly at 1x against both wall and floor"
+]
+}
 },
 {
 "id": "obj.house.books",
@@ -5019,8 +5920,8 @@ window.REVIEW = {
 "w": 7,
 "h": 6,
 "sheet": 0,
-"x": 1135,
-"y": 729
+"x": 51,
+"y": 756
 }
 ]
 },
@@ -5035,7 +5936,8 @@ window.REVIEW = {
 "date": "2026-10-29",
 "fixed": [
 "new part: each book outlined in its own colour"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5057,8 +5959,8 @@ window.REVIEW = {
 "w": 22,
 "h": 10,
 "sheet": 0,
-"x": 910,
-"y": 729
+"x": 1870,
+"y": 741
 }
 ]
 },
@@ -5074,7 +5976,8 @@ window.REVIEW = {
 "fixed": [
 "boots shortened (they read as waders) and given toes",
 "black rubber tray with a lip, for contrast"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5095,15 +5998,21 @@ window.REVIEW = {
 "w": 11,
 "h": 31,
 "sheet": 0,
-"x": 74,
-"y": 571
+"x": 462,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.chair_n",
@@ -5123,8 +6032,8 @@ window.REVIEW = {
 "w": 12,
 "h": 22,
 "sheet": 0,
-"x": 1978,
-"y": 603
+"x": 429,
+"y": 643
 }
 ]
 },
@@ -5140,8 +6049,8 @@ window.REVIEW = {
 "w": 12,
 "h": 25,
 "sheet": 0,
-"x": 1485,
-"y": 603
+"x": 1928,
+"y": 613
 }
 ],
 "critic": {
@@ -5153,7 +6062,8 @@ window.REVIEW = {
 "fixed": [
 "spindles evenly spaced and mirrored (2-2-2 gaps)",
 "has a seat; legs have a lit core like chair_s"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5174,8 +6084,8 @@ window.REVIEW = {
 "w": 12,
 "h": 21,
 "sheet": 0,
-"x": 2024,
-"y": 603
+"x": 508,
+"y": 643
 }
 ]
 },
@@ -5191,8 +6101,8 @@ window.REVIEW = {
 "w": 12,
 "h": 21,
 "sheet": 0,
-"x": 0,
-"y": 633
+"x": 521,
+"y": 643
 }
 ],
 "critic": {
@@ -5203,7 +6113,8 @@ window.REVIEW = {
 "before_version": 1,
 "fixed": [
 "spindles evenly spaced and mirrored, matching chair_n"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5224,15 +6135,21 @@ window.REVIEW = {
 "w": 11,
 "h": 31,
 "sheet": 0,
-"x": 86,
-"y": 571
+"x": 474,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.chest",
@@ -5252,15 +6169,37 @@ window.REVIEW = {
 "w": 20,
 "h": 16,
 "sheet": 0,
-"x": 1301,
-"y": 676
+"x": 1901,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:11",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1922,
+"y": 688
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the chest is one flat blue fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.chest_mom",
@@ -5280,15 +6219,37 @@ window.REVIEW = {
 "w": 20,
 "h": 16,
 "sheet": 0,
-"x": 1322,
-"y": 676
+"x": 1943,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:13",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1964,
+"y": 688
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the chest is one flat green fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.chest_up",
@@ -5308,15 +6269,37 @@ window.REVIEW = {
 "w": 20,
 "h": 16,
 "sheet": 0,
-"x": 1343,
-"y": 676
+"x": 1985,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:14",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 2006,
+"y": 688
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the chest is one flat red fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.chesterfield",
@@ -5336,15 +6319,25 @@ window.REVIEW = {
 "w": 62,
 "h": 29,
 "sheet": 0,
-"x": 0,
-"y": 603
+"x": 404,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT006: it sits on the braided rug, not bare floor, and the dark outline separates it clearly at 1x",
+"CRT007: the afghan has its own near-black border on top and sides and a fringe at the bottom, and rises above the couch's back line, so it already sits in front of the parent's outline"
+]
+}
 },
 {
 "id": "obj.house.coat_tree",
@@ -5364,15 +6357,27 @@ window.REVIEW = {
 "w": 16,
 "h": 31,
 "sheet": 0,
-"x": 57,
-"y": 571
+"x": 445,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: the navy jacket's button, matching the oilskin's button at 2,12: deliberate",
+"CRT003: 1-px gap between the oilskin collar and the pole where it hangs from its hook; reads as negative space",
+"CRT003: the same hook gap on the jacket side",
+"CRT007: the jacket's navy-2 edge sits beside the lit wood pole, which runs in front of both coats; value separates them clearly, and a separate part would add nothing visible"
+]
+}
 },
 {
 "id": "obj.house.coffee_table",
@@ -5392,8 +6397,8 @@ window.REVIEW = {
 "w": 30,
 "h": 16,
 "sheet": 0,
-"x": 1195,
-"y": 676
+"x": 1795,
+"y": 688
 }
 ]
 },
@@ -5409,7 +6414,8 @@ window.REVIEW = {
 "fixed": [
 "placed between the TV and the chesterfield (it was behind the couch)",
 "3 px of floor between it and the TV stand"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5430,15 +6436,29 @@ window.REVIEW = {
 "w": 73,
 "h": 32,
 "sheet": 0,
-"x": 1517,
-"y": 270
+"x": 1856,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: coffee maker's green power light",
+"CRT003: red hot-tap handle",
+"CRT003: blue cold-tap handle",
+"CRT003: red label on the blue tin",
+"CRT003: drawer pull, repeated on every drawer",
+"CRT004: bevelled inset panel of the cupboard doors, repeated on every door: deliberate"
+]
+}
 },
 {
 "id": "obj.house.daybed",
@@ -5459,7 +6479,7 @@ window.REVIEW = {
 "w": 21,
 "h": 67,
 "sheet": 0,
-"x": 69,
+"x": 267,
 "y": 201
 }
 ]
@@ -5467,7 +6487,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.desk",
@@ -5487,8 +6513,8 @@ window.REVIEW = {
 "w": 36,
 "h": 28,
 "sheet": 0,
-"x": 722,
-"y": 603
+"x": 1126,
+"y": 613
 }
 ]
 },
@@ -5504,8 +6530,8 @@ window.REVIEW = {
 "w": 36,
 "h": 27,
 "sheet": 0,
-"x": 784,
-"y": 603
+"x": 1188,
+"y": 613
 }
 ],
 "critic": {
@@ -5520,7 +6546,8 @@ window.REVIEW = {
 ],
 "overruled": [
 "CRT003 drawer knob: a deliberate 1 px detail"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5541,15 +6568,25 @@ window.REVIEW = {
 "w": 34,
 "h": 29,
 "sheet": 0,
-"x": 63,
-"y": 603
+"x": 467,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: green continents on the little globe: deliberate",
+"CRT006: in context the wood-1 outline separates it from both the wainscot and the floor; it reads clearly at 1x"
+]
+}
 },
 {
 "id": "obj.house.dresser_mom",
@@ -5569,15 +6606,37 @@ window.REVIEW = {
 "w": 34,
 "h": 30,
 "sheet": 0,
-"x": 419,
-"y": 571
+"x": 807,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:38:15",
+"note": "before critic",
+"w": 34,
+"h": 30,
+"sheet": 0,
+"x": 842,
+"y": 580
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the jewellery box is a flat knit-red block with no outline of its own, and its top edge butts straight against the dresser's back outline, so the dresser outline runs around it (the laptop-on-desk mistake). The wedding photo and hairbrush are fine"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.dryer",
@@ -5597,8 +6656,8 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1184,
-"y": 603
+"x": 1588,
+"y": 613
 }
 ]
 },
@@ -5613,7 +6672,8 @@ window.REVIEW = {
 "date": "2026-10-30",
 "fixed": [
 "new: front-load dryer matching the washer"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5634,8 +6694,8 @@ window.REVIEW = {
 "w": 12,
 "h": 10,
 "sheet": 0,
-"x": 982,
-"y": 729
+"x": 1942,
+"y": 741
 }
 ]
 },
@@ -5647,7 +6707,8 @@ window.REVIEW = {
 "verdict": "pass",
 "rounds": 1,
 "critics": "panel",
-"date": "2026-10-30"
+"date": "2026-10-30",
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5668,15 +6729,24 @@ window.REVIEW = {
 "w": 44,
 "h": 30,
 "sheet": 0,
-"x": 374,
-"y": 571
+"x": 762,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: the green power light: deliberate"
+]
+}
 },
 {
 "id": "obj.house.fridge",
@@ -5696,7 +6766,7 @@ window.REVIEW = {
 "w": 26,
 "h": 47,
 "sheet": 0,
-"x": 474,
+"x": 756,
 "y": 201
 }
 ]
@@ -5704,7 +6774,17 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: red detail in the child's drawing on the door",
+"CRT003: the face in the framed photo magnet"
+]
+}
 },
 {
 "id": "obj.house.hamper",
@@ -5724,8 +6804,8 @@ window.REVIEW = {
 "w": 12,
 "h": 16,
 "sheet": 0,
-"x": 694,
-"y": 712
+"x": 1527,
+"y": 724
 }
 ]
 },
@@ -5740,7 +6820,8 @@ window.REVIEW = {
 "date": "2026-10-30",
 "fixed": [
 "right column shaded for top-left light"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5761,7 +6842,7 @@ window.REVIEW = {
 "w": 34,
 "h": 45,
 "sheet": 0,
-"x": 501,
+"x": 783,
 "y": 201
 }
 ]
@@ -5769,7 +6850,30 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:34",
+"note": "before critic",
+"w": 34,
+"h": 45,
+"sheet": 0,
+"x": 818,
+"y": 201
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1,
+"overruled": [
+"CRT003: the two door knobs (15,38 and 19,38): deliberate 1 px details, symmetric about the centre stile",
+"CRT004: the bottom bevels of the two matching raised door panels: parallel by design, and they read as panelling at 1x, not banding"
+]
+}
 },
 {
 "id": "obj.house.laptop",
@@ -5790,8 +6894,8 @@ window.REVIEW = {
 "w": 14,
 "h": 13,
 "sheet": 0,
-"x": 664,
-"y": 729
+"x": 1597,
+"y": 741
 }
 ]
 },
@@ -5806,7 +6910,8 @@ window.REVIEW = {
 "date": "2026-10-29",
 "fixed": [
 "new part: screen in a bezel facing the viewer, keyboard rows, own outline, lid lit against the desk"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5827,7 +6932,7 @@ window.REVIEW = {
 "w": 22,
 "h": 40,
 "sheet": 0,
-"x": 1595,
+"x": 1912,
 "y": 201
 }
 ]
@@ -5840,7 +6945,8 @@ window.REVIEW = {
 "verdict": "pass",
 "rounds": 1,
 "critics": "panel",
-"date": "2026-10-30"
+"date": "2026-10-30",
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5862,7 +6968,7 @@ window.REVIEW = {
 "w": 32,
 "h": 59,
 "sheet": 0,
-"x": 236,
+"x": 434,
 "y": 201
 }
 ]
@@ -5870,7 +6976,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT001: the differences are only the quilt's checker phase (mirror.png shows the pink only inside the quilt). The frame, headboard spindles, pillows and footboard match left to right, so lesson 1 holds"
+]
+}
 },
 {
 "id": "obj.house.mug",
@@ -5891,8 +7006,8 @@ window.REVIEW = {
 "w": 6,
 "h": 5,
 "sheet": 0,
-"x": 1203,
-"y": 729
+"x": 119,
+"y": 756
 }
 ]
 },
@@ -5907,7 +7022,8 @@ window.REVIEW = {
 "date": "2026-10-29",
 "fixed": [
 "new part with its own outline"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -5928,15 +7044,37 @@ window.REVIEW = {
 "w": 12,
 "h": 26,
 "sheet": 0,
-"x": 1205,
-"y": 603
+"x": 1609,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:27",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1622,
+"y": 613
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the lamp floats: its base (row 5) ends 3 empty rows above the cabinet's top outline (row 9), so in context the lamp hangs on the wainscot above the nightstand instead of standing on it"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.nightstand_2",
@@ -5956,15 +7094,37 @@ window.REVIEW = {
 "w": 12,
 "h": 26,
 "sheet": 0,
-"x": 1218,
-"y": 603
+"x": 1635,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:28",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1648,
+"y": 613
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"same as nightstand_1: the lamp's base (row 5) floats 3 px above the cabinet top (row 9)"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.nightstand_mom",
@@ -5984,15 +7144,37 @@ window.REVIEW = {
 "w": 12,
 "h": 26,
 "sheet": 0,
-"x": 1231,
-"y": 603
+"x": 1661,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:29",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1674,
+"y": 613
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"same as nightstand_1: the lamp floats 3 px above the cabinet top, which is very visible beside mom's bed"
+],
+"before_version": 1
+}
 },
 {
 "id": "obj.house.plant",
@@ -6012,8 +7194,8 @@ window.REVIEW = {
 "w": 12,
 "h": 26,
 "sheet": 0,
-"x": 1244,
-"y": 603
+"x": 1687,
+"y": 613
 }
 ]
 },
@@ -6022,7 +7204,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.radio_table",
@@ -6042,15 +7230,40 @@ window.REVIEW = {
 "w": 14,
 "h": 33,
 "sheet": 0,
-"x": 1502,
-"y": 270
+"x": 1826,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:31",
+"note": "before critic",
+"w": 14,
+"h": 33,
+"sheet": 0,
+"x": 1841,
+"y": 279
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the radio floats: its bottom outline (row 10) has 2 empty rows (11-12) under it before the table's top outline (row 13), so the wall shows through between the radio and the table"
+],
+"before_version": 1,
+"overruled": [
+"CRT003: the radio's red dial pointer in the yellow control strip (the round-1 overrule at 7,7, moved down 5 px with the radio): a deliberate 1 px detail"
+]
+}
 },
 {
 "id": "obj.house.rocker",
@@ -6070,15 +7283,21 @@ window.REVIEW = {
 "w": 16,
 "h": 25,
 "sheet": 0,
-"x": 1468,
-"y": 603
+"x": 1911,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.sewing_machine",
@@ -6098,8 +7317,8 @@ window.REVIEW = {
 "w": 26,
 "h": 26,
 "sheet": 0,
-"x": 821,
-"y": 603
+"x": 1225,
+"y": 613
 }
 ]
 },
@@ -6114,7 +7333,8 @@ window.REVIEW = {
 "date": "2026-10-30",
 "fixed": [
 "needle bar ends above the bed plate, with a needle"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -6135,7 +7355,7 @@ window.REVIEW = {
 "w": 41,
 "h": 113,
 "sheet": 0,
-"x": 921,
+"x": 1115,
 "y": 0
 }
 ]
@@ -6143,7 +7363,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.stairs",
@@ -6163,7 +7389,7 @@ window.REVIEW = {
 "w": 41,
 "h": 150,
 "sheet": 0,
-"x": 121,
+"x": 242,
 "y": 0
 }
 ]
@@ -6171,7 +7397,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT004: the right stringer's edge running the length of the flight: parallel 1 px columns give a rounded beam edge and read as the stringer at 1x, not as banding across a form"
+]
+}
 },
 {
 "id": "obj.house.table",
@@ -6191,15 +7426,24 @@ window.REVIEW = {
 "w": 50,
 "h": 36,
 "sheet": 0,
-"x": 1320,
-"y": 270
+"x": 1603,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT001: the shape is symmetric (cloth edges, front drop, legs at cols 2-4 and 45-47). The differences are the checker phase (12 cells of 4 px cannot mirror onto themselves) and the set dressing (teapot, bread, plates, cups), which is deliberately casual. Lesson 1 covers shapes, not the place settings"
+]
+}
 },
 {
 "id": "obj.house.toilet",
@@ -6219,15 +7463,41 @@ window.REVIEW = {
 "w": 14,
 "h": 21,
 "sheet": 0,
-"x": 2009,
-"y": 603
+"x": 478,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:32",
+"note": "before critic",
+"w": 14,
+"h": 21,
+"sheet": 0,
+"x": 493,
+"y": 643
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the bowl has a hole: pixels (3,11), (3,12) and (4-7,13) are transparent, so the floor shows through inside the bowl",
+"the bowl opening sits about 1 px left of centre: the rim is 1 px wide on the left (cols 1-2) and 3 px wide on the right (cols 10-12), and the front rim D is at cols 4-7 on a 14 px sprite whose axis falls between cols 6 and 7. The tank and pedestal are centred, so the bowl looks crooked"
+],
+"before_version": 1,
+"overruled": [
+"CRT003: the flush handle on the tank: a deliberate 1 px detail, one-sided as on a real toilet"
+]
+}
 },
 {
 "id": "obj.house.toy_chest",
@@ -6247,8 +7517,8 @@ window.REVIEW = {
 "w": 20,
 "h": 16,
 "sheet": 0,
-"x": 1364,
-"y": 676
+"x": 2027,
+"y": 688
 }
 ]
 },
@@ -6263,7 +7533,8 @@ window.REVIEW = {
 "date": "2026-10-30",
 "fixed": [
 "white body instead of ochre, for contrast with the floor"
-]
+],
+"backfill": "re-checked 2026-10-30: pass"
 }
 },
 {
@@ -6284,15 +7555,21 @@ window.REVIEW = {
 "w": 48,
 "h": 33,
 "sheet": 0,
-"x": 1412,
-"y": 270
+"x": 1695,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.tv_stand",
@@ -6312,15 +7589,37 @@ window.REVIEW = {
 "w": 40,
 "h": 33,
 "sheet": 0,
-"x": 1461,
-"y": 270
+"x": 1744,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:36",
+"note": "before critic",
+"w": 40,
+"h": 33,
+"sheet": 0,
+"x": 1785,
+"y": 279
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1,
+"overruled": [
+"CRT003: the power LED on the console in the left cubby: a deliberate 1 px glint"
+]
+}
 },
 {
 "id": "obj.house.wall_bath",
@@ -6340,8 +7639,8 @@ window.REVIEW = {
 "w": 116,
 "h": 28,
 "sheet": 0,
-"x": 98,
-"y": 603
+"x": 502,
+"y": 613
 }
 ]
 },
@@ -6350,7 +7649,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.wall_dining",
@@ -6370,8 +7675,8 @@ window.REVIEW = {
 "w": 52,
 "h": 28,
 "sheet": 0,
-"x": 669,
-"y": 603
+"x": 1073,
+"y": 613
 }
 ]
 },
@@ -6380,7 +7685,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.wall_halfbath",
@@ -6400,8 +7711,8 @@ window.REVIEW = {
 "w": 72,
 "h": 28,
 "sheet": 0,
-"x": 401,
-"y": 603
+"x": 805,
+"y": 613
 }
 ]
 },
@@ -6410,7 +7721,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.wall_siblings",
@@ -6430,8 +7747,8 @@ window.REVIEW = {
 "w": 100,
 "h": 28,
 "sheet": 0,
-"x": 215,
-"y": 603
+"x": 619,
+"y": 613
 }
 ]
 },
@@ -6440,7 +7757,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house.washer",
@@ -6460,15 +7783,40 @@ window.REVIEW = {
 "w": 20,
 "h": 30,
 "sheet": 0,
-"x": 454,
-"y": 571
+"x": 877,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:40:33",
+"note": "before critic",
+"w": 20,
+"h": 30,
+"sheet": 0,
+"x": 898,
+"y": 580
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the wicker basket on top has no bottom edge of its own: its lowest row (row 4, cols 4-14, L) replaces the washer's top outline, so basket and washer share one line"
+],
+"before_version": 1,
+"overruled": [
+"CRT003: an indicator light on the control strip: a deliberate 1 px detail"
+]
+}
 },
 {
 "id": "obj.house.wood_stove",
@@ -6488,7 +7836,7 @@ window.REVIEW = {
 "w": 32,
 "h": 42,
 "sheet": 0,
-"x": 666,
+"x": 983,
 "y": 201
 }
 ]
@@ -6496,7 +7844,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: a glint on the blue kettle: a deliberate 1 px highlight"
+]
+}
 },
 {
 "id": "obj.house.woodbox",
@@ -6516,15 +7873,21 @@ window.REVIEW = {
 "w": 13,
 "h": 16,
 "sheet": 0,
-"x": 680,
-"y": 712
+"x": 1513,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.house_saltbox",
@@ -6544,7 +7907,7 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1188,
+"x": 1382,
 "y": 0
 }
 ],
@@ -6554,7 +7917,7 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1269,
+"x": 1463,
 "y": 0
 }
 ],
@@ -6564,7 +7927,7 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1350,
+"x": 1544,
 "y": 0
 }
 ],
@@ -6574,7 +7937,7 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1431,
+"x": 1625,
 "y": 0
 }
 ],
@@ -6584,7 +7947,7 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1512,
+"x": 1706,
 "y": 0
 }
 ]
@@ -6601,10 +7964,19 @@ window.REVIEW = {
 "w": 80,
 "h": 102,
 "sheet": 0,
-"x": 1593,
+"x": 1787,
 "y": 0
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: weathered base: 44,83 is the 1 px brass door knob, 41,90 a worn spot on the door, 73,66 a bare-wood fleck in the peeling red paint. All deliberate details"
 ]
+}
 },
 {
 "id": "obj.lobster_pot",
@@ -6625,15 +7997,24 @@ window.REVIEW = {
 "w": 14,
 "h": 10,
 "sheet": 0,
-"x": 967,
-"y": 729
+"x": 1927,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT001: silhouette and lath rows are symmetric; the differences are the gaps and twine flecks between laths, an irregular hand-made texture not visible at 1x"
+]
+}
 },
 {
 "id": "obj.lobster_pots_stack",
@@ -6654,15 +8035,24 @@ window.REVIEW = {
 "w": 27,
 "h": 17,
 "sheet": 0,
-"x": 744,
-"y": 676
+"x": 1344,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: the brown twine/lath pixels in the pot sides, the same pattern as obj.lobster_pot: deliberate texture"
+]
+}
 },
 {
 "id": "obj.punt",
@@ -6682,16 +8072,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 475,
-"y": 571
+"x": 919,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 576,
-"y": 571
+"x": 1020,
+"y": 580
 }
 ],
 "calm": [
@@ -6700,16 +8090,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 475,
-"y": 571
+"x": 919,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 576,
-"y": 571
+"x": 1020,
+"y": 580
 }
 ],
 "breeze": [
@@ -6718,24 +8108,24 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 475,
-"y": 571
+"x": 919,
+"y": 580
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 576,
-"y": 571
+"x": 1020,
+"y": 580
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 677,
-"y": 571
+"x": 1121,
+"y": 580
 }
 ],
 "swell": [
@@ -6744,32 +8134,32 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 475,
-"y": 571
+"x": 919,
+"y": 580
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 677,
-"y": 571
+"x": 1121,
+"y": 580
 },
 {
 "ms": 300,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 778,
-"y": 571
+"x": 1222,
+"y": 580
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 677,
-"y": 571
+"x": 1121,
+"y": 580
 }
 ],
 "weathered": [
@@ -6778,16 +8168,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 879,
-"y": 571
+"x": 1323,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 980,
-"y": 571
+"x": 1424,
+"y": 580
 }
 ]
 },
@@ -6803,8 +8193,8 @@ window.REVIEW = {
 "w": 64,
 "h": 28,
 "sheet": 0,
-"x": 474,
-"y": 603
+"x": 878,
+"y": 613
 },
 {
 "v": 2,
@@ -6813,10 +8203,20 @@ window.REVIEW = {
 "w": 64,
 "h": 28,
 "sheet": 0,
-"x": 474,
-"y": 603
+"x": 878,
+"y": 613
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT004: the stern transom's vertical shading next to the outboard, one column wide; not visible as banding at 1x",
+"CRT006: the dark gunwale outline is close to sea-2, but the white hull and red sheer give strong contrast against the water at 1x (lesson 4 satisfied)"
 ]
+}
 },
 {
 "id": "obj.punt_sea_back",
@@ -6836,16 +8236,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1081,
-"y": 571
+"x": 1525,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1182,
-"y": 571
+"x": 1626,
+"y": 580
 }
 ],
 "calm": [
@@ -6854,16 +8254,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1081,
-"y": 571
+"x": 1525,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1182,
-"y": 571
+"x": 1626,
+"y": 580
 }
 ],
 "breeze": [
@@ -6872,24 +8272,24 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1081,
-"y": 571
+"x": 1525,
+"y": 580
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1182,
-"y": 571
+"x": 1626,
+"y": 580
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1283,
-"y": 571
+"x": 1727,
+"y": 580
 }
 ],
 "swell": [
@@ -6898,32 +8298,32 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1081,
-"y": 571
+"x": 1525,
+"y": 580
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1283,
-"y": 571
+"x": 1727,
+"y": 580
 },
 {
 "ms": 300,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1384,
-"y": 571
+"x": 1828,
+"y": 580
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1283,
-"y": 571
+"x": 1727,
+"y": 580
 }
 ]
 },
@@ -6939,10 +8339,19 @@ window.REVIEW = {
 "w": 64,
 "h": 28,
 "sheet": 0,
-"x": 539,
-"y": 603
+"x": 943,
+"y": 613
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"No meta.facing. The side view is drawn heading left (bow on the left), but that's recorded only as a comment in TwinkleGame.cs ('the side-view sprite is drawn heading left') and isn't in the asset."
 ]
+}
 },
 {
 "id": "obj.punt_sea_down_back",
@@ -6962,7 +8371,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 163,
+"x": 284,
 "y": 0
 },
 {
@@ -6970,7 +8379,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 197,
+"x": 318,
 "y": 0
 }
 ],
@@ -6980,7 +8389,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 163,
+"x": 284,
 "y": 0
 },
 {
@@ -6988,7 +8397,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 197,
+"x": 318,
 "y": 0
 }
 ],
@@ -6998,7 +8407,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 163,
+"x": 284,
 "y": 0
 },
 {
@@ -7006,7 +8415,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 197,
+"x": 318,
 "y": 0
 },
 {
@@ -7014,7 +8423,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 231,
+"x": 352,
 "y": 0
 }
 ],
@@ -7024,7 +8433,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 163,
+"x": 284,
 "y": 0
 },
 {
@@ -7032,7 +8441,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 231,
+"x": 352,
 "y": 0
 },
 {
@@ -7040,7 +8449,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 265,
+"x": 386,
 "y": 0
 },
 {
@@ -7048,7 +8457,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 231,
+"x": 352,
 "y": 0
 }
 ]
@@ -7056,7 +8465,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: the bow taper curves from straight sides into the stem (long steps easing to short ones), and obj.punt_sea_down_front's flare covers this edge in game"
+]
+}
 },
 {
 "id": "obj.punt_sea_down_front",
@@ -7076,7 +8494,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 299,
+"x": 420,
 "y": 0
 },
 {
@@ -7084,7 +8502,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 333,
+"x": 454,
 "y": 0
 }
 ],
@@ -7094,7 +8512,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 299,
+"x": 420,
 "y": 0
 },
 {
@@ -7102,7 +8520,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 333,
+"x": 454,
 "y": 0
 }
 ],
@@ -7112,7 +8530,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 299,
+"x": 420,
 "y": 0
 },
 {
@@ -7120,7 +8538,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 333,
+"x": 454,
 "y": 0
 },
 {
@@ -7128,7 +8546,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 367,
+"x": 488,
 "y": 0
 }
 ],
@@ -7138,7 +8556,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 299,
+"x": 420,
 "y": 0
 },
 {
@@ -7146,7 +8564,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 401,
+"x": 522,
 "y": 0
 },
 {
@@ -7154,7 +8572,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 435,
+"x": 556,
 "y": 0
 },
 {
@@ -7162,7 +8580,7 @@ window.REVIEW = {
 "w": 33,
 "h": 125,
 "sheet": 0,
-"x": 401,
+"x": 522,
 "y": 0
 }
 ]
@@ -7170,7 +8588,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.punt_sea_front",
@@ -7190,16 +8614,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1485,
-"y": 571
+"x": 1929,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1586,
-"y": 571
+"x": 0,
+"y": 613
 }
 ],
 "calm": [
@@ -7208,16 +8632,16 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1485,
-"y": 571
+"x": 1929,
+"y": 580
 },
 {
 "ms": 900,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1586,
-"y": 571
+"x": 0,
+"y": 613
 }
 ],
 "breeze": [
@@ -7226,24 +8650,24 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1485,
-"y": 571
+"x": 1929,
+"y": 580
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1586,
-"y": 571
+"x": 0,
+"y": 613
 },
 {
 "ms": 450,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1687,
-"y": 571
+"x": 101,
+"y": 613
 }
 ],
 "swell": [
@@ -7252,32 +8676,32 @@ window.REVIEW = {
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1485,
-"y": 571
+"x": 1929,
+"y": 580
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1788,
-"y": 571
+"x": 202,
+"y": 613
 },
 {
 "ms": 300,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1889,
-"y": 571
+"x": 303,
+"y": 613
 },
 {
 "ms": 180,
 "w": 100,
 "h": 29,
 "sheet": 0,
-"x": 1788,
-"y": 571
+"x": 202,
+"y": 613
 }
 ]
 },
@@ -7293,10 +8717,22 @@ window.REVIEW = {
 "w": 64,
 "h": 28,
 "sheet": 0,
-"x": 604,
-"y": 603
+"x": 1008,
+"y": 613
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"No meta.facing. The side view is drawn heading left (bow on the left), but that's recorded only as a comment in TwinkleGame.cs ('the side-view sprite is drawn heading left') and isn't in the asset."
+],
+"overruled": [
+"CRT004: the outboard leg's cylinder shading; reads as a metal leg at 1x, and the outboard is already approved (as in round 1)"
 ]
+}
 },
 {
 "id": "obj.punt_sea_up_back",
@@ -7316,7 +8752,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 615,
+"x": 809,
 "y": 0
 },
 {
@@ -7324,7 +8760,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 649,
+"x": 843,
 "y": 0
 }
 ],
@@ -7334,7 +8770,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 615,
+"x": 809,
 "y": 0
 },
 {
@@ -7342,7 +8778,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 649,
+"x": 843,
 "y": 0
 }
 ],
@@ -7352,7 +8788,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 615,
+"x": 809,
 "y": 0
 },
 {
@@ -7360,7 +8796,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 649,
+"x": 843,
 "y": 0
 },
 {
@@ -7368,7 +8804,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 683,
+"x": 877,
 "y": 0
 }
 ],
@@ -7378,7 +8814,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 615,
+"x": 809,
 "y": 0
 },
 {
@@ -7386,7 +8822,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 683,
+"x": 877,
 "y": 0
 },
 {
@@ -7394,7 +8830,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 717,
+"x": 911,
 "y": 0
 },
 {
@@ -7402,7 +8838,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 683,
+"x": 877,
 "y": 0
 }
 ]
@@ -7410,7 +8846,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.punt_sea_up_front",
@@ -7430,7 +8872,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 751,
+"x": 945,
 "y": 0
 },
 {
@@ -7438,7 +8880,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 785,
+"x": 979,
 "y": 0
 }
 ],
@@ -7448,7 +8890,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 751,
+"x": 945,
 "y": 0
 },
 {
@@ -7456,7 +8898,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 785,
+"x": 979,
 "y": 0
 }
 ],
@@ -7466,7 +8908,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 751,
+"x": 945,
 "y": 0
 },
 {
@@ -7474,7 +8916,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 785,
+"x": 979,
 "y": 0
 },
 {
@@ -7482,7 +8924,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 819,
+"x": 1013,
 "y": 0
 }
 ],
@@ -7492,7 +8934,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 751,
+"x": 945,
 "y": 0
 },
 {
@@ -7500,7 +8942,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 853,
+"x": 1047,
 "y": 0
 },
 {
@@ -7508,7 +8950,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 887,
+"x": 1081,
 "y": 0
 },
 {
@@ -7516,7 +8958,7 @@ window.REVIEW = {
 "w": 33,
 "h": 118,
 "sheet": 0,
-"x": 853,
+"x": 1047,
 "y": 0
 }
 ]
@@ -7524,7 +8966,16 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT004: the outboard leg's cylinder shading; 5 px, reads as a metal leg"
+]
+}
 },
 {
 "id": "obj.rocks_m",
@@ -7545,15 +8996,21 @@ window.REVIEW = {
 "w": 12,
 "h": 7,
 "sheet": 0,
-"x": 1111,
-"y": 729
+"x": 27,
+"y": 756
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.rocks_s",
@@ -7574,15 +9031,21 @@ window.REVIEW = {
 "w": 7,
 "h": 4,
 "sheet": 0,
-"x": 1258,
-"y": 729
+"x": 174,
+"y": 756
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.rope_coil",
@@ -7603,15 +9066,21 @@ window.REVIEW = {
 "w": 10,
 "h": 6,
 "sheet": 0,
-"x": 1124,
-"y": 729
+"x": 40,
+"y": 756
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.stage",
@@ -7632,8 +9101,8 @@ window.REVIEW = {
 "w": 68,
 "h": 68,
 "sheet": 0,
-"x": 1932,
-"y": 0
+"x": 129,
+"y": 201
 }
 ],
 "restored": [
@@ -7642,7 +9111,7 @@ window.REVIEW = {
 "w": 68,
 "h": 68,
 "sheet": 0,
-"x": 0,
+"x": 198,
 "y": 201
 }
 ]
@@ -7659,10 +9128,19 @@ window.REVIEW = {
 "w": 68,
 "h": 68,
 "sheet": 0,
-"x": 1932,
-"y": 0
+"x": 129,
+"y": 201
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: a fleck of old white paint on the weathered door lintel: deliberate weathering"
 ]
+}
 },
 {
 "id": "obj.truck_buyer",
@@ -7682,8 +9160,8 @@ window.REVIEW = {
 "w": 64,
 "h": 36,
 "sheet": 0,
-"x": 1190,
-"y": 270
+"x": 1473,
+"y": 279
 }
 ],
 "empty": [
@@ -7692,8 +9170,8 @@ window.REVIEW = {
 "w": 64,
 "h": 36,
 "sheet": 0,
-"x": 1255,
-"y": 270
+"x": 1538,
+"y": 279
 }
 ]
 },
@@ -7702,7 +9180,35 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:43:43",
+"note": "before critic",
+"w": 64,
+"h": 36,
+"sheet": 0,
+"x": 1473,
+"y": 279
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"facing isn't in the metadata. The sprite faces LEFT (west): hood, headlight and amber marker at x 0-8, cab at x 18-38, bed and red tail light at x 40-63. Only the YAML comment says so; meta has just the shadow",
+"in the painted harbour the truck is baked flat into ground.png in the lay-by (about map x 508-572, y 346-382), and walk.png is walkable across its whole footprint. Players draw over a 36 px tall truck and can walk through it"
+],
+"before_version": 1,
+"overruled": [
+"CRT003: deliberate glint on the windshield's A-pillar edge",
+"CRT003: the same windshield glint, second pixel",
+"CRT003: deliberate amber marker/turn lamp under the headlight"
+]
+}
 },
 {
 "id": "obj.tuckamore_l",
@@ -7723,8 +9229,8 @@ window.REVIEW = {
 "w": 40,
 "h": 36,
 "sheet": 0,
-"x": 1371,
-"y": 270
+"x": 1654,
+"y": 279
 }
 ]
 },
@@ -7740,10 +9246,16 @@ window.REVIEW = {
 "w": 40,
 "h": 36,
 "sheet": 0,
-"x": 1371,
-"y": 270
+"x": 1654,
+"y": 279
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.tuckamore_m",
@@ -7764,8 +9276,8 @@ window.REVIEW = {
 "w": 24,
 "h": 28,
 "sheet": 0,
-"x": 759,
-"y": 603
+"x": 1163,
+"y": 613
 }
 ]
 },
@@ -7781,10 +9293,16 @@ window.REVIEW = {
 "w": 24,
 "h": 28,
 "sheet": 0,
-"x": 759,
-"y": 603
+"x": 1163,
+"y": 613
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.tuckamore_s",
@@ -7805,8 +9323,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1819,
-"y": 695
+"x": 527,
+"y": 724
 }
 ]
 },
@@ -7822,10 +9340,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1819,
-"y": 695
+"x": 527,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.wharf_post",
@@ -7845,8 +9369,8 @@ window.REVIEW = {
 "w": 6,
 "h": 20,
 "sheet": 0,
-"x": 832,
-"y": 655
+"x": 1352,
+"y": 667
 }
 ]
 },
@@ -7862,10 +9386,16 @@ window.REVIEW = {
 "w": 6,
 "h": 20,
 "sheet": 0,
-"x": 832,
-"y": 655
+"x": 1352,
+"y": 667
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "obj.woodpile",
@@ -7886,15 +9416,21 @@ window.REVIEW = {
 "w": 24,
 "h": 15,
 "sheet": 0,
-"x": 775,
-"y": 712
+"x": 1667,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -7919,8 +9455,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1980,
-"y": 676
+"x": 595,
+"y": 707
 }
 ]
 },
@@ -7936,10 +9472,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1980,
-"y": 676
+"x": 595,
+"y": 707
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "crop.potato.s2",
@@ -7959,8 +9501,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1997,
-"y": 676
+"x": 612,
+"y": 707
 }
 ]
 },
@@ -7976,8 +9518,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1997,
-"y": 676
+"x": 612,
+"y": 707
 }
 ]
 },
@@ -7999,8 +9541,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2014,
-"y": 676
+"x": 629,
+"y": 707
 }
 ]
 },
@@ -8016,8 +9558,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 2014,
-"y": 676
+"x": 629,
+"y": 707
 }
 ]
 }
@@ -8044,8 +9586,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1632,
-"y": 695
+"x": 323,
+"y": 724
 }
 ]
 },
@@ -8061,10 +9603,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1632,
-"y": 695
+"x": 323,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "item.fish.cod",
@@ -8085,15 +9633,24 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1649,
-"y": 695
+"x": 340,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: right edge steps 1-1-6-2-1: the curved back/tail root of an organic fish outline, not a straight diagonal; the long run is the deliberate curve"
+]
+}
 },
 {
 "id": "item.fish.flounder",
@@ -8114,15 +9671,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1666,
-"y": 695
+"x": 357,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "item.fish.halibut",
@@ -8143,15 +9706,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1683,
-"y": 695
+"x": 374,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "item.fish.mackerel",
@@ -8172,8 +9741,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1700,
-"y": 695
+"x": 391,
+"y": 724
 }
 ]
 },
@@ -8182,7 +9751,26 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:08",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 408,
+"y": 724
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1
+}
 },
 {
 "id": "item.fish.pollock",
@@ -8203,8 +9791,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1717,
-"y": 695
+"x": 425,
+"y": 724
 }
 ]
 },
@@ -8213,7 +9801,16 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: right edge steps 2-1-1-5-2-1: the curved back/tail root of an organic fish outline, not a straight diagonal; the long run is the deliberate curve"
+]
+}
 },
 {
 "id": "item.fish.sculpin",
@@ -8234,15 +9831,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1734,
-"y": 695
+"x": 442,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "item.handline_held",
@@ -8262,16 +9865,16 @@ window.REVIEW = {
 "w": 3,
 "h": 14,
 "sheet": 0,
-"x": 517,
-"y": 729
+"x": 1403,
+"y": 741
 },
 {
 "ms": 300,
 "w": 3,
 "h": 14,
 "sheet": 0,
-"x": 521,
-"y": 729
+"x": 1407,
+"y": 741
 }
 ]
 },
@@ -8299,8 +9902,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1751,
-"y": 695
+"x": 459,
+"y": 724
 }
 ]
 },
@@ -8316,10 +9919,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1751,
-"y": 695
+"x": 459,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "item.jigger_held",
@@ -8339,16 +9948,16 @@ window.REVIEW = {
 "w": 10,
 "h": 14,
 "sheet": 0,
-"x": 495,
-"y": 729
+"x": 1381,
+"y": 741
 },
 {
 "ms": 300,
 "w": 10,
 "h": 14,
 "sheet": 0,
-"x": 506,
-"y": 729
+"x": 1392,
+"y": 741
 }
 ]
 },
@@ -8375,16 +9984,16 @@ window.REVIEW = {
 "w": 3,
 "h": 4,
 "sheet": 0,
-"x": 1266,
-"y": 729
+"x": 182,
+"y": 756
 },
 {
 "ms": 110,
 "w": 3,
 "h": 4,
 "sheet": 0,
-"x": 1270,
-"y": 729
+"x": 186,
+"y": 756
 }
 ]
 },
@@ -8412,8 +10021,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1768,
-"y": 695
+"x": 476,
+"y": 724
 }
 ]
 },
@@ -8429,10 +10038,19 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1768,
-"y": 695
+"x": 476,
+"y": 724
 }
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT003: a 1 px gap between the soil clod's outline and the left potato's outline; it reads as the space between lumps, not as a hole"
 ]
+}
 },
 {
 "id": "item.salt_bucket",
@@ -8453,8 +10071,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1785,
-"y": 695
+"x": 493,
+"y": 724
 }
 ]
 },
@@ -8470,10 +10088,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1785,
-"y": 695
+"x": 493,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -8499,8 +10123,8 @@ window.REVIEW = {
 "w": 24,
 "h": 16,
 "sheet": 0,
-"x": 1226,
-"y": 676
+"x": 1826,
+"y": 688
 }
 ],
 "hover": [
@@ -8509,8 +10133,8 @@ window.REVIEW = {
 "w": 24,
 "h": 16,
 "sheet": 0,
-"x": 1251,
-"y": 676
+"x": 1851,
+"y": 688
 }
 ],
 "pressed": [
@@ -8519,15 +10143,21 @@ window.REVIEW = {
 "w": 24,
 "h": 16,
 "sheet": 0,
-"x": 1276,
-"y": 676
+"x": 1876,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.catch_card",
@@ -8548,7 +10178,7 @@ window.REVIEW = {
 "w": 224,
 "h": 112,
 "sheet": 0,
-"x": 963,
+"x": 1157,
 "y": 0
 }
 ]
@@ -8556,7 +10186,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.catch_card_pb",
@@ -8577,15 +10213,21 @@ window.REVIEW = {
 "w": 17,
 "h": 24,
 "sheet": 0,
-"x": 1572,
-"y": 603
+"x": 2015,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.font",
@@ -8606,7 +10248,7 @@ window.REVIEW = {
 "w": 128,
 "h": 77,
 "sheet": 0,
-"x": 1674,
+"x": 1868,
 "y": 0
 }
 ],
@@ -8616,8 +10258,8 @@ window.REVIEW = {
 "w": 128,
 "h": 77,
 "sheet": 0,
-"x": 1803,
-"y": 0
+"x": 0,
+"y": 201
 }
 ]
 },
@@ -8645,8 +10287,8 @@ window.REVIEW = {
 "w": 32,
 "h": 14,
 "sheet": 0,
-"x": 800,
-"y": 712
+"x": 1692,
+"y": 724
 }
 ],
 "selected": [
@@ -8655,15 +10297,21 @@ window.REVIEW = {
 "w": 32,
 "h": 14,
 "sheet": 0,
-"x": 833,
-"y": 712
+"x": 1725,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.coast_dot",
@@ -8683,15 +10331,21 @@ window.REVIEW = {
 "w": 2,
 "h": 2,
 "sheet": 0,
-"x": 1274,
-"y": 729
+"x": 190,
+"y": 756
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.gps",
@@ -8712,8 +10366,8 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1006,
-"y": 729
+"x": 1966,
+"y": 741
 }
 ],
 "searching": [
@@ -8722,15 +10376,21 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1016,
-"y": 729
+"x": 1976,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.label",
@@ -8750,15 +10410,21 @@ window.REVIEW = {
 "w": 14,
 "h": 11,
 "sheet": 0,
-"x": 895,
-"y": 729
+"x": 1855,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.land",
@@ -8778,15 +10444,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 238,
-"y": 712
+"x": 1071,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.marker_p1",
@@ -8806,15 +10478,21 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1026,
-"y": 729
+"x": 1986,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.marker_p2",
@@ -8834,15 +10512,21 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1036,
-"y": 729
+"x": 1996,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.marker_p3",
@@ -8862,15 +10546,21 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1046,
-"y": 729
+"x": 2006,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.marker_p4",
@@ -8890,15 +10580,21 @@ window.REVIEW = {
 "w": 9,
 "h": 9,
 "sheet": 0,
-"x": 1056,
-"y": 729
+"x": 2016,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.signal",
@@ -8919,8 +10615,8 @@ window.REVIEW = {
 "w": 11,
 "h": 5,
 "sheet": 0,
-"x": 1143,
-"y": 729
+"x": 59,
+"y": 756
 }
 ],
 "n0": [
@@ -8929,8 +10625,8 @@ window.REVIEW = {
 "w": 11,
 "h": 5,
 "sheet": 0,
-"x": 1155,
-"y": 729
+"x": 71,
+"y": 756
 }
 ],
 "n1": [
@@ -8939,8 +10635,8 @@ window.REVIEW = {
 "w": 11,
 "h": 5,
 "sheet": 0,
-"x": 1167,
-"y": 729
+"x": 83,
+"y": 756
 }
 ],
 "n2": [
@@ -8949,8 +10645,8 @@ window.REVIEW = {
 "w": 11,
 "h": 5,
 "sheet": 0,
-"x": 1179,
-"y": 729
+"x": 95,
+"y": 756
 }
 ],
 "n3": [
@@ -8959,15 +10655,21 @@ window.REVIEW = {
 "w": 11,
 "h": 5,
 "sheet": 0,
-"x": 1191,
-"y": 729
+"x": 107,
+"y": 756
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.map.water",
@@ -8987,15 +10689,21 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 255,
-"y": 712
+"x": 1088,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.panel",
@@ -9016,15 +10724,21 @@ window.REVIEW = {
 "w": 24,
 "h": 24,
 "sheet": 0,
-"x": 1547,
-"y": 603
+"x": 1990,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.phone_app_icons",
@@ -9044,8 +10758,8 @@ window.REVIEW = {
 "w": 64,
 "h": 16,
 "sheet": 0,
-"x": 802,
-"y": 676
+"x": 1402,
+"y": 688
 }
 ]
 },
@@ -9061,10 +10775,16 @@ window.REVIEW = {
 "w": 64,
 "h": 16,
 "sheet": 0,
-"x": 802,
-"y": 676
+"x": 1402,
+"y": 688
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ui.phone_frame",
@@ -9084,7 +10804,7 @@ window.REVIEW = {
 "w": 72,
 "h": 120,
 "sheet": 0,
-"x": 469,
+"x": 590,
 "y": 0
 }
 ],
@@ -9094,7 +10814,7 @@ window.REVIEW = {
 "w": 72,
 "h": 120,
 "sheet": 0,
-"x": 542,
+"x": 663,
 "y": 0
 }
 ]
@@ -9111,10 +10831,30 @@ window.REVIEW = {
 "w": 72,
 "h": 120,
 "sheet": 0,
-"x": 469,
+"x": 736,
+"y": 0
+},
+{
+"v": 2,
+"date": "2026-10-30T00:44:06",
+"note": "before critic",
+"w": 72,
+"h": 120,
+"sheet": 0,
+"x": 736,
 "y": 0
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the clock '6:04' is baked into the status layer, so the phone home screen would show a frozen time; ui.phone_map leaves the clock to the engine (points.status_time) and takes signal from ui.map.signal, so the two phones disagree"
+],
+"before_version": 2
+}
 },
 {
 "id": "ui.phone_map",
@@ -9143,7 +10883,29 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:07",
+"note": "before critic",
+"w": 120,
+"h": 200,
+"sheet": 0,
+"x": 121,
+"y": 0
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the rounded screen corners are left clear: 3-5 transparent pixels inside the bezel at each inner screen corner (top-left x5-7 y7-9; top-right x112-114 y6-8; bottom-left x5-7 y189-191; bottom-right x112-114 y190-191, plus a gap at x106-108 y187-189 beside the zoom buttons), so the game world shows through as coloured specks at 1x"
+],
+"before_version": 1
+}
 }
 ]
 },
@@ -9169,32 +10931,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1591,
-"y": 270
+"x": 1930,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1608,
-"y": 270
+"x": 1947,
+"y": 279
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1591,
-"y": 270
+"x": 1930,
+"y": 279
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1625,
-"y": 270
+"x": 1964,
+"y": 279
 }
 ],
 "blue_cardigan": [
@@ -9203,32 +10965,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1642,
-"y": 270
+"x": 1981,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1659,
-"y": 270
+"x": 1998,
+"y": 279
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1642,
-"y": 270
+"x": 1981,
+"y": 279
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1676,
-"y": 270
+"x": 2015,
+"y": 279
 }
 ],
 "red_cardigan": [
@@ -9237,39 +10999,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1693,
-"y": 270
+"x": 2032,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1710,
-"y": 270
+"x": 0,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1693,
-"y": 270
+"x": 2032,
+"y": 279
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1727,
-"y": 270
+"x": 17,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.idle.left",
@@ -9290,32 +11058,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1744,
-"y": 270
+"x": 34,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1761,
-"y": 270
+"x": 51,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1744,
-"y": 270
+"x": 34,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1778,
-"y": 270
+"x": 68,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -9324,32 +11092,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1795,
-"y": 270
+"x": 85,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1812,
-"y": 270
+"x": 102,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1795,
-"y": 270
+"x": 85,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1829,
-"y": 270
+"x": 119,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -9358,39 +11126,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1846,
-"y": 270
+"x": 136,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1863,
-"y": 270
+"x": 153,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1846,
-"y": 270
+"x": 136,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1880,
-"y": 270
+"x": 170,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.idle.right",
@@ -9411,32 +11185,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1897,
-"y": 270
+"x": 187,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1914,
-"y": 270
+"x": 204,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1897,
-"y": 270
+"x": 187,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1931,
-"y": 270
+"x": 221,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -9445,32 +11219,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1948,
-"y": 270
+"x": 238,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1965,
-"y": 270
+"x": 255,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1948,
-"y": 270
+"x": 238,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1982,
-"y": 270
+"x": 272,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -9479,39 +11253,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1999,
-"y": 270
+"x": 289,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2016,
-"y": 270
+"x": 306,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1999,
-"y": 270
+"x": 289,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 307
+"x": 323,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.idle.up",
@@ -9532,32 +11312,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 307
+"x": 340,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 307
+"x": 340,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 307
+"x": 340,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 307
+"x": 357,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -9566,32 +11346,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 307
+"x": 374,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 307
+"x": 374,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 307
+"x": 374,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 307
+"x": 391,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -9600,39 +11380,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 307
+"x": 408,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 307
+"x": 408,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 307
+"x": 408,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 307
+"x": 425,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.walk.down",
@@ -9653,32 +11439,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 307
+"x": 442,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1591,
-"y": 270
+"x": 1930,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 307
+"x": 459,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1591,
-"y": 270
+"x": 1930,
+"y": 279
 }
 ],
 "blue_cardigan": [
@@ -9687,32 +11473,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 307
+"x": 476,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1642,
-"y": 270
+"x": 1981,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 307
+"x": 493,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1642,
-"y": 270
+"x": 1981,
+"y": 279
 }
 ],
 "red_cardigan": [
@@ -9721,39 +11507,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 307
+"x": 510,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1693,
-"y": 270
+"x": 2032,
+"y": 279
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 307
+"x": 527,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1693,
-"y": 270
+"x": 2032,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.walk.left",
@@ -9774,32 +11566,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 307
+"x": 544,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1744,
-"y": 270
+"x": 34,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 307
+"x": 561,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1744,
-"y": 270
+"x": 34,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -9808,32 +11600,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 307
+"x": 578,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1795,
-"y": 270
+"x": 85,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 307
+"x": 595,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1795,
-"y": 270
+"x": 85,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -9842,39 +11634,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 307
+"x": 612,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1846,
-"y": 270
+"x": 136,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 307
+"x": 629,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1846,
-"y": 270
+"x": 136,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.walk.right",
@@ -9895,32 +11693,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 307
+"x": 646,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1897,
-"y": 270
+"x": 187,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 307
+"x": 663,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1897,
-"y": 270
+"x": 187,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -9929,32 +11727,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 307
+"x": 680,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1948,
-"y": 270
+"x": 238,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 307
+"x": 697,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1948,
-"y": 270
+"x": 238,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -9963,39 +11761,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 307
+"x": 714,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1999,
-"y": 270
+"x": 289,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 307
+"x": 731,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1999,
-"y": 270
+"x": 289,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.elder_woman.walk.up",
@@ -10016,32 +11820,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 307
+"x": 748,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 307
+"x": 340,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 307
+"x": 765,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 307
+"x": 340,
+"y": 316
 }
 ],
 "blue_cardigan": [
@@ -10050,32 +11854,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 307
+"x": 782,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 307
+"x": 374,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 307
+"x": 799,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 307
+"x": 374,
+"y": 316
 }
 ],
 "red_cardigan": [
@@ -10084,39 +11888,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 307
+"x": 816,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 307
+"x": 408,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 307
+"x": 833,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 307
+"x": 408,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -10142,32 +11952,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 307
+"x": 850,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 307
+"x": 867,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 307
+"x": 850,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 307
+"x": 884,
+"y": 316
 }
 ],
 "sweater": [
@@ -10176,32 +11986,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 307
+"x": 901,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 307
+"x": 918,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 307
+"x": 901,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 307
+"x": 935,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10210,39 +12020,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 307
+"x": 952,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 307
+"x": 969,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 307
+"x": 952,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 307
+"x": 986,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.idle.left",
@@ -10263,32 +12079,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 307
+"x": 1003,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 307
+"x": 1020,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 307
+"x": 1003,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 307
+"x": 1037,
+"y": 316
 }
 ],
 "sweater": [
@@ -10297,32 +12113,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 307
+"x": 1054,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 307
+"x": 1071,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 307
+"x": 1054,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 307
+"x": 1088,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10331,39 +12147,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 307
+"x": 1105,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 307
+"x": 1122,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 307
+"x": 1105,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 307
+"x": 1139,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.idle.right",
@@ -10384,32 +12206,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 307
+"x": 1156,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 307
+"x": 1173,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 307
+"x": 1156,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 307
+"x": 1190,
+"y": 316
 }
 ],
 "sweater": [
@@ -10418,32 +12240,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 307
+"x": 1207,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 307
+"x": 1224,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 307
+"x": 1207,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 307
+"x": 1241,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10452,39 +12274,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 307
+"x": 1258,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 307
+"x": 1275,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 307
+"x": 1258,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 307
+"x": 1292,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.idle.up",
@@ -10505,32 +12333,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 307
+"x": 1309,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 307
+"x": 1309,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 307
+"x": 1309,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 307
+"x": 1326,
+"y": 316
 }
 ],
 "sweater": [
@@ -10539,32 +12367,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 307
+"x": 1343,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 307
+"x": 1343,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 307
+"x": 1343,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 307
+"x": 1360,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10573,39 +12401,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 307
+"x": 1377,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 307
+"x": 1377,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 307
+"x": 1377,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 307
+"x": 1394,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.walk.down",
@@ -10626,32 +12460,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 307
+"x": 1411,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 307
+"x": 850,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 307
+"x": 1428,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 307
+"x": 850,
+"y": 316
 }
 ],
 "sweater": [
@@ -10660,32 +12494,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 307
+"x": 1445,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 307
+"x": 901,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 307
+"x": 1462,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 307
+"x": 901,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10694,39 +12528,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 307
+"x": 1479,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 307
+"x": 952,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 307
+"x": 1496,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 307
+"x": 952,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.walk.left",
@@ -10747,32 +12587,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 307
+"x": 1513,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 307
+"x": 1003,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 307
+"x": 1530,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 307
+"x": 1003,
+"y": 316
 }
 ],
 "sweater": [
@@ -10781,32 +12621,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 307
+"x": 1547,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 307
+"x": 1054,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 307
+"x": 1564,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 307
+"x": 1054,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10815,39 +12655,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 307
+"x": 1581,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 307
+"x": 1105,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 307
+"x": 1598,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 307
+"x": 1105,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.walk.right",
@@ -10868,32 +12714,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 307
+"x": 1615,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 307
+"x": 1156,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 307
+"x": 1632,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 307
+"x": 1156,
+"y": 316
 }
 ],
 "sweater": [
@@ -10902,32 +12748,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 307
+"x": 1649,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 307
+"x": 1207,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 307
+"x": 1666,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 307
+"x": 1207,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -10936,39 +12782,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 307
+"x": 1683,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 307
+"x": 1258,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 307
+"x": 1700,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 307
+"x": 1258,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.fisherman.walk.up",
@@ -10989,32 +12841,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 307
+"x": 1717,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 307
+"x": 1309,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 307
+"x": 1734,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 307
+"x": 1309,
+"y": 316
 }
 ],
 "sweater": [
@@ -11023,32 +12875,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 307
+"x": 1751,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 307
+"x": 1343,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 307
+"x": 1768,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 307
+"x": 1343,
+"y": 316
 }
 ],
 "red_sweater": [
@@ -11057,39 +12909,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 307
+"x": 1785,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 307
+"x": 1377,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 307
+"x": 1802,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 307
+"x": 1377,
+"y": 316
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -11115,32 +12973,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 307
+"x": 1836,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 307
+"x": 1853,
+"y": 316
 }
 ],
 "red_vest": [
@@ -11149,32 +13007,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 307
+"x": 1887,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 307
+"x": 1904,
+"y": 316
 }
 ]
 },
@@ -11184,7 +13042,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.idle.left",
@@ -11205,32 +13069,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 307
+"x": 1938,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 307
+"x": 1955,
+"y": 316
 }
 ],
 "red_vest": [
@@ -11239,32 +13103,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 307
+"x": 1989,
+"y": 316
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 307
+"x": 2006,
+"y": 316
 }
 ]
 },
@@ -11274,7 +13138,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.idle.right",
@@ -11295,32 +13165,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 307
+"x": 0,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 307
+"x": 17,
+"y": 349
 }
 ],
 "red_vest": [
@@ -11329,32 +13199,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 307
+"x": 51,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 307
+"x": 68,
+"y": 349
 }
 ]
 },
@@ -11364,7 +13234,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.idle.up",
@@ -11385,32 +13261,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 307
+"x": 102,
+"y": 349
 }
 ],
 "red_vest": [
@@ -11419,32 +13295,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 307
+"x": 136,
+"y": 349
 }
 ]
 },
@@ -11454,7 +13330,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.talk.down",
@@ -11475,64 +13357,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 307
+"x": 153,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 307
+"x": 170,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 307
+"x": 187,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 307
+"x": 170,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 307
+"x": 1836,
+"y": 316
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 }
 ],
 "red_vest": [
@@ -11541,64 +13423,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 307
+"x": 204,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 307
+"x": 221,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 307
+"x": 238,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 307
+"x": 221,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 307
+"x": 1887,
+"y": 316
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 }
 ]
 },
@@ -11608,7 +13490,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.talk.left",
@@ -11629,64 +13517,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 307
+"x": 255,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 307
+"x": 272,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 307
+"x": 289,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 307
+"x": 272,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 307
+"x": 1938,
+"y": 316
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 }
 ],
 "red_vest": [
@@ -11695,64 +13583,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 307
+"x": 306,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 340
+"x": 323,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 340
+"x": 340,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 340
+"x": 323,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 307
+"x": 1989,
+"y": 316
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 }
 ]
 },
@@ -11762,7 +13650,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.talk.right",
@@ -11783,64 +13677,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 340
+"x": 357,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 340
+"x": 374,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 340
+"x": 391,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 340
+"x": 374,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 307
+"x": 0,
+"y": 349
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 }
 ],
 "red_vest": [
@@ -11849,64 +13743,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 340
+"x": 408,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 340
+"x": 425,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 340
+"x": 442,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 340
+"x": 425,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 307
+"x": 51,
+"y": 349
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 }
 ]
 },
@@ -11916,7 +13810,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.talk.up",
@@ -11937,64 +13837,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 340
+"x": 459,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 340
+"x": 476,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 340
+"x": 459,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 }
 ],
 "red_vest": [
@@ -12003,64 +13903,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 180,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 340
+"x": 493,
+"y": 349
 },
 {
 "ms": 360,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 340
+"x": 510,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 340
+"x": 493,
+"y": 349
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 }
 ]
 },
@@ -12070,7 +13970,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.walk.down",
@@ -12091,32 +13997,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 340
+"x": 527,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 340
+"x": 544,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 307
+"x": 1819,
+"y": 316
 }
 ],
 "red_vest": [
@@ -12125,32 +14031,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 340
+"x": 561,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 340
+"x": 578,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 307
+"x": 1870,
+"y": 316
 }
 ]
 },
@@ -12160,7 +14066,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.walk.left",
@@ -12181,32 +14093,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 340
+"x": 595,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 340
+"x": 612,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 307
+"x": 1921,
+"y": 316
 }
 ],
 "red_vest": [
@@ -12215,32 +14127,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 340
+"x": 629,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 340
+"x": 646,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 307
+"x": 1972,
+"y": 316
 }
 ]
 },
@@ -12250,7 +14162,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.walk.right",
@@ -12271,32 +14189,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 340
+"x": 663,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 340
+"x": 680,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 307
+"x": 2023,
+"y": 316
 }
 ],
 "red_vest": [
@@ -12305,32 +14223,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 340
+"x": 697,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 340
+"x": 714,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 307
+"x": 34,
+"y": 349
 }
 ]
 },
@@ -12340,7 +14258,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.mom.walk.up",
@@ -12361,32 +14285,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 340
+"x": 731,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 340
+"x": 748,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 307
+"x": 85,
+"y": 349
 }
 ],
 "red_vest": [
@@ -12395,32 +14319,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 340
+"x": 765,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 340
+"x": 782,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 307
+"x": 119,
+"y": 349
 }
 ]
 },
@@ -12430,7 +14354,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -12456,32 +14386,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 340
+"x": 799,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 340
+"x": 816,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 340
+"x": 799,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 340
+"x": 833,
+"y": 349
 }
 ],
 "oilskins": [
@@ -12490,32 +14420,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 340
+"x": 850,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 340
+"x": 867,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 340
+"x": 850,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 340
+"x": 884,
+"y": 349
 }
 ],
 "green_toque": [
@@ -12524,32 +14454,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 340
+"x": 901,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 340
+"x": 918,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 340
+"x": 901,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 340
+"x": 935,
+"y": 349
 }
 ]
 },
@@ -12565,10 +14495,16 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 340
+"x": 799,
+"y": 349
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.idle.left",
@@ -12589,32 +14525,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 340
+"x": 952,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 340
+"x": 969,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 340
+"x": 952,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 340
+"x": 986,
+"y": 349
 }
 ],
 "oilskins": [
@@ -12623,32 +14559,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 340
+"x": 1003,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 340
+"x": 1020,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 340
+"x": 1003,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 340
+"x": 1037,
+"y": 349
 }
 ],
 "green_toque": [
@@ -12657,39 +14593,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 340
+"x": 1054,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 340
+"x": 1071,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 340
+"x": 1054,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 340
+"x": 1088,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.idle.right",
@@ -12710,32 +14652,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 340
+"x": 1105,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 340
+"x": 1122,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 340
+"x": 1105,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 340
+"x": 1139,
+"y": 349
 }
 ],
 "oilskins": [
@@ -12744,32 +14686,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 340
+"x": 1156,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 340
+"x": 1173,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 340
+"x": 1156,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 340
+"x": 1190,
+"y": 349
 }
 ],
 "green_toque": [
@@ -12778,39 +14720,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 340
+"x": 1207,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 340
+"x": 1224,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 340
+"x": 1207,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 340
+"x": 1241,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.idle.up",
@@ -12831,32 +14779,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 340
+"x": 1258,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 340
+"x": 1258,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 340
+"x": 1258,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 340
+"x": 1275,
+"y": 349
 }
 ],
 "oilskins": [
@@ -12865,32 +14813,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 340
+"x": 1292,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 340
+"x": 1292,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 340
+"x": 1292,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 340
+"x": 1309,
+"y": 349
 }
 ],
 "green_toque": [
@@ -12899,39 +14847,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 340
+"x": 1326,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 340
+"x": 1326,
+"y": 349
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 340
+"x": 1326,
+"y": 349
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 340
+"x": 1343,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.jig.down",
@@ -12952,32 +14906,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 340
+"x": 1360,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 340
+"x": 1377,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 340
+"x": 1394,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 340
+"x": 1411,
+"y": 349
 }
 ],
 "oilskins": [
@@ -12986,32 +14940,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 340
+"x": 1428,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 340
+"x": 1445,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 340
+"x": 1462,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 340
+"x": 1479,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13020,39 +14974,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 340
+"x": 1496,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 340
+"x": 1513,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 340
+"x": 1530,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 340
+"x": 1547,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.jig.left",
@@ -13073,32 +15033,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 340
+"x": 1564,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 340
+"x": 1581,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 340
+"x": 1598,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 340
+"x": 1615,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13107,32 +15067,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 340
+"x": 1632,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 340
+"x": 1649,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 340
+"x": 1666,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 340
+"x": 1683,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13141,39 +15101,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 340
+"x": 1700,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 340
+"x": 1717,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 340
+"x": 1734,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 340
+"x": 1751,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.jig.right",
@@ -13194,32 +15160,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 340
+"x": 1768,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 340
+"x": 1785,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 340
+"x": 1802,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 340
+"x": 1819,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13228,32 +15194,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 340
+"x": 1836,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 340
+"x": 1853,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 340
+"x": 1870,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 340
+"x": 1887,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13262,32 +15228,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 340
+"x": 1904,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 340
+"x": 1921,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 340
+"x": 1938,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 340
+"x": 1955,
+"y": 349
 }
 ]
 },
@@ -13303,10 +15269,16 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 340
+"x": 1768,
+"y": 349
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.jig.up",
@@ -13327,32 +15299,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 340
+"x": 1972,
+"y": 349
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 340
+"x": 1989,
+"y": 349
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 340
+"x": 2006,
+"y": 349
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 340
+"x": 2023,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13361,32 +15333,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 340
+"x": 0,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 340
+"x": 17,
+"y": 382
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 340
+"x": 34,
+"y": 382
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 340
+"x": 51,
+"y": 382
 }
 ],
 "green_toque": [
@@ -13395,39 +15367,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 340
+"x": 68,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 340
+"x": 85,
+"y": 382
 },
 {
 "ms": 300,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 340
+"x": 102,
+"y": 382
 },
 {
 "ms": 220,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 340
+"x": 119,
+"y": 382
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.walk.down",
@@ -13448,32 +15426,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 340
+"x": 136,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 340
+"x": 799,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 340
+"x": 153,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 340
+"x": 799,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13482,32 +15460,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 340
+"x": 170,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 340
+"x": 850,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 340
+"x": 187,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 340
+"x": 850,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13516,32 +15494,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 340
+"x": 204,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 340
+"x": 901,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 340
+"x": 221,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 340
+"x": 901,
+"y": 349
 }
 ]
 },
@@ -13557,10 +15535,16 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 340
+"x": 136,
+"y": 382
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.walk.left",
@@ -13581,32 +15565,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 340
+"x": 238,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 340
+"x": 952,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 340
+"x": 255,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 340
+"x": 952,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13615,32 +15599,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 340
+"x": 272,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 340
+"x": 1003,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 340
+"x": 289,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 340
+"x": 1003,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13649,39 +15633,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 340
+"x": 306,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 340
+"x": 1054,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 373
+"x": 323,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 340
+"x": 1054,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.walk.right",
@@ -13702,32 +15692,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 373
+"x": 340,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 340
+"x": 1105,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 373
+"x": 357,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 340
+"x": 1105,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13736,32 +15726,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 373
+"x": 374,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 340
+"x": 1156,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 373
+"x": 391,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 340
+"x": 1156,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13770,32 +15760,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 373
+"x": 408,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 340
+"x": 1207,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 373
+"x": 425,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 340
+"x": 1207,
+"y": 349
 }
 ]
 },
@@ -13811,10 +15801,16 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 373
+"x": 340,
+"y": 382
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.player.walk.up",
@@ -13835,32 +15831,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 373
+"x": 442,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 340
+"x": 1258,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 373
+"x": 459,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 340
+"x": 1258,
+"y": 349
 }
 ],
 "oilskins": [
@@ -13869,32 +15865,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 373
+"x": 476,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 340
+"x": 1292,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 373
+"x": 493,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 340
+"x": 1292,
+"y": 349
 }
 ],
 "green_toque": [
@@ -13903,39 +15899,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 373
+"x": 510,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 340
+"x": 1326,
+"y": 349
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 373
+"x": 527,
+"y": 382
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 340
+"x": 1326,
+"y": 349
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -13961,32 +15963,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 373
+"x": 544,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 373
+"x": 561,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 373
+"x": 578,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 373
+"x": 595,
+"y": 382
 }
 ],
 "hair_dark": [
@@ -13995,32 +15997,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 373
+"x": 612,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 373
+"x": 629,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 373
+"x": 646,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 373
+"x": 663,
+"y": 382
 }
 ],
 "hair_red": [
@@ -14029,32 +16031,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 373
+"x": 680,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 373
+"x": 697,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 373
+"x": 714,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 373
+"x": 731,
+"y": 382
 }
 ],
 "skin_deep": [
@@ -14063,32 +16065,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 373
+"x": 748,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 373
+"x": 765,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 373
+"x": 782,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 373
+"x": 799,
+"y": 382
 }
 ],
 "skin_dark": [
@@ -14097,32 +16099,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 373
+"x": 816,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 373
+"x": 833,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 373
+"x": 850,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 373
+"x": 867,
+"y": 382
 }
 ]
 },
@@ -14131,7 +16133,26 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:30:54",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 884,
+"y": 382
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1
+}
 },
 {
 "id": "chr.sibling_f.boat_jig.left",
@@ -14152,32 +16173,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 373
+"x": 901,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 373
+"x": 918,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 373
+"x": 935,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 373
+"x": 952,
+"y": 382
 }
 ],
 "hair_dark": [
@@ -14186,32 +16207,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 373
+"x": 969,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 373
+"x": 986,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 373
+"x": 1003,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 373
+"x": 1020,
+"y": 382
 }
 ],
 "hair_red": [
@@ -14220,32 +16241,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 373
+"x": 1037,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 373
+"x": 1054,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 373
+"x": 1071,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 373
+"x": 1088,
+"y": 382
 }
 ],
 "skin_deep": [
@@ -14254,32 +16275,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 373
+"x": 1105,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 373
+"x": 1122,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 373
+"x": 1139,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 373
+"x": 1156,
+"y": 382
 }
 ],
 "skin_dark": [
@@ -14288,32 +16309,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 373
+"x": 1173,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 373
+"x": 1190,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 373
+"x": 1207,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 373
+"x": 1224,
+"y": 382
 }
 ]
 },
@@ -14322,7 +16343,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_jig.right",
@@ -14343,32 +16370,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 373
+"x": 1241,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 373
+"x": 1258,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 373
+"x": 1275,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 373
+"x": 1292,
+"y": 382
 }
 ],
 "hair_dark": [
@@ -14377,32 +16404,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 373
+"x": 1309,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 373
+"x": 1326,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 373
+"x": 1343,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 373
+"x": 1360,
+"y": 382
 }
 ],
 "hair_red": [
@@ -14411,32 +16438,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 373
+"x": 1377,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 373
+"x": 1394,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 373
+"x": 1411,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 373
+"x": 1428,
+"y": 382
 }
 ],
 "skin_deep": [
@@ -14445,32 +16472,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 373
+"x": 1445,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 373
+"x": 1462,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 373
+"x": 1479,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 373
+"x": 1496,
+"y": 382
 }
 ],
 "skin_dark": [
@@ -14479,32 +16506,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 373
+"x": 1513,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 373
+"x": 1530,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 373
+"x": 1547,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 373
+"x": 1564,
+"y": 382
 }
 ]
 },
@@ -14513,7 +16540,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_jig.up",
@@ -14534,32 +16567,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 373
+"x": 1581,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 373
+"x": 1598,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 373
+"x": 1615,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 373
+"x": 1632,
+"y": 382
 }
 ],
 "hair_dark": [
@@ -14568,32 +16601,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 373
+"x": 1649,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 373
+"x": 1666,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 373
+"x": 1683,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 373
+"x": 1700,
+"y": 382
 }
 ],
 "hair_red": [
@@ -14602,32 +16635,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 373
+"x": 1717,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 373
+"x": 1734,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 373
+"x": 1751,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 373
+"x": 1768,
+"y": 382
 }
 ],
 "skin_deep": [
@@ -14636,32 +16669,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 373
+"x": 1785,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 373
+"x": 1802,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 373
+"x": 1819,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 373
+"x": 1836,
+"y": 382
 }
 ],
 "skin_dark": [
@@ -14670,32 +16703,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 373
+"x": 1853,
+"y": 382
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 373
+"x": 1870,
+"y": 382
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 373
+"x": 1887,
+"y": 382
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 373
+"x": 1904,
+"y": 382
 }
 ]
 },
@@ -14704,7 +16737,26 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:30:55",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1921,
+"y": 382
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1
+}
 },
 {
 "id": "chr.sibling_f.boat_pull.down",
@@ -14725,32 +16777,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 373
+"x": 1938,
+"y": 382
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 373
+"x": 1955,
+"y": 382
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 373
+"x": 1972,
+"y": 382
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 373
+"x": 1989,
+"y": 382
 }
 ],
 "hair_dark": [
@@ -14759,32 +16811,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 373
+"x": 2006,
+"y": 382
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 373
+"x": 2023,
+"y": 382
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 373
+"x": 0,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 373
+"x": 17,
+"y": 415
 }
 ],
 "hair_red": [
@@ -14793,32 +16845,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 373
+"x": 34,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 373
+"x": 51,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 373
+"x": 68,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 373
+"x": 85,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -14827,32 +16879,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 373
+"x": 102,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 373
+"x": 119,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 373
+"x": 136,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 373
+"x": 153,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -14861,32 +16913,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 373
+"x": 170,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 373
+"x": 187,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 373
+"x": 204,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 373
+"x": 221,
+"y": 415
 }
 ]
 },
@@ -14895,7 +16947,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_pull.left",
@@ -14916,32 +16974,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 373
+"x": 238,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 373
+"x": 255,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 373
+"x": 272,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 373
+"x": 289,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -14950,32 +17008,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 373
+"x": 306,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 373
+"x": 323,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 373
+"x": 340,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 406
+"x": 357,
+"y": 415
 }
 ],
 "hair_red": [
@@ -14984,32 +17042,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 406
+"x": 374,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 406
+"x": 391,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 406
+"x": 408,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 406
+"x": 425,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15018,32 +17076,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 406
+"x": 442,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 406
+"x": 459,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 406
+"x": 476,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 406
+"x": 493,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -15052,32 +17110,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 406
+"x": 510,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 406
+"x": 527,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 406
+"x": 544,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 406
+"x": 561,
+"y": 415
 }
 ]
 },
@@ -15086,7 +17144,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_pull.right",
@@ -15107,32 +17171,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 406
+"x": 578,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 406
+"x": 595,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 406
+"x": 612,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 406
+"x": 629,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -15141,32 +17205,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 406
+"x": 646,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 406
+"x": 663,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 406
+"x": 680,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 406
+"x": 697,
+"y": 415
 }
 ],
 "hair_red": [
@@ -15175,32 +17239,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 406
+"x": 714,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 406
+"x": 731,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 406
+"x": 748,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 406
+"x": 765,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15209,32 +17273,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 406
+"x": 782,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 406
+"x": 799,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 406
+"x": 816,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 406
+"x": 833,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -15243,32 +17307,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 406
+"x": 850,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 406
+"x": 867,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 406
+"x": 884,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 406
+"x": 901,
+"y": 415
 }
 ]
 },
@@ -15277,7 +17341,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_pull.up",
@@ -15298,32 +17368,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 406
+"x": 918,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 406
+"x": 952,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -15332,32 +17402,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 406
+"x": 969,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 406
+"x": 986,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 406
+"x": 1003,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 406
+"x": 986,
+"y": 415
 }
 ],
 "hair_red": [
@@ -15366,32 +17436,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 406
+"x": 1020,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 406
+"x": 1037,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 406
+"x": 1054,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 406
+"x": 1037,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15400,32 +17470,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 406
+"x": 918,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 406
+"x": 952,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -15434,32 +17504,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 406
+"x": 918,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 406
+"x": 952,
+"y": 415
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 406
+"x": 935,
+"y": 415
 }
 ]
 },
@@ -15468,7 +17538,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_sit.down",
@@ -15489,32 +17565,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 406
+"x": 1071,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 406
+"x": 1088,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 406
+"x": 1071,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 406
+"x": 1105,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -15523,32 +17599,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 406
+"x": 1122,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 406
+"x": 1139,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 406
+"x": 1122,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 406
+"x": 1156,
+"y": 415
 }
 ],
 "hair_red": [
@@ -15557,32 +17633,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 406
+"x": 1173,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 406
+"x": 1190,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 406
+"x": 1173,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 406
+"x": 1207,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15591,32 +17667,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 406
+"x": 1224,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 406
+"x": 1241,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 406
+"x": 1224,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 406
+"x": 1258,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -15625,32 +17701,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 406
+"x": 1275,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 406
+"x": 1292,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 406
+"x": 1275,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 406
+"x": 1309,
+"y": 415
 }
 ]
 },
@@ -15659,7 +17735,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_sit.left",
@@ -15680,32 +17762,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 406
+"x": 1326,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 406
+"x": 1343,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 406
+"x": 1326,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 406
+"x": 1360,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -15714,32 +17796,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 406
+"x": 1377,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 406
+"x": 1394,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 406
+"x": 1377,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 406
+"x": 1411,
+"y": 415
 }
 ],
 "hair_red": [
@@ -15748,32 +17830,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 406
+"x": 1428,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 406
+"x": 1445,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 406
+"x": 1428,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 406
+"x": 1462,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15782,32 +17864,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 406
+"x": 1479,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 406
+"x": 1496,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 406
+"x": 1479,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 406
+"x": 1513,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -15816,32 +17898,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 406
+"x": 1530,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 406
+"x": 1547,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 406
+"x": 1530,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 406
+"x": 1564,
+"y": 415
 }
 ]
 },
@@ -15850,7 +17932,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_sit.right",
@@ -15871,32 +17959,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 406
+"x": 1581,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 406
+"x": 1598,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 406
+"x": 1581,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 406
+"x": 1615,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -15905,32 +17993,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 406
+"x": 1632,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 406
+"x": 1649,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 406
+"x": 1632,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 406
+"x": 1666,
+"y": 415
 }
 ],
 "hair_red": [
@@ -15939,32 +18027,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 406
+"x": 1683,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 406
+"x": 1700,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 406
+"x": 1683,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 406
+"x": 1717,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -15973,32 +18061,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 406
+"x": 1734,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 406
+"x": 1751,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 406
+"x": 1734,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 406
+"x": 1768,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -16007,32 +18095,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 406
+"x": 1785,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 406
+"x": 1802,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 406
+"x": 1785,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 406
+"x": 1819,
+"y": 415
 }
 ]
 },
@@ -16041,7 +18129,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.boat_sit.up",
@@ -16062,32 +18156,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 406
+"x": 1836,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 406
+"x": 1836,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 406
+"x": 1836,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 406
+"x": 1853,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -16096,32 +18190,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 406
+"x": 1870,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 406
+"x": 1870,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 406
+"x": 1870,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 406
+"x": 1887,
+"y": 415
 }
 ],
 "hair_red": [
@@ -16130,32 +18224,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 406
+"x": 1904,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 406
+"x": 1904,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 406
+"x": 1904,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 406
+"x": 1921,
+"y": 415
 }
 ],
 "skin_deep": [
@@ -16164,32 +18258,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 406
+"x": 1938,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 406
+"x": 1938,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 406
+"x": 1938,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 406
+"x": 1955,
+"y": 415
 }
 ],
 "skin_dark": [
@@ -16198,32 +18292,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 406
+"x": 1972,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 406
+"x": 1972,
+"y": 415
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 406
+"x": 1972,
+"y": 415
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 406
+"x": 1989,
+"y": 415
 }
 ]
 },
@@ -16232,7 +18326,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.idle.down",
@@ -16253,32 +18353,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 406
+"x": 2006,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 406
+"x": 2023,
+"y": 415
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 406
+"x": 2006,
+"y": 415
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 406
+"x": 0,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -16287,32 +18387,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 406
+"x": 17,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 406
+"x": 34,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 406
+"x": 17,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 406
+"x": 51,
+"y": 448
 }
 ],
 "hair_red": [
@@ -16321,32 +18421,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 406
+"x": 68,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 406
+"x": 85,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 406
+"x": 68,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 406
+"x": 102,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -16355,32 +18455,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 406
+"x": 119,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 406
+"x": 136,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 406
+"x": 119,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 406
+"x": 153,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -16389,32 +18489,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 406
+"x": 170,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 406
+"x": 187,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 406
+"x": 170,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 406
+"x": 204,
+"y": 448
 }
 ]
 },
@@ -16423,7 +18523,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.idle.left",
@@ -16444,32 +18550,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 406
+"x": 221,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 406
+"x": 238,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 406
+"x": 221,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 406
+"x": 255,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -16478,32 +18584,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 406
+"x": 272,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 406
+"x": 289,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 406
+"x": 272,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 406
+"x": 306,
+"y": 448
 }
 ],
 "hair_red": [
@@ -16512,32 +18618,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 406
+"x": 323,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 406
+"x": 340,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 406
+"x": 323,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 439
+"x": 357,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -16546,32 +18652,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 439
+"x": 374,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 439
+"x": 391,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 439
+"x": 374,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 439
+"x": 408,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -16580,32 +18686,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 439
+"x": 425,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 439
+"x": 442,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 439
+"x": 425,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 439
+"x": 459,
+"y": 448
 }
 ]
 },
@@ -16614,7 +18720,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.idle.right",
@@ -16635,32 +18747,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 439
+"x": 476,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 439
+"x": 493,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 439
+"x": 476,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 439
+"x": 510,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -16669,32 +18781,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 439
+"x": 527,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 439
+"x": 544,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 439
+"x": 527,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 439
+"x": 561,
+"y": 448
 }
 ],
 "hair_red": [
@@ -16703,32 +18815,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 439
+"x": 578,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 439
+"x": 595,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 439
+"x": 578,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 439
+"x": 612,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -16737,32 +18849,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 439
+"x": 629,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 439
+"x": 646,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 439
+"x": 629,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 439
+"x": 663,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -16771,32 +18883,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 439
+"x": 680,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 439
+"x": 697,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 439
+"x": 680,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 439
+"x": 714,
+"y": 448
 }
 ]
 },
@@ -16805,7 +18917,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.idle.up",
@@ -16826,32 +18944,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 439
+"x": 731,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 439
+"x": 731,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 439
+"x": 731,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 439
+"x": 748,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -16860,32 +18978,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 439
+"x": 765,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 439
+"x": 765,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 439
+"x": 765,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 439
+"x": 782,
+"y": 448
 }
 ],
 "hair_red": [
@@ -16894,32 +19012,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 439
+"x": 799,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 439
+"x": 799,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 439
+"x": 799,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 439
+"x": 816,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -16928,32 +19046,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 439
+"x": 833,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 439
+"x": 833,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 439
+"x": 833,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 439
+"x": 850,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -16962,32 +19080,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 439
+"x": 867,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 439
+"x": 867,
+"y": 448
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 439
+"x": 867,
+"y": 448
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 439
+"x": 884,
+"y": 448
 }
 ]
 },
@@ -16996,7 +19114,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.walk.down",
@@ -17017,32 +19141,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 439
+"x": 901,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 406
+"x": 2006,
+"y": 415
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 439
+"x": 918,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 406
+"x": 2006,
+"y": 415
 }
 ],
 "hair_dark": [
@@ -17051,32 +19175,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 439
+"x": 935,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 406
+"x": 17,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 439
+"x": 952,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 406
+"x": 17,
+"y": 448
 }
 ],
 "hair_red": [
@@ -17085,32 +19209,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 439
+"x": 969,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 406
+"x": 68,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 439
+"x": 986,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 406
+"x": 68,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -17119,32 +19243,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 439
+"x": 1003,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 406
+"x": 119,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 439
+"x": 1020,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 406
+"x": 119,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -17153,32 +19277,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 439
+"x": 1037,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 406
+"x": 170,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 439
+"x": 1054,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 406
+"x": 170,
+"y": 448
 }
 ]
 },
@@ -17187,7 +19311,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.walk.left",
@@ -17208,32 +19338,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 439
+"x": 1071,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 406
+"x": 221,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 439
+"x": 1088,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 406
+"x": 221,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -17242,32 +19372,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 439
+"x": 1105,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 406
+"x": 272,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 439
+"x": 1122,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 406
+"x": 272,
+"y": 448
 }
 ],
 "hair_red": [
@@ -17276,32 +19406,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 439
+"x": 1139,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 406
+"x": 323,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 439
+"x": 1156,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 406
+"x": 323,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -17310,32 +19440,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 439
+"x": 1173,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 439
+"x": 374,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 439
+"x": 1190,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 439
+"x": 374,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -17344,32 +19474,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 439
+"x": 1207,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 439
+"x": 425,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 439
+"x": 1224,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 439
+"x": 425,
+"y": 448
 }
 ]
 },
@@ -17378,7 +19508,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.walk.right",
@@ -17399,32 +19535,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 439
+"x": 1241,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 439
+"x": 476,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 439
+"x": 1258,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 439
+"x": 476,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -17433,32 +19569,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 439
+"x": 1275,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 439
+"x": 527,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 439
+"x": 1292,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 439
+"x": 527,
+"y": 448
 }
 ],
 "hair_red": [
@@ -17467,32 +19603,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 439
+"x": 1309,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 439
+"x": 578,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 439
+"x": 1326,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 439
+"x": 578,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -17501,32 +19637,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 439
+"x": 1343,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 439
+"x": 629,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 439
+"x": 1360,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 439
+"x": 629,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -17535,32 +19671,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 439
+"x": 1377,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 439
+"x": 680,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 439
+"x": 1394,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 439
+"x": 680,
+"y": 448
 }
 ]
 },
@@ -17569,7 +19705,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_f.walk.up",
@@ -17590,32 +19732,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 439
+"x": 1411,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 439
+"x": 731,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 439
+"x": 1428,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 439
+"x": 731,
+"y": 448
 }
 ],
 "hair_dark": [
@@ -17624,32 +19766,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 439
+"x": 1445,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 439
+"x": 765,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 439
+"x": 1462,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 439
+"x": 765,
+"y": 448
 }
 ],
 "hair_red": [
@@ -17658,32 +19800,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 439
+"x": 1479,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 439
+"x": 799,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 439
+"x": 1496,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 439
+"x": 799,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -17692,32 +19834,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 439
+"x": 1513,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 439
+"x": 833,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 439
+"x": 1530,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 439
+"x": 833,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -17726,32 +19868,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 439
+"x": 1547,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 439
+"x": 867,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 439
+"x": 1564,
+"y": 448
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 439
+"x": 867,
+"y": 448
 }
 ]
 },
@@ -17760,7 +19902,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -17786,32 +19934,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 439
+"x": 1581,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 439
+"x": 1598,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 439
+"x": 1615,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 439
+"x": 1632,
+"y": 448
 }
 ],
 "hair_brown": [
@@ -17820,32 +19968,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 439
+"x": 1649,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 439
+"x": 1666,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 439
+"x": 1683,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 439
+"x": 1700,
+"y": 448
 }
 ],
 "hair_red": [
@@ -17854,32 +20002,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 439
+"x": 1717,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 439
+"x": 1734,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 439
+"x": 1751,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 439
+"x": 1768,
+"y": 448
 }
 ],
 "skin_deep": [
@@ -17888,32 +20036,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 439
+"x": 1785,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 439
+"x": 1802,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 439
+"x": 1819,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 439
+"x": 1836,
+"y": 448
 }
 ],
 "skin_dark": [
@@ -17922,32 +20070,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 439
+"x": 1853,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 439
+"x": 1870,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 439
+"x": 1887,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 439
+"x": 1904,
+"y": 448
 }
 ]
 },
@@ -17956,7 +20104,29 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:30:51",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1921,
+"y": 448
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"In obj.punt_sea_down_back/front the handline goes over the port gunwale, screen right (line_N at x 27-30), but this pose jigs with arm_r, so the held line hangs on screen left (starboard), x 3, about 18 px from line_N, and ends on the floorboards next to the tub. In the punt the line in the hand and the line in the water are on opposite sides of the boat."
+],
+"before_version": 1
+}
 },
 {
 "id": "chr.sibling_m.boat_jig.left",
@@ -17977,32 +20147,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 439
+"x": 1938,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 439
+"x": 1955,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 439
+"x": 1972,
+"y": 448
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 439
+"x": 1989,
+"y": 448
 }
 ],
 "hair_brown": [
@@ -18011,32 +20181,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 439
+"x": 2006,
+"y": 448
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 439
+"x": 2023,
+"y": 448
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 439
+"x": 0,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 439
+"x": 17,
+"y": 481
 }
 ],
 "hair_red": [
@@ -18045,32 +20215,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 439
+"x": 34,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 439
+"x": 51,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 439
+"x": 68,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 439
+"x": 85,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -18079,32 +20249,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 439
+"x": 102,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 439
+"x": 119,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 439
+"x": 136,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 439
+"x": 153,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -18113,32 +20283,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 439
+"x": 170,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 439
+"x": 187,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 439
+"x": 204,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 439
+"x": 221,
+"y": 481
 }
 ]
 },
@@ -18147,7 +20317,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_jig.right",
@@ -18168,32 +20344,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 439
+"x": 238,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 439
+"x": 255,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 439
+"x": 272,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 439
+"x": 289,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -18202,32 +20378,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 439
+"x": 306,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 439
+"x": 323,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 439
+"x": 340,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 439
+"x": 357,
+"y": 481
 }
 ],
 "hair_red": [
@@ -18236,32 +20412,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 472
+"x": 374,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 472
+"x": 391,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 472
+"x": 408,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 472
+"x": 425,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -18270,32 +20446,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 472
+"x": 442,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 472
+"x": 459,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 472
+"x": 476,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 472
+"x": 493,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -18304,32 +20480,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 472
+"x": 510,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 472
+"x": 527,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 472
+"x": 544,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 472
+"x": 561,
+"y": 481
 }
 ]
 },
@@ -18338,7 +20514,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_jig.up",
@@ -18359,32 +20541,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 472
+"x": 578,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 472
+"x": 595,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 472
+"x": 612,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 472
+"x": 629,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -18393,32 +20575,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 472
+"x": 646,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 472
+"x": 663,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 472
+"x": 680,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 472
+"x": 697,
+"y": 481
 }
 ],
 "hair_red": [
@@ -18427,32 +20609,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 472
+"x": 714,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 472
+"x": 731,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 472
+"x": 748,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 472
+"x": 765,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -18461,32 +20643,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 472
+"x": 782,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 472
+"x": 799,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 472
+"x": 816,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 472
+"x": 833,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -18495,32 +20677,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 472
+"x": 850,
+"y": 481
 },
 {
 "ms": 120,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 472
+"x": 867,
+"y": 481
 },
 {
 "ms": 320,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 472
+"x": 884,
+"y": 481
 },
 {
 "ms": 240,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 472
+"x": 901,
+"y": 481
 }
 ]
 },
@@ -18529,7 +20711,29 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:30:53",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 918,
+"y": 481
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"In obj.punt_sea_up_back/front the handline goes over the port gunwale, screen left (line_N at x 2-7), but this pose jigs with arm_r, so the held line hangs on screen right (starboard), x 12, about 18 px from line_N, and ends on the floorboards. In the punt the line in the hand and the line in the water are on opposite sides of the boat."
+],
+"before_version": 1
+}
 },
 {
 "id": "chr.sibling_m.boat_pull.down",
@@ -18550,32 +20754,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 472
+"x": 935,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 472
+"x": 952,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 472
+"x": 969,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 472
+"x": 986,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -18584,32 +20788,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 472
+"x": 1003,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 472
+"x": 1020,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 472
+"x": 1037,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 472
+"x": 1054,
+"y": 481
 }
 ],
 "hair_red": [
@@ -18618,32 +20822,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 472
+"x": 1071,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 472
+"x": 1088,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 472
+"x": 1105,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 472
+"x": 1122,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -18652,32 +20856,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 472
+"x": 1139,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 472
+"x": 1156,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 472
+"x": 1173,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 472
+"x": 1190,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -18686,32 +20890,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 472
+"x": 1207,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 472
+"x": 1224,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 472
+"x": 1241,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 472
+"x": 1258,
+"y": 481
 }
 ]
 },
@@ -18720,7 +20924,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_pull.left",
@@ -18741,32 +20951,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 472
+"x": 1275,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 472
+"x": 1292,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 472
+"x": 1309,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 472
+"x": 1326,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -18775,32 +20985,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 472
+"x": 1343,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 472
+"x": 1360,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 472
+"x": 1377,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 472
+"x": 1394,
+"y": 481
 }
 ],
 "hair_red": [
@@ -18809,32 +21019,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 472
+"x": 1411,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 472
+"x": 1428,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 472
+"x": 1445,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 472
+"x": 1462,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -18843,32 +21053,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 472
+"x": 1479,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 472
+"x": 1496,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 472
+"x": 1513,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 472
+"x": 1530,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -18877,32 +21087,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 472
+"x": 1547,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 472
+"x": 1564,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 472
+"x": 1581,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 472
+"x": 1598,
+"y": 481
 }
 ]
 },
@@ -18911,7 +21121,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_pull.right",
@@ -18932,32 +21148,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 472
+"x": 1615,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 472
+"x": 1632,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 472
+"x": 1649,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 472
+"x": 1666,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -18966,32 +21182,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 472
+"x": 1683,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 472
+"x": 1700,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 472
+"x": 1717,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 472
+"x": 1734,
+"y": 481
 }
 ],
 "hair_red": [
@@ -19000,32 +21216,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 472
+"x": 1751,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 472
+"x": 1768,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 472
+"x": 1785,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 472
+"x": 1802,
+"y": 481
 }
 ],
 "skin_deep": [
@@ -19034,32 +21250,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 472
+"x": 1819,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 472
+"x": 1836,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 472
+"x": 1853,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 472
+"x": 1870,
+"y": 481
 }
 ],
 "skin_dark": [
@@ -19068,32 +21284,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 472
+"x": 1887,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 472
+"x": 1904,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 472
+"x": 1921,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 472
+"x": 1938,
+"y": 481
 }
 ]
 },
@@ -19102,7 +21318,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_pull.up",
@@ -19123,32 +21345,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 472
+"x": 1955,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 472
+"x": 1972,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 472
+"x": 1989,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 472
+"x": 1972,
+"y": 481
 }
 ],
 "hair_brown": [
@@ -19157,32 +21379,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 472
+"x": 2006,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 472
+"x": 2023,
+"y": 481
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 472
+"x": 0,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 472
+"x": 2023,
+"y": 481
 }
 ],
 "hair_red": [
@@ -19191,32 +21413,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 472
+"x": 17,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 472
+"x": 34,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 472
+"x": 51,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 472
+"x": 34,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -19225,32 +21447,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 472
+"x": 68,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 472
+"x": 85,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 472
+"x": 102,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 472
+"x": 85,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -19259,32 +21481,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 472
+"x": 119,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 472
+"x": 136,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 472
+"x": 153,
+"y": 514
 },
 {
 "ms": 170,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 472
+"x": 136,
+"y": 514
 }
 ]
 },
@@ -19293,7 +21515,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_sit.down",
@@ -19314,32 +21542,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 472
+"x": 170,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 472
+"x": 187,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 472
+"x": 170,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 472
+"x": 204,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -19348,32 +21576,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 472
+"x": 221,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 472
+"x": 238,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 472
+"x": 221,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 472
+"x": 255,
+"y": 514
 }
 ],
 "hair_red": [
@@ -19382,32 +21610,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 472
+"x": 272,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 472
+"x": 289,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 472
+"x": 272,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 472
+"x": 306,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -19416,32 +21644,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 472
+"x": 323,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 472
+"x": 340,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 472
+"x": 323,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 472
+"x": 357,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -19450,32 +21678,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 472
+"x": 374,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 505
+"x": 391,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 472
+"x": 374,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 505
+"x": 408,
+"y": 514
 }
 ]
 },
@@ -19484,7 +21712,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_sit.left",
@@ -19505,32 +21739,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 505
+"x": 425,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 505
+"x": 442,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 505
+"x": 425,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 505
+"x": 459,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -19539,32 +21773,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 505
+"x": 476,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 505
+"x": 493,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 505
+"x": 476,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 505
+"x": 510,
+"y": 514
 }
 ],
 "hair_red": [
@@ -19573,32 +21807,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 505
+"x": 527,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 505
+"x": 544,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 505
+"x": 527,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 505
+"x": 561,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -19607,32 +21841,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 505
+"x": 578,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 505
+"x": 595,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 505
+"x": 578,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 505
+"x": 612,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -19641,32 +21875,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 505
+"x": 629,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 505
+"x": 646,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 505
+"x": 629,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 505
+"x": 663,
+"y": 514
 }
 ]
 },
@@ -19675,7 +21909,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_sit.right",
@@ -19696,32 +21936,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 505
+"x": 680,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 505
+"x": 697,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 505
+"x": 680,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 505
+"x": 714,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -19730,32 +21970,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 505
+"x": 731,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 505
+"x": 748,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 505
+"x": 731,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 505
+"x": 765,
+"y": 514
 }
 ],
 "hair_red": [
@@ -19764,32 +22004,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 505
+"x": 782,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 505
+"x": 799,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 505
+"x": 782,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 505
+"x": 816,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -19798,32 +22038,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 505
+"x": 833,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 505
+"x": 850,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 505
+"x": 833,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 505
+"x": 867,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -19832,32 +22072,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 505
+"x": 884,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 505
+"x": 901,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 505
+"x": 884,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 505
+"x": 918,
+"y": 514
 }
 ]
 },
@@ -19866,7 +22106,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.boat_sit.up",
@@ -19887,32 +22133,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 505
+"x": 935,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 505
+"x": 935,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 505
+"x": 935,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 505
+"x": 952,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -19921,32 +22167,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 505
+"x": 969,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 505
+"x": 969,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 505
+"x": 969,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 505
+"x": 986,
+"y": 514
 }
 ],
 "hair_red": [
@@ -19955,32 +22201,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 505
+"x": 1003,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 505
+"x": 1003,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 505
+"x": 1003,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 505
+"x": 1020,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -19989,32 +22235,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 505
+"x": 1037,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 505
+"x": 1037,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 505
+"x": 1037,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 505
+"x": 1054,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20023,32 +22269,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 505
+"x": 1071,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 505
+"x": 1071,
+"y": 514
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 505
+"x": 1071,
+"y": 514
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 505
+"x": 1088,
+"y": 514
 }
 ]
 },
@@ -20057,7 +22303,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.idle.down",
@@ -20078,32 +22330,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 505
+"x": 1105,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 505
+"x": 1122,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 505
+"x": 1105,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 505
+"x": 1139,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -20112,32 +22364,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 505
+"x": 1156,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 505
+"x": 1173,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 505
+"x": 1156,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 505
+"x": 1190,
+"y": 514
 }
 ],
 "hair_red": [
@@ -20146,32 +22398,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 505
+"x": 1207,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 505
+"x": 1224,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 505
+"x": 1207,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 505
+"x": 1241,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -20180,32 +22432,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 505
+"x": 1258,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 505
+"x": 1275,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 505
+"x": 1258,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 505
+"x": 1292,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20214,32 +22466,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 505
+"x": 1309,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 505
+"x": 1326,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 505
+"x": 1309,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 505
+"x": 1343,
+"y": 514
 }
 ]
 },
@@ -20248,7 +22500,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.idle.left",
@@ -20269,32 +22527,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 505
+"x": 1360,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 505
+"x": 1377,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 505
+"x": 1360,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 505
+"x": 1394,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -20303,32 +22561,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 505
+"x": 1411,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 505
+"x": 1428,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 505
+"x": 1411,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 505
+"x": 1445,
+"y": 514
 }
 ],
 "hair_red": [
@@ -20337,32 +22595,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 505
+"x": 1462,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 505
+"x": 1479,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 505
+"x": 1462,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 505
+"x": 1496,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -20371,32 +22629,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 505
+"x": 1513,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 505
+"x": 1530,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 505
+"x": 1513,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 505
+"x": 1547,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20405,32 +22663,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 505
+"x": 1564,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 505
+"x": 1581,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 505
+"x": 1564,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 505
+"x": 1598,
+"y": 514
 }
 ]
 },
@@ -20439,7 +22697,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.idle.right",
@@ -20460,32 +22724,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 505
+"x": 1615,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 505
+"x": 1632,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 505
+"x": 1615,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 505
+"x": 1649,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -20494,32 +22758,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 505
+"x": 1666,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 505
+"x": 1683,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 505
+"x": 1666,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 505
+"x": 1700,
+"y": 514
 }
 ],
 "hair_red": [
@@ -20528,32 +22792,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 505
+"x": 1717,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 505
+"x": 1734,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 505
+"x": 1717,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 505
+"x": 1751,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -20562,32 +22826,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 505
+"x": 1768,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 505
+"x": 1785,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 505
+"x": 1768,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 505
+"x": 1802,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20596,32 +22860,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 505
+"x": 1819,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 505
+"x": 1836,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 505
+"x": 1819,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 505
+"x": 1853,
+"y": 514
 }
 ]
 },
@@ -20630,7 +22894,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.idle.up",
@@ -20651,32 +22921,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 505
+"x": 1870,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 505
+"x": 1870,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 505
+"x": 1870,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 505
+"x": 1887,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -20685,32 +22955,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 505
+"x": 1904,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 505
+"x": 1904,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 505
+"x": 1904,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 505
+"x": 1921,
+"y": 514
 }
 ],
 "hair_red": [
@@ -20719,32 +22989,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 505
+"x": 1938,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 505
+"x": 1938,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 505
+"x": 1938,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 505
+"x": 1955,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -20753,32 +23023,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 505
+"x": 1972,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 505
+"x": 1972,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 505
+"x": 1972,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 505
+"x": 1989,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20787,32 +23057,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 505
+"x": 2006,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 505
+"x": 2006,
+"y": 514
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 505
+"x": 2006,
+"y": 514
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 505
+"x": 2023,
+"y": 514
 }
 ]
 },
@@ -20821,7 +23091,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.walk.down",
@@ -20842,32 +23118,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 505
+"x": 0,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 505
+"x": 1105,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 505
+"x": 17,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 505
+"x": 1105,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -20876,32 +23152,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 505
+"x": 34,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 505
+"x": 1156,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 505
+"x": 51,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 505
+"x": 1156,
+"y": 514
 }
 ],
 "hair_red": [
@@ -20910,32 +23186,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 505
+"x": 68,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 505
+"x": 1207,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 505
+"x": 85,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 505
+"x": 1207,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -20944,32 +23220,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 505
+"x": 102,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 505
+"x": 1258,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 505
+"x": 119,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 505
+"x": 1258,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -20978,32 +23254,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 505
+"x": 136,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 505
+"x": 1309,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 505
+"x": 153,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 505
+"x": 1309,
+"y": 514
 }
 ]
 },
@@ -21012,7 +23288,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.walk.left",
@@ -21033,32 +23315,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 505
+"x": 170,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 505
+"x": 1360,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 505
+"x": 187,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 505
+"x": 1360,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -21067,32 +23349,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 505
+"x": 204,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 505
+"x": 1411,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 505
+"x": 221,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 505
+"x": 1411,
+"y": 514
 }
 ],
 "hair_red": [
@@ -21101,32 +23383,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 505
+"x": 238,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 505
+"x": 1462,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 505
+"x": 255,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 505
+"x": 1462,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -21135,32 +23417,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 505
+"x": 272,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 505
+"x": 1513,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 505
+"x": 289,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 505
+"x": 1513,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -21169,32 +23451,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 505
+"x": 306,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 505
+"x": 1564,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1972,
-"y": 505
+"x": 323,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 505
+"x": 1564,
+"y": 514
 }
 ]
 },
@@ -21203,7 +23485,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.walk.right",
@@ -21224,32 +23512,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1989,
-"y": 505
+"x": 340,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 505
+"x": 1615,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2006,
-"y": 505
+"x": 357,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 505
+"x": 1615,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -21258,32 +23546,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 2023,
-"y": 505
+"x": 374,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 505
+"x": 1666,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 0,
-"y": 538
+"x": 391,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 505
+"x": 1666,
+"y": 514
 }
 ],
 "hair_red": [
@@ -21292,32 +23580,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 17,
-"y": 538
+"x": 408,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 505
+"x": 1717,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 34,
-"y": 538
+"x": 425,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 505
+"x": 1717,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -21326,32 +23614,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 51,
-"y": 538
+"x": 442,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 505
+"x": 1768,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 68,
-"y": 538
+"x": 459,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 505
+"x": 1768,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -21360,32 +23648,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 85,
-"y": 538
+"x": 476,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 505
+"x": 1819,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 102,
-"y": 538
+"x": 493,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 505
+"x": 1819,
+"y": 514
 }
 ]
 },
@@ -21394,7 +23682,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.sibling_m.walk.up",
@@ -21415,32 +23709,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 119,
-"y": 538
+"x": 510,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 505
+"x": 1870,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 136,
-"y": 538
+"x": 527,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 505
+"x": 1870,
+"y": 514
 }
 ],
 "hair_brown": [
@@ -21449,32 +23743,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 153,
-"y": 538
+"x": 544,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 505
+"x": 1904,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 170,
-"y": 538
+"x": 561,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 505
+"x": 1904,
+"y": 514
 }
 ],
 "hair_red": [
@@ -21483,32 +23777,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 187,
-"y": 538
+"x": 578,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 505
+"x": 1938,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 204,
-"y": 538
+"x": 595,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 505
+"x": 1938,
+"y": 514
 }
 ],
 "skin_deep": [
@@ -21517,32 +23811,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 221,
-"y": 538
+"x": 612,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 505
+"x": 1972,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 238,
-"y": 538
+"x": 629,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 505
+"x": 1972,
+"y": 514
 }
 ],
 "skin_dark": [
@@ -21551,32 +23845,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 255,
-"y": 538
+"x": 646,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 505
+"x": 2006,
+"y": 514
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 272,
-"y": 538
+"x": 663,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 505
+"x": 2006,
+"y": 514
 }
 ]
 },
@@ -21585,7 +23879,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -21611,32 +23911,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 538
+"x": 680,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 306,
-"y": 538
+"x": 697,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 538
+"x": 680,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 323,
-"y": 538
+"x": 714,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -21645,32 +23945,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 538
+"x": 731,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 357,
-"y": 538
+"x": 748,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 538
+"x": 731,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 374,
-"y": 538
+"x": 765,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -21679,39 +23979,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 538
+"x": 782,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 408,
-"y": 538
+"x": 799,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 538
+"x": 782,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 425,
-"y": 538
+"x": 816,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.idle.left",
@@ -21732,32 +24038,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 538
+"x": 833,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 459,
-"y": 538
+"x": 850,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 538
+"x": 833,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 476,
-"y": 538
+"x": 867,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -21766,32 +24072,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 538
+"x": 884,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 510,
-"y": 538
+"x": 901,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 538
+"x": 884,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 527,
-"y": 538
+"x": 918,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -21800,39 +24106,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 538
+"x": 935,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 561,
-"y": 538
+"x": 952,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 538
+"x": 935,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 578,
-"y": 538
+"x": 969,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.idle.right",
@@ -21853,32 +24165,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 538
+"x": 986,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 612,
-"y": 538
+"x": 1003,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 538
+"x": 986,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 629,
-"y": 538
+"x": 1020,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -21887,32 +24199,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 538
+"x": 1037,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 663,
-"y": 538
+"x": 1054,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 538
+"x": 1037,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 680,
-"y": 538
+"x": 1071,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -21921,39 +24233,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 538
+"x": 1088,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 714,
-"y": 538
+"x": 1105,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 538
+"x": 1088,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 731,
-"y": 538
+"x": 1122,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.idle.up",
@@ -21974,32 +24292,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 538
+"x": 1139,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 538
+"x": 1139,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 538
+"x": 1139,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 765,
-"y": 538
+"x": 1156,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22008,32 +24326,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 538
+"x": 1173,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 538
+"x": 1173,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 538
+"x": 1173,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 799,
-"y": 538
+"x": 1190,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -22042,39 +24360,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 538
+"x": 1207,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 538
+"x": 1207,
+"y": 547
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 538
+"x": 1207,
+"y": 547
 },
 {
 "ms": 600,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 833,
-"y": 538
+"x": 1224,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.phone.down",
@@ -22095,64 +24419,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 538
+"x": 1241,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 538
+"x": 1258,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 538
+"x": 1241,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 867,
-"y": 538
+"x": 1258,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 538
+"x": 1241,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 884,
-"y": 538
+"x": 1275,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 901,
-"y": 538
+"x": 1292,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 850,
-"y": 538
+"x": 1241,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22161,64 +24485,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 538
+"x": 1309,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 538
+"x": 1326,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 538
+"x": 1309,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 935,
-"y": 538
+"x": 1326,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 538
+"x": 1309,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 952,
-"y": 538
+"x": 1343,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 969,
-"y": 538
+"x": 1360,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 918,
-"y": 538
+"x": 1309,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -22227,71 +24551,77 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 538
+"x": 1377,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 538
+"x": 1394,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 538
+"x": 1377,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1003,
-"y": 538
+"x": 1394,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 538
+"x": 1377,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1020,
-"y": 538
+"x": 1411,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1037,
-"y": 538
+"x": 1428,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 986,
-"y": 538
+"x": 1377,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.phone.left",
@@ -22312,64 +24642,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 538
+"x": 1445,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 538
+"x": 1462,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 538
+"x": 1445,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1071,
-"y": 538
+"x": 1462,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 538
+"x": 1445,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1088,
-"y": 538
+"x": 1479,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1105,
-"y": 538
+"x": 1496,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1054,
-"y": 538
+"x": 1445,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22378,64 +24708,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 538
+"x": 1513,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 538
+"x": 1530,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 538
+"x": 1513,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1139,
-"y": 538
+"x": 1530,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 538
+"x": 1513,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1156,
-"y": 538
+"x": 1547,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1173,
-"y": 538
+"x": 1564,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1122,
-"y": 538
+"x": 1513,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -22444,71 +24774,77 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 538
+"x": 1581,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 538
+"x": 1598,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 538
+"x": 1581,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1207,
-"y": 538
+"x": 1598,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 538
+"x": 1581,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1224,
-"y": 538
+"x": 1615,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1241,
-"y": 538
+"x": 1632,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1190,
-"y": 538
+"x": 1581,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.phone.right",
@@ -22529,64 +24865,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 538
+"x": 1649,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 538
+"x": 1666,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 538
+"x": 1649,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1275,
-"y": 538
+"x": 1666,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 538
+"x": 1649,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1292,
-"y": 538
+"x": 1683,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1309,
-"y": 538
+"x": 1700,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1258,
-"y": 538
+"x": 1649,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22595,64 +24931,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 538
+"x": 1717,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 538
+"x": 1734,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 538
+"x": 1717,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1343,
-"y": 538
+"x": 1734,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 538
+"x": 1717,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1360,
-"y": 538
+"x": 1751,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1377,
-"y": 538
+"x": 1768,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1326,
-"y": 538
+"x": 1717,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -22661,71 +24997,77 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 538
+"x": 1785,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 538
+"x": 1802,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 538
+"x": 1785,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1411,
-"y": 538
+"x": 1802,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 538
+"x": 1785,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1428,
-"y": 538
+"x": 1819,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1445,
-"y": 538
+"x": 1836,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1394,
-"y": 538
+"x": 1785,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.phone.up",
@@ -22746,64 +25088,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1479,
-"y": 538
+"x": 1870,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1462,
-"y": 538
+"x": 1853,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22812,64 +25154,64 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1513,
-"y": 538
+"x": 1904,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1496,
-"y": 538
+"x": 1887,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -22878,71 +25220,77 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 260,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 110,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 1400,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 },
 {
 "ms": 700,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1547,
-"y": 538
+"x": 1938,
+"y": 547
 },
 {
 "ms": 500,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1530,
-"y": 538
+"x": 1921,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.walk.down",
@@ -22963,32 +25311,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1564,
-"y": 538
+"x": 1955,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 538
+"x": 680,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1581,
-"y": 538
+"x": 1972,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 289,
-"y": 538
+"x": 680,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -22997,32 +25345,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1598,
-"y": 538
+"x": 1989,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 538
+"x": 731,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1615,
-"y": 538
+"x": 2006,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 340,
-"y": 538
+"x": 731,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -23031,39 +25379,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1632,
-"y": 538
+"x": 2023,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 538
+"x": 782,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1649,
-"y": 538
+"x": 0,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 391,
-"y": 538
+"x": 782,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.walk.left",
@@ -23084,32 +25438,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1666,
-"y": 538
+"x": 17,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 538
+"x": 833,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1683,
-"y": 538
+"x": 34,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 442,
-"y": 538
+"x": 833,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -23118,32 +25472,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1700,
-"y": 538
+"x": 51,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 538
+"x": 884,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1717,
-"y": 538
+"x": 68,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 493,
-"y": 538
+"x": 884,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -23152,39 +25506,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1734,
-"y": 538
+"x": 85,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 538
+"x": 935,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1751,
-"y": 538
+"x": 102,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 544,
-"y": 538
+"x": 935,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.walk.right",
@@ -23205,32 +25565,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1768,
-"y": 538
+"x": 119,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 538
+"x": 986,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1785,
-"y": 538
+"x": 136,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 595,
-"y": 538
+"x": 986,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -23239,32 +25599,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1802,
-"y": 538
+"x": 153,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 538
+"x": 1037,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1819,
-"y": 538
+"x": 170,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 646,
-"y": 538
+"x": 1037,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -23273,39 +25633,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1836,
-"y": 538
+"x": 187,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 538
+"x": 1088,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1853,
-"y": 538
+"x": 204,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 697,
-"y": 538
+"x": 1088,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "chr.youth.walk.up",
@@ -23326,32 +25692,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1870,
-"y": 538
+"x": 221,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 538
+"x": 1139,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1887,
-"y": 538
+"x": 238,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 748,
-"y": 538
+"x": 1139,
+"y": 547
 }
 ],
 "red_hoodie": [
@@ -23360,32 +25726,32 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1904,
-"y": 538
+"x": 255,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 538
+"x": 1173,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1921,
-"y": 538
+"x": 272,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 782,
-"y": 538
+"x": 1173,
+"y": 547
 }
 ],
 "green_hoodie": [
@@ -23394,39 +25760,45 @@ window.REVIEW = {
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1938,
-"y": 538
+"x": 289,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 538
+"x": 1207,
+"y": 547
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 1955,
-"y": 538
+"x": 306,
+"y": 580
 },
 {
 "ms": 140,
 "w": 16,
 "h": 32,
 "sheet": 0,
-"x": 816,
-"y": 538
+"x": 1207,
+"y": 547
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -23452,8 +25824,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 187,
-"y": 712
+"x": 1020,
+"y": 724
 }
 ]
 },
@@ -23469,10 +25841,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 187,
-"y": 712
+"x": 1020,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "tile.wharf_deck",
@@ -23492,8 +25870,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 204,
-"y": 712
+"x": 1037,
+"y": 724
 }
 ]
 },
@@ -23509,10 +25887,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 204,
-"y": 712
+"x": 1037,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "tile.wharf_deck_edge_s",
@@ -23533,8 +25917,8 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 221,
-"y": 712
+"x": 1054,
+"y": 724
 }
 ]
 },
@@ -23550,10 +25934,16 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 221,
-"y": 712
+"x": 1054,
+"y": 724
 }
-]
+],
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -23578,32 +25968,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 967,
-"y": 655
+"x": 1558,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 991,
-"y": 655
+"x": 1582,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 967,
-"y": 655
+"x": 1558,
+"y": 667
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1015,
-"y": 655
+"x": 1606,
+"y": 667
 }
 ],
 "brown": [
@@ -23612,39 +26002,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1039,
-"y": 655
+"x": 1630,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1063,
-"y": 655
+"x": 1654,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1039,
-"y": 655
+"x": 1630,
+"y": 667
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1087,
-"y": 655
+"x": 1678,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.idle.left",
@@ -23665,32 +26061,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1111,
-"y": 655
+"x": 1702,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1135,
-"y": 655
+"x": 1726,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1159,
-"y": 655
+"x": 1750,
+"y": 667
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1183,
-"y": 655
+"x": 1774,
+"y": 667
 }
 ],
 "brown": [
@@ -23699,39 +26095,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1207,
-"y": 655
+"x": 1798,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1231,
-"y": 655
+"x": 1822,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1255,
-"y": 655
+"x": 1846,
+"y": 667
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1279,
-"y": 655
+"x": 1870,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.idle.right",
@@ -23751,32 +26153,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1303,
-"y": 655
+"x": 1894,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1327,
-"y": 655
+"x": 1918,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1351,
-"y": 655
+"x": 1942,
+"y": 667
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1375,
-"y": 655
+"x": 1966,
+"y": 667
 }
 ],
 "brown": [
@@ -23785,39 +26187,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1399,
-"y": 655
+"x": 1990,
+"y": 667
 },
 {
 "ms": 140,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1423,
-"y": 655
+"x": 2014,
+"y": 667
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1447,
-"y": 655
+"x": 0,
+"y": 688
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1471,
-"y": 655
+"x": 24,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.idle.up",
@@ -23837,32 +26245,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1495,
-"y": 655
+"x": 48,
+"y": 688
 },
 {
 "ms": 160,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1519,
-"y": 655
+"x": 72,
+"y": 688
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1495,
-"y": 655
+"x": 48,
+"y": 688
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1543,
-"y": 655
+"x": 96,
+"y": 688
 }
 ],
 "brown": [
@@ -23871,39 +26279,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1567,
-"y": 655
+"x": 120,
+"y": 688
 },
 {
 "ms": 160,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1591,
-"y": 655
+"x": 144,
+"y": 688
 },
 {
 "ms": 900,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1567,
-"y": 655
+"x": 120,
+"y": 688
 },
 {
 "ms": 240,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1615,
-"y": 655
+"x": 168,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit.down",
@@ -23923,48 +26337,48 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 967,
-"y": 655
+"x": 1558,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1639,
-"y": 655
+"x": 192,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1639,
-"y": 655
+"x": 192,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1663,
-"y": 655
+"x": 216,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1687,
-"y": 655
+"x": 240,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1663,
-"y": 655
+"x": 216,
+"y": 688
 }
 ],
 "brown": [
@@ -23973,55 +26387,61 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1039,
-"y": 655
+"x": 1630,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1711,
-"y": 655
+"x": 264,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1711,
-"y": 655
+"x": 264,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1735,
-"y": 655
+"x": 288,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1759,
-"y": 655
+"x": 312,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1735,
-"y": 655
+"x": 288,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit.left",
@@ -24042,48 +26462,48 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1111,
-"y": 655
+"x": 1702,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1783,
-"y": 655
+"x": 336,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1783,
-"y": 655
+"x": 336,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1807,
-"y": 655
+"x": 360,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1831,
-"y": 655
+"x": 384,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1807,
-"y": 655
+"x": 360,
+"y": 688
 }
 ],
 "brown": [
@@ -24092,55 +26512,61 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1207,
-"y": 655
+"x": 1798,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1855,
-"y": 655
+"x": 408,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1855,
-"y": 655
+"x": 408,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1879,
-"y": 655
+"x": 432,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1903,
-"y": 655
+"x": 456,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1879,
-"y": 655
+"x": 432,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit.right",
@@ -24160,48 +26586,48 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1303,
-"y": 655
+"x": 1894,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1927,
-"y": 655
+"x": 480,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1927,
-"y": 655
+"x": 480,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1951,
-"y": 655
+"x": 504,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1975,
-"y": 655
+"x": 528,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1951,
-"y": 655
+"x": 504,
+"y": 688
 }
 ],
 "brown": [
@@ -24210,55 +26636,61 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1399,
-"y": 655
+"x": 1990,
+"y": 667
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1999,
-"y": 655
+"x": 552,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1999,
-"y": 655
+"x": 552,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 2023,
-"y": 655
+"x": 576,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 0,
-"y": 676
+"x": 600,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 2023,
-"y": 655
+"x": 576,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit.up",
@@ -24278,48 +26710,48 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1495,
-"y": 655
+"x": 48,
+"y": 688
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 24,
-"y": 676
+"x": 624,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 24,
-"y": 676
+"x": 624,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 48,
-"y": 676
+"x": 648,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 24,
-"y": 676
+"x": 624,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 72,
-"y": 676
+"x": 672,
+"y": 688
 }
 ],
 "brown": [
@@ -24328,55 +26760,61 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1567,
-"y": 655
+"x": 120,
+"y": 688
 },
 {
 "ms": 260,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 96,
-"y": 676
+"x": 696,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 96,
-"y": 676
+"x": 696,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 120,
-"y": 676
+"x": 720,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 96,
-"y": 676
+"x": 696,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 144,
-"y": 676
+"x": 744,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit_idle.down",
@@ -24396,32 +26834,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1639,
-"y": 655
+"x": 192,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1663,
-"y": 655
+"x": 216,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1687,
-"y": 655
+"x": 240,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1663,
-"y": 655
+"x": 216,
+"y": 688
 }
 ],
 "brown": [
@@ -24430,39 +26868,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1711,
-"y": 655
+"x": 264,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1735,
-"y": 655
+"x": 288,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1759,
-"y": 655
+"x": 312,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1735,
-"y": 655
+"x": 288,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit_idle.left",
@@ -24483,32 +26927,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1783,
-"y": 655
+"x": 336,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1807,
-"y": 655
+"x": 360,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1831,
-"y": 655
+"x": 384,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1807,
-"y": 655
+"x": 360,
+"y": 688
 }
 ],
 "brown": [
@@ -24517,39 +26961,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1855,
-"y": 655
+"x": 408,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1879,
-"y": 655
+"x": 432,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1903,
-"y": 655
+"x": 456,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1879,
-"y": 655
+"x": 432,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit_idle.right",
@@ -24569,32 +27019,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1927,
-"y": 655
+"x": 480,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1951,
-"y": 655
+"x": 504,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1975,
-"y": 655
+"x": 528,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1951,
-"y": 655
+"x": 504,
+"y": 688
 }
 ],
 "brown": [
@@ -24603,39 +27053,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 1999,
-"y": 655
+"x": 552,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 2023,
-"y": 655
+"x": 576,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 0,
-"y": 676
+"x": 600,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 2023,
-"y": 655
+"x": 576,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.sit_idle.up",
@@ -24655,32 +27111,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 24,
-"y": 676
+"x": 624,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 48,
-"y": 676
+"x": 648,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 24,
-"y": 676
+"x": 624,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 72,
-"y": 676
+"x": 672,
+"y": 688
 }
 ],
 "brown": [
@@ -24689,39 +27145,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 96,
-"y": 676
+"x": 696,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 120,
-"y": 676
+"x": 720,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 96,
-"y": 676
+"x": 696,
+"y": 688
 },
 {
 "ms": 150,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 144,
-"y": 676
+"x": 744,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.walk.down",
@@ -24741,32 +27203,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 168,
-"y": 676
+"x": 768,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 192,
-"y": 676
+"x": 792,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 216,
-"y": 676
+"x": 816,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 192,
-"y": 676
+"x": 792,
+"y": 688
 }
 ],
 "brown": [
@@ -24775,39 +27237,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 240,
-"y": 676
+"x": 840,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 264,
-"y": 676
+"x": 864,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 288,
-"y": 676
+"x": 888,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 264,
-"y": 676
+"x": 864,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.walk.left",
@@ -24828,32 +27296,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 312,
-"y": 676
+"x": 912,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 336,
-"y": 676
+"x": 936,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 360,
-"y": 676
+"x": 960,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 336,
-"y": 676
+"x": 936,
+"y": 688
 }
 ],
 "brown": [
@@ -24862,39 +27330,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 384,
-"y": 676
+"x": 984,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 408,
-"y": 676
+"x": 1008,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 432,
-"y": 676
+"x": 1032,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 408,
-"y": 676
+"x": 1008,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.walk.right",
@@ -24914,32 +27388,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 456,
-"y": 676
+"x": 1056,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 480,
-"y": 676
+"x": 1080,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 504,
-"y": 676
+"x": 1104,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 480,
-"y": 676
+"x": 1080,
+"y": 688
 }
 ],
 "brown": [
@@ -24948,39 +27422,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 528,
-"y": 676
+"x": 1128,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 552,
-"y": 676
+"x": 1152,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 576,
-"y": 676
+"x": 1176,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 552,
-"y": 676
+"x": 1152,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.dog.walk.up",
@@ -25000,32 +27480,32 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 600,
-"y": 676
+"x": 1200,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 624,
-"y": 676
+"x": 1224,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 648,
-"y": 676
+"x": 1248,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 624,
-"y": 676
+"x": 1224,
+"y": 688
 }
 ],
 "brown": [
@@ -25034,39 +27514,45 @@ window.REVIEW = {
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 672,
-"y": 676
+"x": 1272,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 696,
-"y": 676
+"x": 1296,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 720,
-"y": 676
+"x": 1320,
+"y": 688
 },
 {
 "ms": 130,
 "w": 23,
 "h": 18,
 "sheet": 0,
-"x": 696,
-"y": 676
+"x": 1296,
+"y": 688
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.fly.down",
@@ -25087,39 +27573,45 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 848,
-"y": 603
+"x": 1252,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 869,
-"y": 603
+"x": 1273,
+"y": 613
 },
 {
 "ms": 120,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 890,
-"y": 603
+"x": 1294,
+"y": 613
 },
 {
 "ms": 90,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 869,
-"y": 603
+"x": 1273,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.fly.left",
@@ -25141,47 +27633,56 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 911,
-"y": 603
+"x": 1315,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 932,
-"y": 603
+"x": 1336,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 953,
-"y": 603
+"x": 1357,
+"y": 613
 },
 {
 "ms": 120,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 974,
-"y": 603
+"x": 1378,
+"y": 613
 },
 {
 "ms": 90,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 953,
-"y": 603
+"x": 1357,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: The raised wing's outline (wingtip, then elbow), not a straight diagonal. The sprite is a mirror of fly.right, which doesn't trigger the check; the step pattern is the wing's shape."
+]
+}
 },
 {
 "id": "ani.gull.fly.right",
@@ -25202,47 +27703,53 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 995,
-"y": 603
+"x": 1399,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1016,
-"y": 603
+"x": 1420,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1037,
-"y": 603
+"x": 1441,
+"y": 613
 },
 {
 "ms": 120,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1058,
-"y": 603
+"x": 1462,
+"y": 613
 },
 {
 "ms": 90,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1037,
-"y": 603
+"x": 1441,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.fly.up",
@@ -25263,39 +27770,45 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1079,
-"y": 603
+"x": 1483,
+"y": 613
 },
 {
 "ms": 80,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1100,
-"y": 603
+"x": 1504,
+"y": 613
 },
 {
 "ms": 120,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1121,
-"y": 603
+"x": 1525,
+"y": 613
 },
 {
 "ms": 90,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1100,
-"y": 603
+"x": 1504,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.glide.left",
@@ -25317,23 +27830,32 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 953,
-"y": 603
+"x": 1357,
+"y": 613
 },
 {
 "ms": 650,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1142,
-"y": 603
+"x": 1546,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: The spread wing's outline (wingtip, then the leading edge, then the head), not one diagonal. It's a mirror of glide.right, which passes the check."
+]
+}
 },
 {
 "id": "ani.gull.glide.right",
@@ -25354,23 +27876,29 @@ window.REVIEW = {
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1037,
-"y": 603
+"x": 1441,
+"y": 613
 },
 {
 "ms": 650,
 "w": 20,
 "h": 26,
 "sheet": 0,
-"x": 1163,
-"y": 603
+"x": 1567,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.idle.down",
@@ -25391,55 +27919,61 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1385,
-"y": 676
+"x": 0,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1402,
-"y": 676
+"x": 17,
+"y": 707
 },
 {
 "ms": 900,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1385,
-"y": 676
+"x": 0,
+"y": 707
 },
 {
 "ms": 1100,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1419,
-"y": 676
+"x": 34,
+"y": 707
 },
 {
 "ms": 700,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1385,
-"y": 676
+"x": 0,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1402,
-"y": 676
+"x": 17,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.idle.left",
@@ -25461,55 +27995,61 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1436,
-"y": 676
+"x": 51,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1453,
-"y": 676
+"x": 68,
+"y": 707
 },
 {
 "ms": 900,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1436,
-"y": 676
+"x": 51,
+"y": 707
 },
 {
 "ms": 1100,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1470,
-"y": 676
+"x": 85,
+"y": 707
 },
 {
 "ms": 700,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1436,
-"y": 676
+"x": 51,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1453,
-"y": 676
+"x": 68,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.idle.right",
@@ -25530,55 +28070,61 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1487,
-"y": 676
+"x": 102,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1504,
-"y": 676
+"x": 119,
+"y": 707
 },
 {
 "ms": 900,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1487,
-"y": 676
+"x": 102,
+"y": 707
 },
 {
 "ms": 1100,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1521,
-"y": 676
+"x": 136,
+"y": 707
 },
 {
 "ms": 700,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1487,
-"y": 676
+"x": 102,
+"y": 707
 },
 {
 "ms": 110,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1504,
-"y": 676
+"x": 119,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.idle.up",
@@ -25599,39 +28145,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1538,
-"y": 676
+"x": 153,
+"y": 707
 },
 {
 "ms": 1000,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1555,
-"y": 676
+"x": 170,
+"y": 707
 },
 {
 "ms": 1200,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1538,
-"y": 676
+"x": 153,
+"y": 707
 },
 {
 "ms": 600,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1555,
-"y": 676
+"x": 170,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.squawk.down",
@@ -25652,39 +28204,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1572,
-"y": 676
+"x": 187,
+"y": 707
 },
 {
 "ms": 140,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1589,
-"y": 676
+"x": 204,
+"y": 707
 },
 {
 "ms": 620,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1606,
-"y": 676
+"x": 221,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1589,
-"y": 676
+"x": 204,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.squawk.left",
@@ -25706,39 +28264,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1623,
-"y": 676
+"x": 238,
+"y": 707
 },
 {
 "ms": 140,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1640,
-"y": 676
+"x": 255,
+"y": 707
 },
 {
 "ms": 620,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1657,
-"y": 676
+"x": 272,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1640,
-"y": 676
+"x": 255,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.squawk.right",
@@ -25759,39 +28323,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1674,
-"y": 676
+"x": 289,
+"y": 707
 },
 {
 "ms": 140,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1691,
-"y": 676
+"x": 306,
+"y": 707
 },
 {
 "ms": 620,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1708,
-"y": 676
+"x": 323,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1691,
-"y": 676
+"x": 306,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.squawk.up",
@@ -25812,39 +28382,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1725,
-"y": 676
+"x": 340,
+"y": 707
 },
 {
 "ms": 140,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1742,
-"y": 676
+"x": 357,
+"y": 707
 },
 {
 "ms": 620,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1759,
-"y": 676
+"x": 374,
+"y": 707
 },
 {
 "ms": 180,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1742,
-"y": 676
+"x": 357,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.walk.down",
@@ -25865,39 +28441,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1776,
-"y": 676
+"x": 391,
+"y": 707
 },
 {
 "ms": 120,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1385,
-"y": 676
+"x": 0,
+"y": 707
 },
 {
 "ms": 150,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1793,
-"y": 676
+"x": 408,
+"y": 707
 },
 {
 "ms": 120,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1385,
-"y": 676
+"x": 0,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.walk.left",
@@ -25919,39 +28501,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1810,
-"y": 676
+"x": 425,
+"y": 707
 },
 {
 "ms": 130,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1827,
-"y": 676
+"x": 442,
+"y": 707
 },
 {
 "ms": 150,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1844,
-"y": 676
+"x": 459,
+"y": 707
 },
 {
 "ms": 130,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1861,
-"y": 676
+"x": 476,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.walk.right",
@@ -25972,39 +28560,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1878,
-"y": 676
+"x": 493,
+"y": 707
 },
 {
 "ms": 130,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1895,
-"y": 676
+"x": 510,
+"y": 707
 },
 {
 "ms": 150,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1912,
-"y": 676
+"x": 527,
+"y": 707
 },
 {
 "ms": 130,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1929,
-"y": 676
+"x": 544,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.gull.walk.up",
@@ -26025,39 +28619,45 @@ window.REVIEW = {
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1946,
-"y": 676
+"x": 561,
+"y": 707
 },
 {
 "ms": 120,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1538,
-"y": 676
+"x": 153,
+"y": 707
 },
 {
 "ms": 150,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1963,
-"y": 676
+"x": 578,
+"y": 707
 },
 {
 "ms": 120,
 "w": 16,
 "h": 16,
 "sheet": 0,
-"x": 1538,
-"y": 676
+"x": 153,
+"y": 707
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.idle.down",
@@ -26077,32 +28677,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 866,
-"y": 712
+"x": 1758,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 882,
-"y": 712
+"x": 1774,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 866,
-"y": 712
+"x": 1758,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 898,
-"y": 712
+"x": 1790,
+"y": 724
 }
 ],
 "white": [
@@ -26111,39 +28711,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 914,
-"y": 712
+"x": 1806,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 930,
-"y": 712
+"x": 1822,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 914,
-"y": 712
+"x": 1806,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 946,
-"y": 712
+"x": 1838,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.idle.left",
@@ -26164,32 +28770,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 962,
-"y": 712
+"x": 1854,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 978,
-"y": 712
+"x": 1870,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 962,
-"y": 712
+"x": 1854,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 994,
-"y": 712
+"x": 1886,
+"y": 724
 }
 ],
 "white": [
@@ -26198,39 +28804,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1010,
-"y": 712
+"x": 1902,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1026,
-"y": 712
+"x": 1918,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1010,
-"y": 712
+"x": 1902,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1042,
-"y": 712
+"x": 1934,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.idle.right",
@@ -26250,32 +28862,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1058,
-"y": 712
+"x": 1950,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1074,
-"y": 712
+"x": 1966,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1058,
-"y": 712
+"x": 1950,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1090,
-"y": 712
+"x": 1982,
+"y": 724
 }
 ],
 "white": [
@@ -26284,39 +28896,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1106,
-"y": 712
+"x": 1998,
+"y": 724
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1122,
-"y": 712
+"x": 2014,
+"y": 724
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1106,
-"y": 712
+"x": 1998,
+"y": 724
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1138,
-"y": 712
+"x": 2030,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.idle.up",
@@ -26336,32 +28954,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1154,
-"y": 712
+"x": 0,
+"y": 741
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1170,
-"y": 712
+"x": 16,
+"y": 741
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1154,
-"y": 712
+"x": 0,
+"y": 741
 },
 {
 "ms": 220,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1186,
-"y": 712
+"x": 32,
+"y": 741
 }
 ],
 "white": [
@@ -26370,39 +28988,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1202,
-"y": 712
+"x": 48,
+"y": 741
 },
 {
 "ms": 280,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1218,
-"y": 712
+"x": 64,
+"y": 741
 },
 {
 "ms": 900,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1202,
-"y": 712
+"x": 48,
+"y": 741
 },
 {
 "ms": 220,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1234,
-"y": 712
+"x": 80,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.peck.down",
@@ -26422,32 +29046,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 866,
-"y": 712
+"x": 1758,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1250,
-"y": 712
+"x": 96,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1266,
-"y": 712
+"x": 112,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1250,
-"y": 712
+"x": 96,
+"y": 741
 }
 ],
 "white": [
@@ -26456,39 +29080,61 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 914,
-"y": 712
+"x": 1806,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1282,
-"y": 712
+"x": 128,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1298,
-"y": 712
+"x": 144,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1282,
-"y": 712
+"x": 128,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:33:27",
+"note": "before critic",
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 1758,
+"y": 724
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"frame 3 pops: head_peck (offset [4,7]) lands exactly on the body (rows 7-11) and hides it, and rows 2-6 go empty. For 120 ms the hen drops from 10 rows of body+head to a 5-row dark wedge on legs and the brown breast vanishes. The peck reads as the hen collapsing, unlike peck.right where the body stays put and only the head dips"
+],
+"before_version": 1
+}
 },
 {
 "id": "ani.hen.peck.left",
@@ -26509,32 +29155,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 962,
-"y": 712
+"x": 1854,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1314,
-"y": 712
+"x": 160,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1330,
-"y": 712
+"x": 176,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1314,
-"y": 712
+"x": 160,
+"y": 741
 }
 ],
 "white": [
@@ -26543,39 +29189,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1010,
-"y": 712
+"x": 1902,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1346,
-"y": 712
+"x": 192,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1362,
-"y": 712
+"x": 208,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1346,
-"y": 712
+"x": 192,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.peck.right",
@@ -26595,32 +29247,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1058,
-"y": 712
+"x": 1950,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1378,
-"y": 712
+"x": 224,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1394,
-"y": 712
+"x": 240,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1378,
-"y": 712
+"x": 224,
+"y": 741
 }
 ],
 "white": [
@@ -26629,39 +29281,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1106,
-"y": 712
+"x": 1998,
+"y": 724
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1410,
-"y": 712
+"x": 256,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1426,
-"y": 712
+"x": 272,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1410,
-"y": 712
+"x": 256,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.peck.up",
@@ -26681,32 +29339,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1154,
-"y": 712
+"x": 0,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1442,
-"y": 712
+"x": 288,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1458,
-"y": 712
+"x": 304,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1442,
-"y": 712
+"x": 288,
+"y": 741
 }
 ],
 "white": [
@@ -26715,39 +29373,58 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1202,
-"y": 712
+"x": 48,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1474,
-"y": 712
+"x": 320,
+"y": 741
 },
 {
 "ms": 120,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1490,
-"y": 712
+"x": 336,
+"y": 741
 },
 {
 "ms": 70,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1474,
-"y": 712
+"x": 320,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:34:19",
+"note": "before critic",
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 0,
+"y": 741
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"before_version": 1
+}
 },
 {
 "id": "ani.hen.walk.down",
@@ -26767,32 +29444,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1506,
-"y": 712
+"x": 352,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 866,
-"y": 712
+"x": 1758,
+"y": 724
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1522,
-"y": 712
+"x": 368,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 866,
-"y": 712
+"x": 1758,
+"y": 724
 }
 ],
 "white": [
@@ -26801,39 +29478,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1538,
-"y": 712
+"x": 384,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 914,
-"y": 712
+"x": 1806,
+"y": 724
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1554,
-"y": 712
+"x": 400,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 914,
-"y": 712
+"x": 1806,
+"y": 724
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.walk.left",
@@ -26854,32 +29537,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1570,
-"y": 712
+"x": 416,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1586,
-"y": 712
+"x": 432,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1602,
-"y": 712
+"x": 448,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1618,
-"y": 712
+"x": 464,
+"y": 741
 }
 ],
 "white": [
@@ -26888,39 +29571,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1634,
-"y": 712
+"x": 480,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1650,
-"y": 712
+"x": 496,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1666,
-"y": 712
+"x": 512,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1682,
-"y": 712
+"x": 528,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.walk.right",
@@ -26940,32 +29629,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1698,
-"y": 712
+"x": 544,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1714,
-"y": 712
+"x": 560,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1730,
-"y": 712
+"x": 576,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1746,
-"y": 712
+"x": 592,
+"y": 741
 }
 ],
 "white": [
@@ -26974,39 +29663,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1762,
-"y": 712
+"x": 608,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1778,
-"y": 712
+"x": 624,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1794,
-"y": 712
+"x": 640,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1810,
-"y": 712
+"x": 656,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.hen.walk.up",
@@ -27026,32 +29721,32 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1826,
-"y": 712
+"x": 672,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1154,
-"y": 712
+"x": 0,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1842,
-"y": 712
+"x": 688,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1154,
-"y": 712
+"x": 0,
+"y": 741
 }
 ],
 "white": [
@@ -27060,39 +29755,45 @@ window.REVIEW = {
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1858,
-"y": 712
+"x": 704,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1202,
-"y": 712
+"x": 48,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1874,
-"y": 712
+"x": 720,
+"y": 741
 },
 {
 "ms": 130,
 "w": 15,
 "h": 14,
 "sheet": 0,
-"x": 1202,
-"y": 712
+"x": 48,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.fish.down",
@@ -27113,55 +29814,61 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1890,
-"y": 712
+"x": 736,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1905,
-"y": 712
+"x": 751,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1890,
-"y": 712
+"x": 736,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1905,
-"y": 712
+"x": 751,
+"y": 741
 },
 {
 "ms": 700,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1890,
-"y": 712
+"x": 736,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1920,
-"y": 712
+"x": 766,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.fish.left",
@@ -27183,55 +29890,61 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1935,
-"y": 712
+"x": 781,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1950,
-"y": 712
+"x": 796,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1935,
-"y": 712
+"x": 781,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1950,
-"y": 712
+"x": 796,
+"y": 741
 },
 {
 "ms": 700,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1935,
-"y": 712
+"x": 781,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1965,
-"y": 712
+"x": 811,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.fish.right",
@@ -27252,55 +29965,61 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1980,
-"y": 712
+"x": 826,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1995,
-"y": 712
+"x": 841,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1980,
-"y": 712
+"x": 826,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1995,
-"y": 712
+"x": 841,
+"y": 741
 },
 {
 "ms": 700,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 1980,
-"y": 712
+"x": 826,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 2010,
-"y": 712
+"x": 856,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.fish.up",
@@ -27321,47 +30040,53 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 2025,
-"y": 712
+"x": 871,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 0,
-"y": 729
+"x": 886,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 2025,
-"y": 712
+"x": 871,
+"y": 741
 },
 {
 "ms": 150,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 0,
-"y": 729
+"x": 886,
+"y": 741
 },
 {
 "ms": 800,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 2025,
-"y": 712
+"x": 871,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.fly.left",
@@ -27383,39 +30108,48 @@ window.REVIEW = {
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1876,
-"y": 603
+"x": 327,
+"y": 643
 },
 {
 "ms": 70,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1893,
-"y": 603
+"x": 344,
+"y": 643
 },
 {
 "ms": 80,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1910,
-"y": 603
+"x": 361,
+"y": 643
 },
 {
 "ms": 70,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1893,
-"y": 603
+"x": 344,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: the top edge is the union of the raised wing spike and the head/back; that's a deliberate wing shape across frames, not an uneven diagonal"
+]
+}
 },
 {
 "id": "ani.puffin.fly.right",
@@ -27436,39 +30170,45 @@ window.REVIEW = {
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1927,
-"y": 603
+"x": 378,
+"y": 643
 },
 {
 "ms": 70,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1944,
-"y": 603
+"x": 395,
+"y": 643
 },
 {
 "ms": 80,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1961,
-"y": 603
+"x": 412,
+"y": 643
 },
 {
 "ms": 70,
 "w": 16,
 "h": 22,
 "sheet": 0,
-"x": 1944,
-"y": 603
+"x": 395,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.idle.down",
@@ -27489,63 +30229,69 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 15,
-"y": 729
+"x": 901,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 30,
-"y": 729
+"x": 916,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 15,
-"y": 729
+"x": 901,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 45,
-"y": 729
+"x": 931,
+"y": 741
 },
 {
 "ms": 900,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 15,
-"y": 729
+"x": 901,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 45,
-"y": 729
+"x": 931,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 30,
-"y": 729
+"x": 916,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.idle.left",
@@ -27567,63 +30313,69 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 60,
-"y": 729
+"x": 946,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 75,
-"y": 729
+"x": 961,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 60,
-"y": 729
+"x": 946,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 90,
-"y": 729
+"x": 976,
+"y": 741
 },
 {
 "ms": 900,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 60,
-"y": 729
+"x": 946,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 90,
-"y": 729
+"x": 976,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 75,
-"y": 729
+"x": 961,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.idle.right",
@@ -27644,63 +30396,69 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 105,
-"y": 729
+"x": 991,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 120,
-"y": 729
+"x": 1006,
+"y": 741
 },
 {
 "ms": 500,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 105,
-"y": 729
+"x": 991,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 135,
-"y": 729
+"x": 1021,
+"y": 741
 },
 {
 "ms": 900,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 105,
-"y": 729
+"x": 991,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 135,
-"y": 729
+"x": 1021,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 120,
-"y": 729
+"x": 1006,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.idle.up",
@@ -27721,55 +30479,61 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 150,
-"y": 729
+"x": 1036,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 165,
-"y": 729
+"x": 1051,
+"y": 741
 },
 {
 "ms": 900,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 150,
-"y": 729
+"x": 1036,
+"y": 741
 },
 {
 "ms": 400,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 180,
-"y": 729
+"x": 1066,
+"y": 741
 },
 {
 "ms": 700,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 150,
-"y": 729
+"x": 1036,
+"y": 741
 },
 {
 "ms": 160,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 165,
-"y": 729
+"x": 1051,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.walk.down",
@@ -27790,39 +30554,45 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 195,
-"y": 729
+"x": 1081,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 15,
-"y": 729
+"x": 901,
+"y": 741
 },
 {
 "ms": 120,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 210,
-"y": 729
+"x": 1096,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 15,
-"y": 729
+"x": 901,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.puffin.walk.left",
@@ -27844,39 +30614,48 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 225,
-"y": 729
+"x": 1111,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 240,
-"y": 729
+"x": 1126,
+"y": 741
 },
 {
 "ms": 120,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 255,
-"y": 729
+"x": 1141,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 270,
-"y": 729
+"x": 1156,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: the right edge is the bird's back: round nape, straight 4-px back, then the tail. A real puffin silhouette, not a jaggy diagonal"
+]
+}
 },
 {
 "id": "ani.puffin.walk.right",
@@ -27897,39 +30676,48 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 285,
-"y": 729
+"x": 1171,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 300,
-"y": 729
+"x": 1186,
+"y": 741
 },
 {
 "ms": 120,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 315,
-"y": 729
+"x": 1201,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 330,
-"y": 729
+"x": 1216,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30",
+"overruled": [
+"CRT005: the left edge is the bird's back: round nape, straight 4-px back, then the tail. A real puffin silhouette, not a jaggy diagonal"
+]
+}
 },
 {
 "id": "ani.puffin.walk.up",
@@ -27950,39 +30738,45 @@ window.REVIEW = {
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 345,
-"y": 729
+"x": 1231,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 150,
-"y": 729
+"x": 1036,
+"y": 741
 },
 {
 "ms": 120,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 360,
-"y": 729
+"x": 1246,
+"y": 741
 },
 {
 "ms": 110,
 "w": 14,
 "h": 14,
 "sheet": 0,
-"x": 150,
-"y": 729
+"x": 1036,
+"y": 741
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.graze.down",
@@ -28002,32 +30796,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 50,
-"y": 633
+"x": 571,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 76,
-"y": 633
+"x": 597,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 102,
-"y": 633
+"x": 623,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 76,
-"y": 633
+"x": 597,
+"y": 643
 }
 ],
 "dark": [
@@ -28036,32 +30830,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 128,
-"y": 633
+"x": 649,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 154,
-"y": 633
+"x": 675,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 180,
-"y": 633
+"x": 701,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 154,
-"y": 633
+"x": 675,
+"y": 643
 }
 ],
 "brown": [
@@ -28070,39 +30864,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 206,
-"y": 633
+"x": 727,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 232,
-"y": 633
+"x": 753,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 258,
-"y": 633
+"x": 779,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 232,
-"y": 633
+"x": 753,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.graze.left",
@@ -28123,32 +30923,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 284,
-"y": 633
+"x": 805,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 310,
-"y": 633
+"x": 831,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 336,
-"y": 633
+"x": 857,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 310,
-"y": 633
+"x": 831,
+"y": 643
 }
 ],
 "dark": [
@@ -28157,32 +30957,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 362,
-"y": 633
+"x": 883,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 388,
-"y": 633
+"x": 909,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 414,
-"y": 633
+"x": 935,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 388,
-"y": 633
+"x": 909,
+"y": 643
 }
 ],
 "brown": [
@@ -28191,39 +30991,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 440,
-"y": 633
+"x": 961,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 466,
-"y": 633
+"x": 987,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 492,
-"y": 633
+"x": 1013,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 466,
-"y": 633
+"x": 987,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.graze.right",
@@ -28243,32 +31049,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 518,
-"y": 633
+"x": 1039,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 544,
-"y": 633
+"x": 1065,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 570,
-"y": 633
+"x": 1091,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 544,
-"y": 633
+"x": 1065,
+"y": 643
 }
 ],
 "dark": [
@@ -28277,32 +31083,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 596,
-"y": 633
+"x": 1117,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 622,
-"y": 633
+"x": 1143,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 648,
-"y": 633
+"x": 1169,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 622,
-"y": 633
+"x": 1143,
+"y": 643
 }
 ],
 "brown": [
@@ -28311,39 +31117,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 674,
-"y": 633
+"x": 1195,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 700,
-"y": 633
+"x": 1221,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 726,
-"y": 633
+"x": 1247,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 700,
-"y": 633
+"x": 1221,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.graze.up",
@@ -28363,32 +31175,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 752,
-"y": 633
+"x": 1273,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 778,
-"y": 633
+"x": 1299,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 752,
-"y": 633
+"x": 1273,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 804,
-"y": 633
+"x": 1325,
+"y": 643
 }
 ],
 "dark": [
@@ -28397,32 +31209,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 830,
-"y": 633
+"x": 1351,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 856,
-"y": 633
+"x": 1377,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 830,
-"y": 633
+"x": 1351,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 882,
-"y": 633
+"x": 1403,
+"y": 643
 }
 ],
 "brown": [
@@ -28431,39 +31243,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 908,
-"y": 633
+"x": 1429,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 934,
-"y": 633
+"x": 1455,
+"y": 643
 },
 {
 "ms": 180,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 908,
-"y": 633
+"x": 1429,
+"y": 643
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 960,
-"y": 633
+"x": 1481,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.idle.down",
@@ -28483,32 +31301,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 986,
-"y": 633
+"x": 1507,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1012,
-"y": 633
+"x": 1533,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 986,
-"y": 633
+"x": 1507,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1038,
-"y": 633
+"x": 1559,
+"y": 643
 }
 ],
 "dark": [
@@ -28517,32 +31335,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1064,
-"y": 633
+"x": 1585,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1090,
-"y": 633
+"x": 1611,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1064,
-"y": 633
+"x": 1585,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1116,
-"y": 633
+"x": 1637,
+"y": 643
 }
 ],
 "brown": [
@@ -28551,39 +31369,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1142,
-"y": 633
+"x": 1663,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1168,
-"y": 633
+"x": 1689,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1142,
-"y": 633
+"x": 1663,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1194,
-"y": 633
+"x": 1715,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.idle.left",
@@ -28604,32 +31428,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1220,
-"y": 633
+"x": 1741,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1246,
-"y": 633
+"x": 1767,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1220,
-"y": 633
+"x": 1741,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1272,
-"y": 633
+"x": 1793,
+"y": 643
 }
 ],
 "dark": [
@@ -28638,32 +31462,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1298,
-"y": 633
+"x": 1819,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1324,
-"y": 633
+"x": 1845,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1298,
-"y": 633
+"x": 1819,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1350,
-"y": 633
+"x": 1871,
+"y": 643
 }
 ],
 "brown": [
@@ -28672,39 +31496,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1376,
-"y": 633
+"x": 1897,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1402,
-"y": 633
+"x": 1923,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1376,
-"y": 633
+"x": 1897,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1428,
-"y": 633
+"x": 1949,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.idle.right",
@@ -28724,32 +31554,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1454,
-"y": 633
+"x": 1975,
+"y": 643
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1480,
-"y": 633
+"x": 2001,
+"y": 643
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1454,
-"y": 633
+"x": 1975,
+"y": 643
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1506,
-"y": 633
+"x": 0,
+"y": 667
 }
 ],
 "dark": [
@@ -28758,32 +31588,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1532,
-"y": 633
+"x": 26,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1558,
-"y": 633
+"x": 52,
+"y": 667
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1532,
-"y": 633
+"x": 26,
+"y": 667
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1584,
-"y": 633
+"x": 78,
+"y": 667
 }
 ],
 "brown": [
@@ -28792,39 +31622,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1610,
-"y": 633
+"x": 104,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1636,
-"y": 633
+"x": 130,
+"y": 667
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1610,
-"y": 633
+"x": 104,
+"y": 667
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1662,
-"y": 633
+"x": 156,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.idle.up",
@@ -28844,32 +31680,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1688,
-"y": 633
+"x": 182,
+"y": 667
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1714,
-"y": 633
+"x": 208,
+"y": 667
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1688,
-"y": 633
+"x": 182,
+"y": 667
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1740,
-"y": 633
+"x": 234,
+"y": 667
 }
 ],
 "dark": [
@@ -28878,32 +31714,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1766,
-"y": 633
+"x": 260,
+"y": 667
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1792,
-"y": 633
+"x": 286,
+"y": 667
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1766,
-"y": 633
+"x": 260,
+"y": 667
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1818,
-"y": 633
+"x": 312,
+"y": 667
 }
 ],
 "brown": [
@@ -28912,39 +31748,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1844,
-"y": 633
+"x": 338,
+"y": 667
 },
 {
 "ms": 160,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1870,
-"y": 633
+"x": 364,
+"y": 667
 },
 {
 "ms": 1100,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1844,
-"y": 633
+"x": 338,
+"y": 667
 },
 {
 "ms": 220,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1896,
-"y": 633
+"x": 390,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.walk.down",
@@ -28964,32 +31806,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1922,
-"y": 633
+"x": 416,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1948,
-"y": 633
+"x": 442,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1974,
-"y": 633
+"x": 468,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 1948,
-"y": 633
+"x": 442,
+"y": 667
 }
 ],
 "dark": [
@@ -28998,32 +31840,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 2000,
-"y": 633
+"x": 494,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 0,
-"y": 655
+"x": 520,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 26,
-"y": 655
+"x": 546,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 0,
-"y": 655
+"x": 520,
+"y": 667
 }
 ],
 "brown": [
@@ -29032,39 +31874,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 52,
-"y": 655
+"x": 572,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 78,
-"y": 655
+"x": 598,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 104,
-"y": 655
+"x": 624,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 78,
-"y": 655
+"x": 598,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.walk.left",
@@ -29085,32 +31933,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 130,
-"y": 655
+"x": 650,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 156,
-"y": 655
+"x": 676,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 182,
-"y": 655
+"x": 702,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 156,
-"y": 655
+"x": 676,
+"y": 667
 }
 ],
 "dark": [
@@ -29119,32 +31967,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 208,
-"y": 655
+"x": 728,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 234,
-"y": 655
+"x": 754,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 260,
-"y": 655
+"x": 780,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 234,
-"y": 655
+"x": 754,
+"y": 667
 }
 ],
 "brown": [
@@ -29153,39 +32001,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 286,
-"y": 655
+"x": 806,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 312,
-"y": 655
+"x": 832,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 338,
-"y": 655
+"x": 858,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 312,
-"y": 655
+"x": 832,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.walk.right",
@@ -29205,32 +32059,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 364,
-"y": 655
+"x": 884,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 390,
-"y": 655
+"x": 910,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 416,
-"y": 655
+"x": 936,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 390,
-"y": 655
+"x": 910,
+"y": 667
 }
 ],
 "dark": [
@@ -29239,32 +32093,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 442,
-"y": 655
+"x": 962,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 468,
-"y": 655
+"x": 988,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 494,
-"y": 655
+"x": 1014,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 468,
-"y": 655
+"x": 988,
+"y": 667
 }
 ],
 "brown": [
@@ -29273,39 +32127,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 520,
-"y": 655
+"x": 1040,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 546,
-"y": 655
+"x": 1066,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 572,
-"y": 655
+"x": 1092,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 546,
-"y": 655
+"x": 1066,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "ani.sheep.walk.up",
@@ -29325,32 +32185,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 598,
-"y": 655
+"x": 1118,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 624,
-"y": 655
+"x": 1144,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 650,
-"y": 655
+"x": 1170,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 624,
-"y": 655
+"x": 1144,
+"y": 667
 }
 ],
 "dark": [
@@ -29359,32 +32219,32 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 676,
-"y": 655
+"x": 1196,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 702,
-"y": 655
+"x": 1222,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 728,
-"y": 655
+"x": 1248,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 702,
-"y": 655
+"x": 1222,
+"y": 667
 }
 ],
 "brown": [
@@ -29393,39 +32253,45 @@ window.REVIEW = {
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 754,
-"y": 655
+"x": 1274,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 780,
-"y": 655
+"x": 1300,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 806,
-"y": 655
+"x": 1326,
+"y": 667
 },
 {
 "ms": 140,
 "w": 25,
 "h": 20,
 "sheet": 0,
-"x": 780,
-"y": 655
+"x": 1300,
+"y": 667
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "approved 2026-10-29",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 },
@@ -29451,15 +32317,21 @@ window.REVIEW = {
 "w": 112,
 "h": 36,
 "sheet": 0,
-"x": 1691,
-"y": 201
+"x": 0,
+"y": 279
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.cod.m",
@@ -29480,15 +32352,21 @@ window.REVIEW = {
 "w": 84,
 "h": 28,
 "sheet": 0,
-"x": 316,
-"y": 603
+"x": 720,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.cod.s",
@@ -29509,15 +32387,21 @@ window.REVIEW = {
 "w": 60,
 "h": 22,
 "sheet": 0,
-"x": 1631,
-"y": 603
+"x": 82,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.flounder.l",
@@ -29538,7 +32422,7 @@ window.REVIEW = {
 "w": 72,
 "h": 39,
 "sheet": 0,
-"x": 1618,
+"x": 1935,
 "y": 201
 }
 ]
@@ -29546,7 +32430,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.flounder.m",
@@ -29567,15 +32457,21 @@ window.REVIEW = {
 "w": 56,
 "h": 31,
 "sheet": 0,
-"x": 0,
-"y": 571
+"x": 388,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.flounder.s",
@@ -29596,15 +32492,37 @@ window.REVIEW = {
 "w": 40,
 "h": 23,
 "sheet": 0,
-"x": 1590,
-"y": 603
+"x": 0,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:04",
+"note": "before critic",
+"w": 40,
+"h": 23,
+"sheet": 0,
+"x": 41,
+"y": 643
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the two eyes (rows 10-11 at x3-4, rows 12-13 at x4-5) touch diagonally and merge into one 3x4 blob at 1x, so the 'both eyes up' flatfish cue is lost; flounder.m and .l show two separate eyes"
+],
+"before_version": 1
+}
 },
 {
 "id": "fish.halibut.l",
@@ -29625,7 +32543,7 @@ window.REVIEW = {
 "w": 144,
 "h": 66,
 "sheet": 0,
-"x": 91,
+"x": 289,
 "y": 201
 }
 ]
@@ -29633,7 +32551,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.halibut.m",
@@ -29654,7 +32578,7 @@ window.REVIEW = {
 "w": 120,
 "h": 54,
 "sheet": 0,
-"x": 353,
+"x": 635,
 "y": 201
 }
 ]
@@ -29662,7 +32586,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.halibut.s",
@@ -29683,7 +32613,7 @@ window.REVIEW = {
 "w": 96,
 "h": 44,
 "sheet": 0,
-"x": 569,
+"x": 886,
 "y": 201
 }
 ]
@@ -29691,7 +32621,13 @@ window.REVIEW = {
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.mackerel.l",
@@ -29712,8 +32648,8 @@ window.REVIEW = {
 "w": 70,
 "h": 18,
 "sheet": 0,
-"x": 839,
-"y": 655
+"x": 1359,
+"y": 667
 }
 ]
 },
@@ -29722,7 +32658,29 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:01",
+"note": "before critic",
+"w": 70,
+"h": 18,
+"sheet": 0,
+"x": 1430,
+"y": 667
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"before_version": 1
+}
 },
 {
 "id": "fish.mackerel.m",
@@ -29743,8 +32701,8 @@ window.REVIEW = {
 "w": 58,
 "h": 15,
 "sheet": 0,
-"x": 716,
-"y": 712
+"x": 1549,
+"y": 724
 }
 ]
 },
@@ -29753,7 +32711,29 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:02",
+"note": "before critic",
+"w": 58,
+"h": 15,
+"sheet": 0,
+"x": 1608,
+"y": 724
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"before_version": 1
+}
 },
 {
 "id": "fish.mackerel.s",
@@ -29774,8 +32754,8 @@ window.REVIEW = {
 "w": 46,
 "h": 13,
 "sheet": 0,
-"x": 525,
-"y": 729
+"x": 1411,
+"y": 741
 }
 ]
 },
@@ -29784,7 +32764,29 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"history": [
+{
+"v": 1,
+"date": "2026-10-30T00:44:03",
+"note": "before critic",
+"w": 46,
+"h": 13,
+"sheet": 0,
+"x": 1458,
+"y": 741
+}
+],
+"critic": {
+"verdict": "pass",
+"rounds": 2,
+"critics": "backfill",
+"date": "2026-10-30",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"before_version": 1
+}
 },
 {
 "id": "fish.pollock.l",
@@ -29805,8 +32807,8 @@ window.REVIEW = {
 "w": 104,
 "h": 30,
 "sheet": 0,
-"x": 98,
-"y": 571
+"x": 486,
+"y": 580
 }
 ]
 },
@@ -29815,7 +32817,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.pollock.m",
@@ -29836,8 +32844,8 @@ window.REVIEW = {
 "w": 80,
 "h": 25,
 "sheet": 0,
-"x": 1257,
-"y": 603
+"x": 1700,
+"y": 613
 }
 ]
 },
@@ -29846,7 +32854,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.pollock.s",
@@ -29867,8 +32881,8 @@ window.REVIEW = {
 "w": 56,
 "h": 18,
 "sheet": 0,
-"x": 910,
-"y": 655
+"x": 1501,
+"y": 667
 }
 ]
 },
@@ -29877,7 +32891,13 @@ window.REVIEW = {
 ],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.sculpin.l",
@@ -29898,15 +32918,21 @@ window.REVIEW = {
 "w": 64,
 "h": 31,
 "sheet": 0,
-"x": 1972,
-"y": 538
+"x": 323,
+"y": 580
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.sculpin.m",
@@ -29927,15 +32953,21 @@ window.REVIEW = {
 "w": 48,
 "h": 24,
 "sheet": 0,
-"x": 1498,
-"y": 603
+"x": 1941,
+"y": 613
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 },
 {
 "id": "fish.sculpin.s",
@@ -29956,20 +32988,381 @@ window.REVIEW = {
 "w": 36,
 "h": 20,
 "sheet": 0,
-"x": 13,
-"y": 633
+"x": 534,
+"y": 643
 }
 ]
 },
 "draft": [],
 "lint": [],
 "status": "awaiting approval",
-"notes": ""
+"notes": "",
+"critic": {
+"verdict": "pass",
+"rounds": 1,
+"critics": "backfill",
+"date": "2026-10-30"
+}
 }
 ]
 }
 ],
 "critic_changes": [
+{
+"id": "ani.hen.peck.down",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:33:27",
+"note": "before critic",
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 1758,
+"y": 724
+},
+"after": {
+"ms": 260,
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 1758,
+"y": 724
+},
+"verdict": "pass",
+"fixed": [
+"frame 3 pops: head_peck (offset [4,7]) lands exactly on the body (rows 7-11) and hides it, and rows 2-6 go empty. For 120 ms the hen drops from 10 rows of body+head to a 5-row dark wedge on legs and the brown breast vanishes. The peck reads as the hen collapsing, unlike peck.right where the body stays put and only the head dips"
+],
+"open": []
+},
+{
+"id": "ani.hen.peck.up",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:34:19",
+"note": "before critic",
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 0,
+"y": 741
+},
+"after": {
+"ms": 260,
+"w": 15,
+"h": 14,
+"sheet": 0,
+"x": 0,
+"y": 741
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "chr.sibling_f.boat_jig.down",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:30:54",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 884,
+"y": 382
+},
+"after": {
+"ms": 300,
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 544,
+"y": 382
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "chr.sibling_f.boat_jig.up",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:30:55",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1921,
+"y": 382
+},
+"after": {
+"ms": 300,
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1581,
+"y": 382
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "chr.sibling_m.boat_jig.down",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:30:51",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1921,
+"y": 448
+},
+"after": {
+"ms": 300,
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 1581,
+"y": 448
+},
+"verdict": "pass",
+"fixed": [
+"In obj.punt_sea_down_back/front the handline goes over the port gunwale, screen right (line_N at x 27-30), but this pose jigs with arm_r, so the held line hangs on screen left (starboard), x 3, about 18 px from line_N, and ends on the floorboards next to the tub. In the punt the line in the hand and the line in the water are on opposite sides of the boat."
+],
+"open": []
+},
+{
+"id": "chr.sibling_m.boat_jig.up",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:30:53",
+"note": "before critic",
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 918,
+"y": 481
+},
+"after": {
+"ms": 300,
+"w": 16,
+"h": 32,
+"sheet": 0,
+"x": 578,
+"y": 481
+},
+"verdict": "pass",
+"fixed": [
+"In obj.punt_sea_up_back/front the handline goes over the port gunwale, screen left (line_N at x 2-7), but this pose jigs with arm_r, so the held line hangs on screen right (starboard), x 12, about 18 px from line_N, and ends on the floorboards. In the punt the line in the hand and the line in the water are on opposite sides of the boat."
+],
+"open": []
+},
+{
+"id": "edge.granite_water.m0",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:43:42",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1666,
+"y": 707
+},
+"after": {
+"ms": 320,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 1479,
+"y": 707
+},
+"verdict": "pass",
+"fixed": [
+"same root cause as terrain.granite: ledge.yaml uses _granite_tex with no fill_variants, so every interior cell is the identical 16x16 stamp and the ledges in the harbour scene show a regular diagonal lattice of dark flecks (wallpaper, not bedrock)"
+],
+"open": []
+},
+{
+"id": "fish.flounder.s",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:04",
+"note": "before critic",
+"w": 40,
+"h": 23,
+"sheet": 0,
+"x": 41,
+"y": 643
+},
+"after": {
+"ms": 0,
+"w": 40,
+"h": 23,
+"sheet": 0,
+"x": 0,
+"y": 643
+},
+"verdict": "pass",
+"fixed": [
+"the two eyes (rows 10-11 at x3-4, rows 12-13 at x4-5) touch diagonally and merge into one 3x4 blob at 1x, so the 'both eyes up' flatfish cue is lost; flounder.m and .l show two separate eyes"
+],
+"open": []
+},
+{
+"id": "fish.mackerel.l",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:01",
+"note": "before critic",
+"w": 70,
+"h": 18,
+"sheet": 0,
+"x": 1430,
+"y": 667
+},
+"after": {
+"ms": 0,
+"w": 70,
+"h": 18,
+"sheet": 0,
+"x": 1359,
+"y": 667
+},
+"verdict": "pass",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"open": []
+},
+{
+"id": "fish.mackerel.m",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:02",
+"note": "before critic",
+"w": 58,
+"h": 15,
+"sheet": 0,
+"x": 1608,
+"y": 724
+},
+"after": {
+"ms": 0,
+"w": 58,
+"h": 15,
+"sheet": 0,
+"x": 1549,
+"y": 724
+},
+"verdict": "pass",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"open": []
+},
+{
+"id": "fish.mackerel.s",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:03",
+"note": "before critic",
+"w": 46,
+"h": 13,
+"sheet": 0,
+"x": 1458,
+"y": 741
+},
+"after": {
+"ms": 0,
+"w": 46,
+"h": 13,
+"sheet": 0,
+"x": 1411,
+"y": 741
+},
+"verdict": "pass",
+"fixed": [
+"the tiger stripes are 1-2 px dashes of the outline colour scattered over a dark teal back; at 1x on the card they read as speckle, so mackerel's signature pattern is missing (it is identified only by being the blue fish)"
+],
+"open": []
+},
+{
+"id": "fx.sign.capelin",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:39:23",
+"note": "before critic",
+"w": 26,
+"h": 12,
+"sheet": 0,
+"x": 1828,
+"y": 741
+},
+"after": {
+"ms": 120,
+"w": 26,
+"h": 12,
+"sheet": 0,
+"x": 1612,
+"y": 741
+},
+"verdict": "pass",
+"fixed": [
+"Not readable at 1x on bay_north's open water. The flecks are 1-2 px of foam-1/foam-3 and the rings are sea-5, which is close to the water's own sea-5/6 marks. On swell (9 marks per tile, plus 0.2 whitecaps) the patch disappears into the water texture, and on breeze it's marginal. Only calm reads, and even there it's faint.",
+"Frame 3 has only 6 opaque px (others have 17-35), so the sign blinks almost out mid-loop and the patch pops."
+],
+"open": []
+},
+{
+"id": "item.fish.mackerel",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:08",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 408,
+"y": 724
+},
+"after": {
+"ms": 0,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 391,
+"y": 724
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "obj.house.armchair",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:16",
+"note": "before critic",
+"w": 17,
+"h": 21,
+"sheet": 0,
+"x": 460,
+"y": 643
+},
+"after": {
+"ms": 0,
+"w": 17,
+"h": 21,
+"sheet": 0,
+"x": 442,
+"y": 643
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
 {
 "id": "obj.house.basin",
 "before": {
@@ -29979,21 +33372,129 @@ window.REVIEW = {
 "w": 14,
 "h": 17,
 "sheet": 0,
-"x": 787,
-"y": 676
+"x": 1387,
+"y": 688
 },
 "after": {
 "ms": 0,
 "w": 14,
 "h": 17,
 "sheet": 0,
-"x": 772,
-"y": 676
+"x": 1372,
+"y": 688
 },
 "verdict": "pass",
 "fixed": [
 "tap, drain, pedestal and foot centred on the 14 px bowl (even widths)",
 "top-left light instead of pillow shading; the pedestal reads as a column"
+],
+"open": []
+},
+{
+"id": "obj.house.bed_1",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:06",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 488,
+"y": 201
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 467,
+"y": 201
+},
+"verdict": "pass",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"open": []
+},
+{
+"id": "obj.house.bed_2",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:08",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 530,
+"y": 201
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 509,
+"y": 201
+},
+"verdict": "pass",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"open": []
+},
+{
+"id": "obj.house.bed_3",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:09",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 572,
+"y": 201
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 551,
+"y": 201
+},
+"verdict": "pass",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
+],
+"open": []
+},
+{
+"id": "obj.house.bed_4",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:10",
+"note": "before critic",
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 614,
+"y": 201
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 59,
+"sheet": 0,
+"x": 593,
+"y": 201
+},
+"verdict": "pass",
+"fixed": [
+"head- and footboard have their light wood-4 column on the RIGHT (x18) and the plain panel colour on the left (x1): the frame is lit from the right, against the top-left light and against the rest of the furniture (dresser, armchair, coat tree are lit on the left)",
+"the quilt's right edge alternates the quilt's colour-1 outline with paint-white-1 grey wherever a white check meets the edge, while the left edge is colour-1 throughout; it shows as a broken grey/dark dotted edge on one side only"
 ],
 "open": []
 },
@@ -30006,16 +33507,16 @@ window.REVIEW = {
 "w": 12,
 "h": 25,
 "sheet": 0,
-"x": 1485,
-"y": 603
+"x": 1928,
+"y": 613
 },
 "after": {
 "ms": 0,
 "w": 12,
 "h": 22,
 "sheet": 0,
-"x": 1978,
-"y": 603
+"x": 429,
+"y": 643
 },
 "verdict": "pass",
 "fixed": [
@@ -30033,20 +33534,98 @@ window.REVIEW = {
 "w": 12,
 "h": 21,
 "sheet": 0,
-"x": 0,
-"y": 633
+"x": 521,
+"y": 643
 },
 "after": {
 "ms": 0,
 "w": 12,
 "h": 21,
 "sheet": 0,
-"x": 2024,
-"y": 603
+"x": 508,
+"y": 643
 },
 "verdict": "pass",
 "fixed": [
 "spindles evenly spaced and mirrored, matching chair_n"
+],
+"open": []
+},
+{
+"id": "obj.house.chest",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:11",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1922,
+"y": 688
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1901,
+"y": 688
+},
+"verdict": "pass",
+"fixed": [
+"the chest is one flat blue fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
+],
+"open": []
+},
+{
+"id": "obj.house.chest_mom",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:13",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1964,
+"y": 688
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1943,
+"y": 688
+},
+"verdict": "pass",
+"fixed": [
+"the chest is one flat green fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
+],
+"open": []
+},
+{
+"id": "obj.house.chest_up",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:14",
+"note": "before critic",
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 2006,
+"y": 688
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 16,
+"sheet": 0,
+"x": 1985,
+"y": 688
+},
+"verdict": "pass",
+"fixed": [
+"the chest is one flat red fill (shade 3) with a single darker band at the lid seam: no lit lid top, no lit left edge, no shadowed right side. At 1x it reads as a flat coloured square with straps, flatter than every neighbour (dresser, toy chest, desk)"
 ],
 "open": []
 },
@@ -30059,21 +33638,357 @@ window.REVIEW = {
 "w": 36,
 "h": 27,
 "sheet": 0,
-"x": 784,
-"y": 603
+"x": 1188,
+"y": 613
 },
 "after": {
 "ms": 0,
 "w": 36,
 "h": 28,
 "sheet": 0,
-"x": 722,
-"y": 603
+"x": 1126,
+"y": 613
 },
 "verdict": "pass",
 "fixed": [
 "the laptop, books and mug are separate parts with their own outlines; the desk's outline runs behind them",
 "the laptop is redrawn at its own proportions (lid 8 px, base 5 px), facing the viewer"
+],
+"open": []
+},
+{
+"id": "obj.house.dresser_mom",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:38:15",
+"note": "before critic",
+"w": 34,
+"h": 30,
+"sheet": 0,
+"x": 842,
+"y": 580
+},
+"after": {
+"ms": 0,
+"w": 34,
+"h": 30,
+"sheet": 0,
+"x": 807,
+"y": 580
+},
+"verdict": "pass",
+"fixed": [
+"the jewellery box is a flat knit-red block with no outline of its own, and its top edge butts straight against the dresser's back outline, so the dresser outline runs around it (the laptop-on-desk mistake). The wedding photo and hairbrush are fine"
+],
+"open": []
+},
+{
+"id": "obj.house.hutch",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:34",
+"note": "before critic",
+"w": 34,
+"h": 45,
+"sheet": 0,
+"x": 818,
+"y": 201
+},
+"after": {
+"ms": 0,
+"w": 34,
+"h": 45,
+"sheet": 0,
+"x": 783,
+"y": 201
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "obj.house.nightstand_1",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:27",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1622,
+"y": 613
+},
+"after": {
+"ms": 0,
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1609,
+"y": 613
+},
+"verdict": "pass",
+"fixed": [
+"the lamp floats: its base (row 5) ends 3 empty rows above the cabinet's top outline (row 9), so in context the lamp hangs on the wainscot above the nightstand instead of standing on it"
+],
+"open": []
+},
+{
+"id": "obj.house.nightstand_2",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:28",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1648,
+"y": 613
+},
+"after": {
+"ms": 0,
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1635,
+"y": 613
+},
+"verdict": "pass",
+"fixed": [
+"same as nightstand_1: the lamp's base (row 5) floats 3 px above the cabinet top (row 9)"
+],
+"open": []
+},
+{
+"id": "obj.house.nightstand_mom",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:29",
+"note": "before critic",
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1674,
+"y": 613
+},
+"after": {
+"ms": 0,
+"w": 12,
+"h": 26,
+"sheet": 0,
+"x": 1661,
+"y": 613
+},
+"verdict": "pass",
+"fixed": [
+"same as nightstand_1: the lamp floats 3 px above the cabinet top, which is very visible beside mom's bed"
+],
+"open": []
+},
+{
+"id": "obj.house.radio_table",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:31",
+"note": "before critic",
+"w": 14,
+"h": 33,
+"sheet": 0,
+"x": 1841,
+"y": 279
+},
+"after": {
+"ms": 0,
+"w": 14,
+"h": 33,
+"sheet": 0,
+"x": 1826,
+"y": 279
+},
+"verdict": "pass",
+"fixed": [
+"the radio floats: its bottom outline (row 10) has 2 empty rows (11-12) under it before the table's top outline (row 13), so the wall shows through between the radio and the table"
+],
+"open": []
+},
+{
+"id": "obj.house.toilet",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:32",
+"note": "before critic",
+"w": 14,
+"h": 21,
+"sheet": 0,
+"x": 493,
+"y": 643
+},
+"after": {
+"ms": 0,
+"w": 14,
+"h": 21,
+"sheet": 0,
+"x": 478,
+"y": 643
+},
+"verdict": "pass",
+"fixed": [
+"the bowl has a hole: pixels (3,11), (3,12) and (4-7,13) are transparent, so the floor shows through inside the bowl",
+"the bowl opening sits about 1 px left of centre: the rim is 1 px wide on the left (cols 1-2) and 3 px wide on the right (cols 10-12), and the front rim D is at cols 4-7 on a 14 px sprite whose axis falls between cols 6 and 7. The tank and pedestal are centred, so the bowl looks crooked"
+],
+"open": []
+},
+{
+"id": "obj.house.tv_stand",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:36",
+"note": "before critic",
+"w": 40,
+"h": 33,
+"sheet": 0,
+"x": 1785,
+"y": 279
+},
+"after": {
+"ms": 0,
+"w": 40,
+"h": 33,
+"sheet": 0,
+"x": 1744,
+"y": 279
+},
+"verdict": "pass",
+"fixed": [],
+"open": []
+},
+{
+"id": "obj.house.washer",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:40:33",
+"note": "before critic",
+"w": 20,
+"h": 30,
+"sheet": 0,
+"x": 898,
+"y": 580
+},
+"after": {
+"ms": 0,
+"w": 20,
+"h": 30,
+"sheet": 0,
+"x": 877,
+"y": 580
+},
+"verdict": "pass",
+"fixed": [
+"the wicker basket on top has no bottom edge of its own: its lowest row (row 4, cols 4-14, L) replaces the washer's top outline, so basket and washer share one line"
+],
+"open": []
+},
+{
+"id": "obj.truck_buyer",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:43:43",
+"note": "before critic",
+"w": 64,
+"h": 36,
+"sheet": 0,
+"x": 1473,
+"y": 279
+},
+"after": {
+"ms": 0,
+"w": 64,
+"h": 36,
+"sheet": 0,
+"x": 1473,
+"y": 279
+},
+"verdict": "pass",
+"fixed": [
+"facing isn't in the metadata. The sprite faces LEFT (west): hood, headlight and amber marker at x 0-8, cab at x 18-38, bed and red tail light at x 40-63. Only the YAML comment says so; meta has just the shadow",
+"in the painted harbour the truck is baked flat into ground.png in the lay-by (about map x 508-572, y 346-382), and walk.png is walkable across its whole footprint. Players draw over a 36 px tall truck and can walk through it"
+],
+"open": []
+},
+{
+"id": "terrain.granite.m0",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:43:41",
+"note": "before critic",
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 748,
+"y": 724
+},
+"after": {
+"ms": 0,
+"w": 16,
+"h": 16,
+"sheet": 0,
+"x": 731,
+"y": 724
+},
+"verdict": "pass",
+"fixed": [
+"granite.yaml has no fill_variants and _granite_tex places its dark granite-5 flecks on a near-regular diagonal, so every interior cell is the same stamp. Across the harbour scene's large ledges this shows as a 16 px wallpaper lattice: it reads as patterned paving, not bedrock"
+],
+"open": []
+},
+{
+"id": "ui.phone_frame",
+"before": {
+"v": 2,
+"date": "2026-10-30T00:44:06",
+"note": "before critic",
+"w": 72,
+"h": 120,
+"sheet": 0,
+"x": 736,
+"y": 0
+},
+"after": {
+"ms": 0,
+"w": 72,
+"h": 120,
+"sheet": 0,
+"x": 590,
+"y": 0
+},
+"verdict": "pass",
+"fixed": [
+"the clock '6:04' is baked into the status layer, so the phone home screen would show a frozen time; ui.phone_map leaves the clock to the engine (points.status_time) and takes signal from ui.map.signal, so the two phones disagree"
+],
+"open": []
+},
+{
+"id": "ui.phone_map",
+"before": {
+"v": 1,
+"date": "2026-10-30T00:44:07",
+"note": "before critic",
+"w": 120,
+"h": 200,
+"sheet": 0,
+"x": 121,
+"y": 0
+},
+"after": {
+"ms": 0,
+"w": 120,
+"h": 200,
+"sheet": 0,
+"x": 0,
+"y": 0
+},
+"verdict": "pass",
+"fixed": [
+"the rounded screen corners are left clear: 3-5 transparent pixels inside the bezel at each inner screen corner (top-left x5-7 y7-9; top-right x112-114 y6-8; bottom-left x5-7 y189-191; bottom-right x112-114 y190-191, plus a gap at x106-108 y187-189 beside the zoom buttons), so the game world shows through as coloured specks at 1x"
 ],
 "open": []
 }
