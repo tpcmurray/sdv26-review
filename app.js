@@ -137,6 +137,7 @@
   function hasContent(t) {
     if (t.id === "overview") return true;
     if (t.id === "maps") return (R.maps && R.maps.length) || R.scenes.length;
+    if (t.id === "ui" && R.title_screen) return true;
     return R.groups.some(g => tabOfGroup(g) === t.id);
   }
   let tab = "overview";
@@ -176,6 +177,8 @@
       if (R.scenes.length) add("scenes", "Scenes", h("div", {}, R.scenes.map(s =>
         h("div", { class: "scene" }, h("div", { class: "cap" }, s.title), sceneStage(s)))));
     }
+    if (tab === "ui" && R.title_screen) add("title-screen", "Title screen", h("div", { class: "scene" },
+      h("div", { class: "cap" }, R.title_screen.title), sceneStage(R.title_screen)));
     for (const g of R.groups) if (tabOfGroup(g) === tab)
       add("g-" + g.name, g.name, h("div", { class: "grid" }, g.assets.map(card)));
     // jump links within the tab, when it has more than one section
