@@ -42,76 +42,26 @@
     return h("div", { class: "stage" }, img);
   }
 
-  // painted map: before (blockout) / after (painted) slider, with layer views for the painted side
+  // painted map, with buttons for its layer views
   function mapStage(m) {
-    if (!m.before.length && Object.keys(m.views).length === 1)
-      return sceneStage({ w: m.w, h: m.h, title: m.title, frames: m.views.all });
-    const z = Math.max(1, Math.min(4, Math.floor(1200 / m.w)));
-    const W = m.w * z, H = m.h * z;
-    const before = h("img", { src: m.before.length ? m.before[0].src : "", width: W, height: H, alt: "blockout", loading: "lazy" });
     const views = Object.keys(m.views);
+    if (views.length === 1) return sceneStage({ w: m.w, h: m.h, title: m.title, frames: m.views.all });
+    const z = Math.max(1, Math.min(4, Math.floor(1200 / m.w)));
     let view = "all";
-    const after = h("img", { src: m.views[view][0].src, width: W, height: H, alt: "painted", class: "after", loading: "lazy" });
-    const pb = { img: before, frames: m.before, i: 0, t: 0 };
-    const pa = { img: after, frames: m.views[view], i: 0, t: 0 };
-    players.push(pb, pa);
-    const lblL = h("div", { class: "lbl l" }, "blockout (tiles)");
-    const lblR = h("div", { class: "lbl r" }, "painted");
-    const handle = h("div", { class: "handle" });
-    const box = h("div", { class: "slider", style: `width:${W}px;height:${H}px` }, before, after, handle, lblL, lblR);
-    function setPos(f) {
-      f = Math.max(0, Math.min(1, f));
-      after.style.clipPath = `inset(0 0 0 ${f * 100}%)`;
-      handle.style.left = `${f * W}px`;
-    }
-    let drag = false;
-    const move = e => { const r = box.getBoundingClientRect(); setPos((e.clientX - r.left) / r.width); };
-    box.addEventListener("pointerdown", e => { drag = true; box.setPointerCapture(e.pointerId); move(e); });
-    box.addEventListener("pointermove", e => { if (drag) move(e); });
-    box.addEventListener("pointerup", () => { drag = false; });
-    setPos(m.before.length ? 0.5 : 0);
-    const bar = h("div", { class: "variants" }, h("span", { class: "sub" }, "painted side shows: "), views.map(v => {
+    const img = h("img", { src: m.views[view][0].src, width: m.w * z, height: m.h * z, alt: m.title, loading: "lazy" });
+    const p = { img, frames: m.views[view], i: 0, t: 0 };
+    players.push(p);
+    const bar = h("div", { class: "variants" }, h("span", { class: "sub" }, "shows: "), views.map(v => {
       const b = h("button", { class: v === view ? "on" : "", onclick: () => {
-        view = v; pa.frames = m.views[v]; pa.i = 0; pa.t = 0; after.src = pa.frames[0].src;
+        view = v; p.frames = m.views[v]; p.i = 0; p.t = 0; img.src = p.frames[0].src;
         [...bar.querySelectorAll("button")].forEach(x => x.classList.toggle("on", x === b));
       } }, v);
       return b;
     }));
-    return h("div", {}, bar, h("div", { class: "stage" }, box), h("div", { class: "sub" }, "Drag across the picture to compare."));
+    return h("div", {}, bar, h("div", { class: "stage" }, img));
   }
 
   function badge(text, cls) { return h("span", { class: "badge " + cls }, text); }
-
-  // critic changes: the asset before the critic loop (left) and after it (right), bottoms aligned
-  function pairStage(c) {
-    c = Object.assign({}, c, { w: c.after.w, h: c.after.h, bw: c.before.w, bh: c.before.h });
-    const z = Math.max(2, Math.min(8, Math.floor(320 / Math.max(c.w, c.bw))));
-    const W = Math.max(c.w, c.bw) * z, H = Math.max(c.h, c.bh) * z;
-    const place = (w, hh) => `position:absolute;left:${(W - w * z) / 2}px;top:${H - hh * z}px;image-rendering:pixelated`;
-    const before = pic(c.before, z, { style: place(c.bw, c.bh), title: "before" });
-    const after = pic(c.after, z, { style: place(c.w, c.h), title: "after" });
-    const top = h("div", { style: `position:absolute;inset:0` }, after);
-    const handle = h("div", { class: "handle" });
-    const box = h("div", { class: "slider bg-" + bg, style: `width:${W}px;height:${H}px` },
-      before, top, handle, h("div", { class: "lbl l" }, "before"), h("div", { class: "lbl r" }, "after"));
-    function setPos(f) {
-      f = Math.max(0, Math.min(1, f));
-      top.style.clipPath = `inset(0 0 0 ${f * 100}%)`;
-      handle.style.left = `${f * W}px`;
-    }
-    let drag = false;
-    const move = e => { const r = box.getBoundingClientRect(); setPos((e.clientX - r.left) / r.width); };
-    box.addEventListener("pointerdown", e => { drag = true; box.setPointerCapture(e.pointerId); move(e); });
-    box.addEventListener("pointermove", e => { if (drag) move(e); });
-    box.addEventListener("pointerup", () => { drag = false; });
-    setPos(0.5);
-    return h("div", { class: "card" }, h("div", { class: "id" }, h("a", { href: "#a-" + c.id }, c.id)),
-      h("div", { class: "stage" }, box),
-      badge(c.verdict === "pass" ? "critic passed" : "critic unresolved", c.verdict === "pass" ? "b-ok" : "b-err"),
-      c.fixed.length ? h("div", { class: "sub" }, "Fixed: " + c.fixed.join("; ")) : null,
-      c.open.length ? h("div", { class: "lint" }, "Open: " + c.open.join("\n")) : null,
-      h("div", { class: "sub" }, "To roll back: the old version is in history/ with the commit it came from; restore that file from git."));
-  }
 
   function criticNote(r) {
     if (!r) return null;
@@ -183,9 +133,6 @@
     if (R.scenes.length) add("scenes", "Scenes", h("div", {}, R.scenes.map(s =>
       h("div", { class: "scene" }, h("div", { class: "cap" }, s.title),
         sceneStage(s)))));
-    if (R.critic_changes && R.critic_changes.length) add("critic", "Critic changes", h("div", {},
-      h("div", { class: "sub" }, "Art the critics changed. Drag across each picture to compare before and after."),
-      h("div", { class: "grid" }, R.critic_changes.map(pairStage))));
     for (const g of R.groups) add("g-" + g.name, g.name, h("div", { class: "grid" }, g.assets.map(card)));
     for (const s of R.scenes) if (s.frames) { /* scenes animate at fixed 3x */ }
   }
